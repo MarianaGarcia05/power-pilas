@@ -36,7 +36,7 @@ const CustomArrowPrev = ({ onClick }) => (
 );
 
 const CustomArrowNext = ({ onClick }) => (
-    <button type="button" onClick={onClick}className="flechaSliderR">
+    <button type="button" onClick={onClick} className="flechaSliderR">
         <Fa6Icons.FaCaretRight className='iconsFlecha' />
     </button>
 );
@@ -50,6 +50,26 @@ const Categories = () => {
         slidesToScroll: 1,
         prevArrow: <CustomArrowPrev />,
         nextArrow: <CustomArrowNext />,
+        responsive: [
+            {
+                breakpoint: 1800,
+                settings: {
+                    slidesToShow: 3
+                },
+            },
+            {
+                breakpoint: 1500,
+                settings: {
+                    slidesToShow: 2
+                },
+            },
+            {
+                breakpoint: 800,
+                settings: {
+                    slidesToShow: 1
+                },
+            },
+        ]
     };
     return (
         <div className='contentCategories mb-32 mt-11'>

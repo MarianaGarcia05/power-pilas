@@ -1028,3 +1028,132 @@
         font-size: 27px;
     }
 }
+
+/* 2361px - 2450px */
+@media screen and (min-width: 2361px) and (max-width: 2450px){
+    .contentBanner {
+        padding: 5rem 15rem;
+        margin: auto;
+    }
+    .imgMegafono {
+        width: 13rem;
+        margin-left: 0rem;
+        margin-top: -1rem;
+    }
+    .banner{
+        width: auto;
+        height: auto;
+    }
+    .tituloBanner{
+        font-size: 70px;
+    }
+    .textBanner p{
+        width: 52rem;
+        font-size: 27px;
+    }
+    .imgBanner img{
+        max-width: 70%;
+        margin-left: 6rem;
+    }
+    .btnBanner{
+        width: 13rem;
+        height: 4rem;
+        font-size: 27px;
+    }
+}
+
+/* 2451px - 2500px */
+@media screen and (min-width: 2451px) and (max-width: 2500px){
+    .contentBanner {
+        padding: 5rem 17rem;
+        margin: auto;
+    }
+    .imgMegafono {
+        width: 13rem;
+        margin-left: 0rem;
+        margin-top: -1rem;
+    }
+    .banner{
+        width: auto;
+        height: auto;
+    }
+    .tituloBanner{
+        font-size: 70px;
+    }
+    .textBanner p{
+        width: 52rem;
+        font-size: 27px;
+    }
+    .imgBanner img{
+        margin-right: 5rem;
+    }
+    .btnBanner{
+        width: 13rem;
+        height: 4rem;
+        font-size: 27px;
+    }
+}
+
+/* 2501px - 2559px */
+@media screen and (min-width: 2501px) and (max-width: 2559px){
+    .contentBanner {
+        padding: 5rem 17rem;
+        margin: auto;
+    }
+    .imgMegafono {
+        width: 13rem;
+        margin-left: 0rem;
+        margin-top: -1rem;
+    }
+    .banner{
+        width: auto;
+        height: auto;
+    }
+    .tituloBanner{
+        font-size: 70px;
+    }
+    .textBanner p{
+        width: 56rem;
+        font-size: 29px;
+    }
+    .imgBanner img{
+        margin-right: 5rem;
+    }
+    .btnBanner{
+        width: 13rem;
+        height: 4rem;
+        font-size: 27px;
+    }
+}
+
+/* Tablet 11 y 12 portatil 5 2560px */
+@media screen and (min-width: 2560px) and (max-width: 2600px){
+    .contentBanner {
+        padding: 5rem 17rem;
+        margin: auto;
+    }
+    .imgMegafono {
+        width: 15rem;
+        margin-left: 0rem;
+        margin-top: -1rem;
+    }
+    .banner{
+        width: auto;
+        height: auto;
+    }
+    .tituloBanner{
+        font-size: 85px;
+    }
+    .textBanner p{
+        width: 63rem;
+        font-size: 33px;
+    }
+    .imgBanner img{
+        margin-right: 5rem;
+    }
+    .btnBanner{
+        width: 15rem;
+        height: 4.5rem;
+        font-size: 29px;
+    }
+}
