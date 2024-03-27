@@ -336,3 +336,284 @@
         margin: 6.5rem 2rem;
     }
 }
+
+/* Tablet 6 1200px */
+@media screen and (min-width: 1181px) and (max-width: 1200px){
+    .contentFooter{
+        background-image: radial-gradient(circle at right, #308980 39%, transparent 20%);
+    }
+    .contentFooter h1 {
+        font-size: 30px;
+    }
+    .linea-footer{
+        margin-left: -1.5rem; 
+    }
+    .itemsFooter li a {
+        font-size: 17px;
+    }
+    .location img {
+        width: 19rem;
+        margin: 6.5rem 2rem;
+    }
+}
+
+/* Tablet 7-computador de mesa 3/4-Nast Hub Max 1280px */
+@media screen and (min-width: 1201px) and (max-width: 1284px){
+    .contentFooter{
+        background-image: radial-gradient(circle at right, #308980 39%, transparent 20%);
+    }
+    .contentFooter h1 {
+        font-size: 30px;
+    }
+    .linea-footer{
+        margin-left: -1.5rem; 
+    }
+    .itemsFooter li a {
+        font-size: 17px;
+    }
+    .location img {
+        width: 19rem;
+        margin: 6.5rem 2rem;
+    }
+}
+
+/* Tableta 7 1285px */
+@media screen and (min-width: 1285px) and (max-width: 1335px){
+    .contentFooter h1 {
+        font-size: 30px;
+    }
+    .itemsFooter li a {
+        font-size: 17px;
+    }
+    .location img {
+        width: 23rem;
+        margin: 4.5rem 5rem;
+    }
+}
+
+/* 1336px - 1376px*/
+@media screen and (min-width: 1336px) and (max-width: 1376px){
+    .contentFooter h1 {
+        font-size: 30px;
+    }
+    .itemsFooter li a {
+        font-size: 17px;
+    }
+    .location img {
+        width: 23rem;
+        margin: 4.5rem 5rem;
+    }
+}
+
+/* Computador de mesa 5 1400px */
+@media screen and (min-width: 1377px) and (max-width: 1420px){
+    .itemsFooter li a {
+        font-size: 20px;
+    }
+    .location img {
+        width: 26rem;
+        margin: 4rem 5rem;
+    }
+}
+
+/* 1421px - 1499px */
+@media screen and (min-width: 1421px) and (max-width: 1499px){
+    .location img {
+        width: 29rem;
+        margin: 2.5rem 3rem;
+    }
+}
+
+/* Tablet 8 1536px */
+@media screen and (min-width: 1500px) and (max-width: 1599px){
+    .location img {
+        width: 29rem;
+        margin: 2.5rem 3rem;
+    } 
+}
+
+/* Computador de mesa 6  1600px */
+@media screen and (min-width: 1600px) and (max-width: 1699px){
+    .location img {
+        width: 30rem;
+        margin: 2.5rem 4rem;
+    } 
+}
+
+/* 1700px - 1919px */
+@media screen and (min-width: 1700px) and (max-width: 1919px){
+    .location img {
+        width: 30rem;
+        margin: 2.5rem 4rem;
+    } 
+}
+
+/* Computador de mesa 7 1920px */
+@media screen and (min-width: 1920px) and (max-width: 1949px){
+    .contentFooter{
+        padding: 2rem;
+        height: 25rem;
+    }
+    .linea-footer{
+        width: 6px;
+        height: auto;
+    }
+    .contentFooter h1{
+        font-size: 33px;
+        margin-bottom: 2rem;
+    }
+    .itemsFooter li a{
+        font-size: 22px;
+        padding: 0.5rem;
+        margin-bottom: 1rem;
+    }
+    .footerIcons{
+        font-size: 1.8rem;
+        margin-right: 1rem;
+    }
+    .location img{
+        width: 32rem;
+        margin: 2.5rem 5rem;
+    }
+
+}
+
+/* Tablet 9 2048px */
+@media screen and (min-width: 1950px) and (max-width: 2050px){
+    .contentFooter{
+        height: 27rem;
+    }
+    .contentFooter h1{
+        font-size: 46px;
+    }
+    .itemsFooter li a{
+        font-size: 24px;
+    }
+    .footerIcons{
+        font-size: 2.3rem;
+    }
+    .location img{
+        width: 34rem;
+    }
+}
+
+/* 2051px - 2159px */
+@media screen and (min-width: 2051px) and (max-width: 2159px){
+    .contentFooter{
+        height: 29rem;
+    }
+    .contentFooter h1{
+        font-size: 48px;
+    }
+    .itemsFooter li a{
+        font-size: 28px;
+    }
+    .footerIcons{
+        font-size: 2.3rem;
+    }
+    .location img{
+        width: 37rem;
+    }
+}
+
+/* Tablet 10 2160px */
+@media screen and (min-width: 2160px) and (max-width: 2259px){
+    .contentFooter{
+        height: 29rem;
+    }
+    .contentFooter h1{
+        font-size: 48px;
+    }
+    .itemsFooter li a{
+        font-size: 28px;
+    }
+    .footerIcons{
+        font-size: 2.3rem;
+    }
+    .location img{
+        width: 37rem;
+    }
+}
+
+/* 2260px - 2360px */
+@media screen and (min-width: 2260px) and (max-width: 2360px){
+    .contentFooter{
+        height: 29rem;
+        background-image: radial-gradient(circle at right, #308980 35%, transparent 20%);
+    }
+    .contentFooter h1{
+        font-size: 48px;
+    }
+    .itemsFooter li a{
+        font-size: 28px;
+    }
+    .footerIcons{
+        font-size: 2.3rem;
+    }
+    .location img{
+        width: 37rem;
+    }
+}
+
+/* 2361px - 2450px */
+@media screen and (min-width: 2361px) and (max-width: 2450px){
+    .contentFooter{
+        height: 32rem;
+        background-image: radial-gradient(circle at right, #308980 35%, transparent 20%);
+    }
+    .contentFooter h1{
+        font-size: 55px;
+    }
+    .itemsFooter li a{
+        font-size: 30px;
+    }
+    .footerIcons{
+        font-size: 2.3rem;
+    }
+    .location img{
+        width: 40rem;
+        margin: 3.5rem 5rem;
+    }
+}
+
+/* 2451px - 2559px */
+@media screen and (min-width: 2451px) and (max-width: 2559px){
+    .contentFooter{
+        height: 32rem;
+        background-image: radial-gradient(circle at right, #308980 35%, transparent 20%);
+    }
+    .contentFooter h1{
+        font-size: 55px;
+    }
+    .itemsFooter li a{
+        font-size: 30px;
+    }
+    .footerIcons{
+        font-size: 2.3rem;
+    }
+    .location img{
+        width: 40rem;
+        margin: 3.5rem 5rem;
+    }
+}
+
+/* Tablet 11 y 12 portatil 5 2560px */
+@media screen and (min-width: 2560px) and (max-width: 2600px){
+    .contentFooter{
+        height: 32rem;
+        background-image: radial-gradient(circle at right, #308980 35%, transparent 20%);
+    }
+    .contentFooter h1{
+        font-size: 55px;
+    }
+    .itemsFooter li a{
+        font-size: 34px;
+    }
+    .footerIcons{
+        font-size: 3rem;
+    }
+    .location img{
+        width: 40rem;
+        margin: 3.5rem 5rem;
+    }
+}

@@ -3,12 +3,13 @@ import React from "react";
 import Home from './pages/Home';
 import ReactDOM from "react-dom/client";
 import Navbar from "./components/Navbar";
+import Footer from './components/Footer';
 import Banner from './components/Banner';
 import Sidebar from './components/Sidebar';
 import Products from './components/Products';
-import Footer from './components/Footer';
 import ProductsView from './pages/ProductsView';
 import Categories from './components/Categories';
+import ProductDetails from './components/ProductDetails';
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 
 const router = createBrowserRouter([
@@ -43,6 +44,10 @@ const router = createBrowserRouter([
   {
     path: "/footer",
     element: <Footer />,
+  },
+  {
+    path: "/productDetails",
+    element: <ProductDetails />,
   },
 ]);
 
