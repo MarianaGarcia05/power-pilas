@@ -43,3 +43,296 @@
     width: 32rem;
     margin: 2.5rem 5rem;
 }
+
+/* Responsive */
+/* Tablet 1 600px */
+@media screen and (min-width: 600px) and (max-width: 639px){
+    .contentFooter{
+        height: auto;
+        flex-direction: column;
+        background-image: radial-gradient(circle at bottom, #308980 35%, transparent 20%);
+    }
+    .contentFooter h1{
+        text-align: center;
+    }
+    .linea-footer{
+        height: 6px;
+        width: auto;
+        margin: 1.5rem;
+    }
+    .location img{
+        margin: 5rem 0.5rem 0 0.5rem;
+    }
+}
+
+/* Portatil 1 640px */
+@media screen and (min-width: 640px) and (max-width: 679px){
+    .contentFooter{
+        height: auto;
+        flex-direction: column;
+        background-image: radial-gradient(circle at bottom, #308980 35%, transparent 20%);
+    }
+    .contentFooter h1{
+        text-align: center;
+    }
+    .linea-footer{
+        height: 6px;
+        width: auto;
+        margin: 1.5rem;
+    }
+    .location img{
+        margin: 5.5rem auto 0 auto;
+    }
+}
+
+/* Tableta 1 680px */
+@media screen and (min-width: 680px) and (max-width: 700px){
+    .contentFooter{
+        height: auto;
+        flex-direction: column;
+        background-image: radial-gradient(circle at bottom, #308980 35%, transparent 20%);
+    }
+    .contentFooter h1{
+        text-align: center;
+    }
+    .linea-footer{
+        height: 6px;
+        width: auto;
+        margin: 1.5rem;
+    }
+    .location img{
+        margin: 8rem auto 0 auto;
+    }
+}
+
+@media screen and (min-width: 701px) and (max-width: 755px){
+    .contentFooter{
+        height: auto;
+        flex-direction: column;
+        background-image: radial-gradient(circle at bottom, #308980 35%, transparent 20%);
+    }
+    .contentFooter h1{
+        text-align: center;
+    }
+    .linea-footer{
+        height: 6px;
+        width: auto;
+        margin: 1.5rem;
+    }
+    .location img{
+        margin: 8rem auto 0 auto;
+    }
+}
+
+/* Tableta 2 756px */
+@media screen and (min-width: 756px) and (max-width: 767px){
+    .contentFooter{
+        height: auto;
+        flex-direction: column;
+        background-image: radial-gradient(circle at bottom, #308980 35%, transparent 20%);
+    }
+    .contentFooter h1{
+        text-align: center;
+    }
+    .linea-footer{
+        height: 6px;
+        width: auto;
+        margin: 1.5rem;
+    }
+    .location img{
+        margin: 8rem auto 0 auto;
+    }
+}
+
+/* Tablet 2-Ipad Mini 768px */
+@media screen and (min-width: 768px) and (max-width: 799px){
+    .contentFooter{
+        height: auto;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        justify-content: center;
+    }
+    .contentFooter h1{
+        text-align: center;
+    }
+    .information .itemsFooter{
+        width: 21rem;
+        font-size: 17px;
+    }
+    .information .itemsFooter br{
+        display: none;
+    }
+    .linea-footer{
+        width: 6px;
+        height: auto;
+        margin: 1.5rem;
+    }
+    .location img{
+        margin: 5rem 10rem 0 12rem;
+    }
+}
+
+/* Tablet 3 800px */
+@media screen and (min-width: 800px) and (max-width: 819px){
+    .location img{
+        display: none;
+    }
+    .itemsFooter li a {
+        font-size: 17px;
+    }
+}
+
+/* ipad Air 820px */
+@media screen and (min-width: 820px) and (max-width: 868px){
+    .location img{
+        display: none;
+    }
+    .itemsFooter li a {
+        font-size: 17px;
+    }    
+}
+
+/* Tableta 3 869px */
+@media screen and (min-width: 869px) and (max-width: 911px){
+    .location img{
+        display: none;
+    }
+    .itemsFooter li a {
+        font-size: 17px;
+    }    
+}
+
+/* Surface Pro 7 912px */
+@media screen and (min-width: 912px) and (max-width: 943px){
+    .location img{
+        display: none;
+    }
+    .itemsFooter li a {
+        font-size: 18px;
+    }    
+}
+
+/* Tableta 4 944px */
+@media screen and (min-width: 944px) and (max-width: 959px){
+    .contentFooter{
+        background-image: radial-gradient(circle at right, #308980 39%, transparent 20%);
+    }
+    .contentFooter h1 {
+        font-size: 29px;
+    }
+    .linea-footer{
+        margin-left: 0.5rem;
+        margin-right: 1.5rem;    
+    }
+    .itemsFooter li a {
+        font-size: 15px;
+    }
+    .location img {
+        width: 19rem;
+        margin: 6.5rem 2rem;
+    }
+}
+
+/* Portatil 2 960px */
+@media screen and (min-width: 960px) and (max-width: 999px){
+    .contentFooter{
+        background-image: radial-gradient(circle at right, #308980 39%, transparent 20%);
+    }
+    .contentFooter h1 {
+        font-size: 29px;
+    }
+    .linea-footer{
+        margin-left: 0.5rem;
+        margin-right: 1.5rem;    
+    }
+    .itemsFooter li a {
+        font-size: 15px;
+    }
+    .location img {
+        width: 19rem;
+        margin: 6.5rem 2rem;
+    }
+}
+
+/* Tablet 4-computador de mesa 1/2-iPad Pro-Nest Hub 1024px */
+@media screen and (min-width: 1000px) and (max-width: 1050px){
+    .contentFooter{
+        background-image: radial-gradient(circle at right, #308980 39%, transparent 20%);
+    }
+    .contentFooter h1 {
+        font-size: 29px;
+    }
+    .linea-footer{
+        margin-left: 0.5rem;
+        margin-right: 1.5rem;    
+    }
+    .itemsFooter li a {
+        font-size: 15px;
+    }
+    .location img {
+        width: 19rem;
+        margin: 6.5rem 2rem;
+    }
+}
+
+/* Tableta 5 1058px */
+@media screen and (min-width: 1051px) and (max-width: 1079px){
+    .contentFooter{
+        background-image: radial-gradient(circle at right, #308980 39%, transparent 20%);
+    }
+    .contentFooter h1 {
+        font-size: 30px;
+    }
+    .linea-footer{
+        margin-left: 0.5rem;
+        margin-right: 1.5rem;    
+    }
+    .itemsFooter li a {
+        font-size: 16px;
+    }
+    .location img {
+        width: 19rem;
+        margin: 6.5rem 2rem;
+    }
+}
+
+/* Tablet 5 1080px */
+@media screen and (min-width: 1080px) and (max-width: 1130px){
+    .contentFooter{
+        background-image: radial-gradient(circle at right, #308980 39%, transparent 20%);
+    }
+    .contentFooter h1 {
+        font-size: 30px;
+    }
+    .linea-footer{
+        margin-left: 0.5rem;
+        margin-right: 1.5rem;    
+    }
+    .itemsFooter li a {
+        font-size: 17px;
+    }
+    .location img {
+        width: 19rem;
+        margin: 6.5rem 2rem;
+    }
+}
+
+/* Tableta 6 1171px*/
+@media screen and (min-width: 1131px) and (max-width: 1180px){
+    .contentFooter{
+        background-image: radial-gradient(circle at right, #308980 39%, transparent 20%);
+    }
+    .contentFooter h1 {
+        font-size: 30px;
+    }
+    .linea-footer{
+        margin-left: -1.5rem; 
+    }
+    .itemsFooter li a {
+        font-size: 17px;
+    }
+    .location img {
+        width: 19rem;
+        margin: 6.5rem 2rem;
+    }
+}
