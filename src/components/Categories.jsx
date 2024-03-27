@@ -36,7 +36,7 @@ const CustomArrowPrev = ({ onClick }) => (
 );
 
 const CustomArrowNext = ({ onClick }) => (
-    <button type="button" onClick={onClick} className="flechaSliderR">
+    <button type="button" onClick={onClick}className="flechaSliderR">
         <Fa6Icons.FaCaretRight className='iconsFlecha' />
     </button>
 );
