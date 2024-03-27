@@ -1,0 +1,47 @@
+.contentSidebar{
+    width: 23rem;
+    height: 100vh;
+    padding: 0.5rem 1rem;
+}
+.tittleSidebar{
+    margin: 0.5rem 0;
+    margin-bottom: 1rem;
+}
+.tittleSidebar h1{
+    font-size: 28px;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-family: "Racing", sans-serif;
+}
+.itemsSidebar{
+    margin-top: 12px;
+}
+.itemsSidebar li{
+    padding: 8px;
+    color: #7C7C7C;
+    margin-bottom: 8px;
+    border-radius: 0.25rem;
+    transition: all 0.2s ease-in-out;
+}
+.itemsSidebar li:hover{
+    color: #fff;
+    background-color: #20A980;
+    transition: all 0.2s ease-in-out;
+}
+.itemsSidebar a{
+    display: flex;
+    padding: 0 12px;
+    font-size: 20px;
+    font-weight: 700;
+    align-items: center;
+    text-transform: uppercase;
+}
+.iconSidebar{
+    width: 22px;
+    height: 22px;
+    margin-right: 1.5rem;
+    display: inline-block;
+}
+.alignRight {
+    margin-left: auto;
+}

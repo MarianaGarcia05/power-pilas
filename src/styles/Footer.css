@@ -1,0 +1,45 @@
+.contentFooter{
+    width: auto;
+    display: flex;
+    padding: 2rem;
+    height: 25rem;
+    background-color: #219680;
+    justify-content: space-between;
+    box-shadow: 3px 19px 42px 8px rgba(82, 82, 82, 0.5);
+    background-image: radial-gradient(circle at right, #308980 42%, transparent 20%);
+}
+.linea-footer{
+    width: 6px;
+    height: auto;
+    background-color: #fff;
+}
+.contentFooter h1{
+    color: #fff;
+    font-size: 33px;
+    margin-bottom: 2rem;
+    font-weight: bolder;
+    text-shadow: 2px 2px 4px #474747;
+    font-family: "Racing", sans-serif;
+}
+.itemsFooter li a{
+    display: flex;
+    color: #fff;
+    font-size: 22px;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    font-weight: bolder;
+    transition: all 0.2s ease-in-out;
+    font-family: "Racing", sans-serif;
+}
+.footerIcons{
+    color: #fff;
+    font-size: 1.8rem;
+    margin-right: 1rem;
+}
+.itemsFooter li:hover{
+    text-shadow: 2px 2px 4px #474747;
+}
+.location img{
+    width: 32rem;
+    margin: 2.5rem 5rem;
+}

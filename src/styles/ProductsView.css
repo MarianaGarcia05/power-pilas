@@ -1,0 +1,16 @@
+.contentProductsView {
+    display: flex;
+    padding: 5rem;
+    overflow: hidden;
+}
+.contentProductsView .side{
+    height: 70vh;
+}
+.linea-vertical {
+    width: 6px;
+    height: 71vh;
+    background-color: #D9D9D9;
+    position: absolute;
+    top: 5rem;
+    left: 31rem;
+}

@@ -1,0 +1,997 @@
+.contentBanner{
+    padding: 5rem;
+    margin: auto;
+}
+.banner {
+    display: flex;
+    padding: 2rem;
+    width: 110rem;
+    height: 30rem;
+    border-radius: 14px;
+    background-color: #219680;
+    box-shadow: 3px 19px 42px 8px rgba(82, 82, 82, 0.5);
+    background-image: radial-gradient(circle at right, #308980 42%, transparent 20%);
+}
+.imgMegafono{
+    width: 9rem;
+    margin-top: -1rem;
+    margin-left: -1rem;
+}
+.textBanner{
+    margin-top: 1rem;  
+}
+.tituloBanner{
+    color: #fff;
+    font-size: 60px;
+    margin-left: 2rem;
+    font-weight: bolder;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 4px #474747;
+    font-family: "Racing", sans-serif;
+}
+.imgBanner{
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+}
+
+.textBanner p{
+    width: 48rem;
+    margin-left: 2rem;
+    font-size: 22px;
+    color: #2F2F2F;
+    font-weight: bolder;
+    font-family: "Racing", sans-serif;
+}
+
+.btnBanner{
+    width: 11rem;
+    height: 3rem;
+    color: #fff;
+    font-size: 18px;
+    margin-left: 2rem;
+    margin-top: 2.5rem;
+    border-radius: 50px;
+    font-weight: bolder;
+    border: 6px solid #fff;
+    text-transform: uppercase;
+    background-color: transparent;
+    transition: all 0.3s ease-in-out;
+    font-family: "Racing", sans-serif;
+}
+
+.btnBanner:hover{
+    color: #219680;
+    background-color: #fff;
+    transition: all 0.3s ease-in-out;
+}
+
+/* Responsive */
+/* Tablet 1 600px */
+@media screen and (min-width: 600px) and (max-width: 639px){
+    .contentBanner{
+        padding: 5rem 2rem;
+    }
+    .banner{
+        width: auto;
+        height: 20rem;
+    }
+    .imgMegafono {
+        width: 6rem;
+        margin-top: -2rem;
+    }
+    .tituloBanner{
+        font-size: 25px;
+        margin-left: 0rem;
+        margin-top: -0.5rem;
+    }
+    .textBanner p{
+        width: 16rem;
+        margin-left: 0rem;
+        font-size: 14px;
+    }
+    .imgBanner {
+        margin-left: 2rem;
+    }
+    .btnBanner{
+        width: 10rem;
+        height: 2.5rem;
+        font-size: 17px;
+        margin-top: 1.5rem;
+    }
+}
+
+/* Portatil 1 640px */
+@media screen and (min-width: 640px) and (max-width: 679px){
+    .contentBanner{
+        padding: 5rem 2rem;
+    }
+    .banner{
+        width: auto;
+        height: 20rem;
+    }
+    .imgMegafono {
+        width: 6rem;
+        margin-top: -2rem;
+    }
+    .tituloBanner{
+        font-size: 25px;
+        margin-left: 0rem;
+        margin-top: -0.5rem;
+    }
+    .textBanner p{
+        width: 18rem;
+        margin-left: 0rem;
+        font-size: 14px;
+    }
+    .imgBanner {
+        margin-left: 2rem;
+    }
+    .btnBanner{
+        width: 10rem;
+        height: 2.5rem;
+        font-size: 17px;
+        margin-top: 1.5rem;
+    }
+}
+
+/* Tableta 1 680px */
+@media screen and (min-width: 680px) and (max-width: 700px){
+    .contentBanner{
+        padding: 5rem 2rem;
+    }
+    .banner{
+        width: auto;
+        height: 20rem;
+    }
+    .imgMegafono {
+        width: 6rem;
+        margin-top: -2rem;
+    }
+    .tituloBanner{
+        font-size: 25px;
+        margin-left: 0rem;
+        margin-top: -0.5rem;
+    }
+    .textBanner p{
+        width: 20rem;
+        margin-left: 0rem;
+        font-size: 15px;
+    }
+    .imgBanner {
+        margin-left: 2rem;
+    }
+    .btnBanner{
+        width: 10rem;
+        height: 2.5rem;
+        font-size: 17px;
+        margin-top: 1.5rem;
+    }
+}
+
+@media screen and (min-width: 701px) and (max-width: 755px){
+    .contentBanner{
+        padding: 5rem 2rem;
+    }
+    .banner{
+        width: auto;
+        height: 20rem;
+    }
+    .imgMegafono {
+        width: 6rem;
+        margin-top: -2rem;
+    }
+    .tituloBanner{
+        font-size: 25px;
+        margin-left: 0rem;
+        margin-top: -0.5rem;
+    }
+    .textBanner p{
+        width: 21rem;
+        font-size: 15px;
+        margin-left: 0rem;
+    }
+    .imgBanner {
+        margin-left: 2rem;
+    }
+    .btnBanner{
+        width: 10rem;
+        height: 2.5rem;
+        font-size: 17px;
+        margin-top: 1.5rem;
+    }
+}
+
+/* Tableta 2 756px */
+@media screen and (min-width: 756px) and (max-width: 767px){
+    .contentBanner{
+        padding: 5rem 2rem;
+    }
+    .banner{
+        width: auto;
+        height: 22rem;
+    }
+    .imgMegafono {
+        width: 8rem;
+        margin-top: -2rem;
+    }
+    .tituloBanner{
+        font-size: 25px;
+        margin-left: 0rem;
+        margin-top: -0.5rem;
+    }
+    .textBanner p{
+        width: 21rem;
+        font-size: 15px;
+        margin-left: 0rem;
+    }
+    .imgBanner {
+        margin-left: 2rem;
+    }
+    .btnBanner{
+        width: 10rem;
+        height: 2.5rem;
+        font-size: 17px;
+        margin-top: 1.5rem;
+    }
+}
+
+/* Tablet 2-Ipad Mini 768px */
+@media screen and (min-width: 768px) and (max-width: 799px){
+    .contentBanner{
+        padding: 5rem 2rem;
+    }
+    .banner{
+        width: auto;
+        height: 22rem;
+    }
+    .imgMegafono {
+        width: 8rem;
+        margin-top: -2rem;
+    }
+    .tituloBanner{
+        font-size: 25px;
+        margin-left: 0rem;
+        margin-top: -0.5rem;
+    }
+    .textBanner p{
+        width: 23rem;
+        font-size: 17px;
+        margin-left: 0rem;
+    }
+    .imgBanner {
+        margin-left: 2rem;
+    }
+    .btnBanner{
+        width: 10rem;
+        height: 2.5rem;
+        font-size: 17px;
+        margin-top: 1.5rem;
+    }
+}
+
+/* Tablet 3 800px */
+@media screen and (min-width: 800px) and (max-width: 819px){
+    .contentBanner{
+        padding: 5rem 2rem;
+    }
+    .banner{
+        width: auto;
+        height: 23rem;
+    }
+    .tituloBanner{
+        font-size: 27px;
+        margin-left: 0rem;
+        margin-top: -0.5rem;
+    }
+    .textBanner p{
+        width: 24rem;
+        font-size: 17px;
+        margin-left: 0rem;
+    }
+    .imgBanner {
+        margin-left: 2rem;
+    }
+    .btnBanner{
+        width: 10rem;
+        height: 2.5rem;
+        font-size: 17px;
+        margin-top: 1.5rem;
+    }
+}
+
+/* ipad Air 820px */
+@media screen and (min-width: 820px) and (max-width: 868px){
+    .contentBanner{
+        padding: 5rem 2rem;
+    }
+    .banner{
+        width: auto;
+        height: 23rem;
+    }
+    .tituloBanner{
+        font-size: 27px;
+        margin-left: 0rem;
+        margin-top: -0.5rem;
+    }
+    .textBanner p{
+        width: 24rem;
+        font-size: 17px;
+        margin-left: 0rem;
+    }
+    .imgBanner {
+        margin-left: 2rem;
+    }
+    .btnBanner{
+        width: 10rem;
+        height: 2.5rem;
+        font-size: 17px;
+        margin-top: 1.5rem;
+    }
+}
+
+/* Tableta 3 869px */
+@media screen and (min-width: 869px) and (max-width: 911px){
+    .contentBanner{
+        padding: 5rem 2rem;
+    }
+    .banner{
+        width: auto;
+        height: 23rem;
+    }
+    .tituloBanner{
+        font-size: 27px;
+        margin-left: 0rem;
+        margin-top: -0.5rem;
+    }
+    .textBanner p{
+        width: 26rem;
+        font-size: 16px;
+        margin-left: 0rem;
+    }
+    .imgBanner {
+        margin-left: 2rem;
+    }
+    .btnBanner{
+        width: 10rem;
+        height: 2.5rem;
+        font-size: 17px;
+        margin-top: 1.5rem;
+    }
+}
+
+/* Surface Pro 7 912px */
+@media screen and (min-width: 912px) and (max-width: 943px){
+    .contentBanner{
+        padding: 5rem 2rem;
+    }
+    .banner{
+        width: auto;
+        height: 23rem;
+    }
+    .tituloBanner{
+        font-size: 27px;
+        margin-left: 0rem;
+        margin-top: -0.5rem;
+    }
+    .textBanner p{
+        width: 26rem;
+        font-size: 16px;
+        margin-left: 0rem;
+    }
+    .imgBanner {
+        margin-left: 2rem;
+    }
+    .btnBanner{
+        width: 10rem;
+        height: 2.5rem;
+        font-size: 17px;
+        margin-top: 1.5rem;
+    }
+}
+
+/* Tableta 4 944px */
+@media screen and (min-width: 944px) and (max-width: 959px){
+    .contentBanner{
+        padding: 5rem 2rem;
+    }
+    .banner{
+        width: auto;
+        height: 23rem;
+    }
+    .tituloBanner{
+        font-size: 36px;
+        margin-left: 0rem;
+        margin-top: -0.5rem;
+    }
+    .textBanner p{
+        width: 29rem;
+        font-size: 18px;
+        margin-left: 0rem;
+    }
+    .imgBanner {
+        margin-left: 2rem;
+    }
+    .btnBanner{
+        width: 10rem;
+        height: 2.5rem;
+        font-size: 17px;
+        margin-top: 1.5rem;
+    }
+}
+
+/* Portatil 2 960px */
+@media screen and (min-width: 960px) and (max-width: 999px){
+    .contentBanner{
+        padding: 5rem 2rem;
+    }
+    .banner{
+        width: auto;
+        height: 23rem;
+    }
+    .tituloBanner{
+        font-size: 36px;
+        margin-left: 0rem;
+        margin-top: -0.5rem;
+    }
+    .textBanner p{
+        width: 29rem;
+        font-size: 18px;
+        margin-left: 0rem;
+    }
+    .imgBanner {
+        margin-left: 3rem;
+    }
+    .imgBanner img{
+        max-width: 82%;
+        margin-left: 3rem;
+    }
+    .btnBanner{
+        width: 10rem;
+        height: 2.5rem;
+        font-size: 17px;
+        margin-top: 1.5rem;
+    }
+}
+
+/* Tablet 4-computador de mesa 1/2-iPad Pro-Nest Hub 1024px */
+@media screen and (min-width: 1000px) and (max-width: 1050px){
+    .contentBanner{
+        padding: 5rem 2rem;
+    }
+    .banner{
+        width: auto;
+        height: auto;
+    }
+    .tituloBanner{
+        font-size: 46px;
+        margin-left: 0rem;
+        margin-top: -0.5rem;
+    }
+    .textBanner p{
+        width: 31rem;
+        font-size: 19px;
+        margin-left: 0rem;
+    }
+    .imgBanner {
+        margin-left: 3rem;
+    }
+    .imgBanner img{
+        max-width: 82%;
+        margin-left: 3rem;
+    }
+    .btnBanner{
+        width: 10rem;
+        height: 2.5rem;
+        font-size: 17px;
+        margin-top: 1.5rem;
+    }
+}
+
+/* Tableta 5 1058px */
+@media screen and (min-width: 1051px) and (max-width: 1079px){
+    .contentBanner{
+        padding: 5rem 2rem;
+    }
+    .banner{
+        width: auto;
+        height: auto;
+    }
+    .tituloBanner{
+        font-size: 46px;
+        margin-left: 0rem;
+        margin-top: -0.5rem;
+    }
+    .textBanner p{
+        width: 31rem;
+        font-size: 19px;
+        margin-left: 0rem;
+    }
+    .imgBanner {
+        margin-left: 3rem;
+    }
+    .imgBanner img{
+        max-width: 82%;
+        margin-left: 3rem;
+    }
+    .btnBanner{
+        width: 10rem;
+        height: 2.5rem;
+        font-size: 17px;
+        margin-top: 1.5rem;
+    }
+}
+
+/* Tablet 5 1080px */
+@media screen and (min-width: 1080px) and (max-width: 1130px){
+    .contentBanner{
+        padding: 5rem 2rem;
+    }
+    .banner{
+        width: auto;
+        height: auto;
+    }
+    .tituloBanner{
+        font-size: 46px;
+        margin-left: 0rem;
+        margin-top: -0.5rem;
+    }
+    .textBanner p{
+        width: 33rem;
+        font-size: 20px;
+        margin-left: 0rem;
+    }
+    .imgBanner {
+        margin-left: 3rem;
+    }
+    .imgBanner img{
+        max-width: 73%;
+        margin-left: 5rem;
+    }
+    .btnBanner{
+        width: 10rem;
+        height: 2.5rem;
+        font-size: 17px;
+        margin-top: 1.5rem;
+    }
+}
+
+/* Tableta 6 1171px*/
+@media screen and (min-width: 1131px) and (max-width: 1180px){
+    .contentBanner{
+        padding: 5rem 2rem;
+    }
+    .banner{
+        width: auto;
+        height: auto;
+    }
+    .tituloBanner{
+        font-size: 46px;
+        margin-left: 0rem;
+        margin-top: -0.5rem;
+    }
+    .textBanner p{
+        width: 33rem;
+        font-size: 20px;
+        margin-left: 0rem;
+    }
+    .imgBanner {
+        margin-left: 3rem;
+    }
+    .imgBanner img{
+        max-width: 73%;
+        margin-left: 5rem;
+    }
+    .btnBanner{
+        width: 10rem;
+        height: 2.5rem;
+        font-size: 17px;
+        margin-top: 1.5rem;
+    }
+}
+
+/* Tablet 6 1200px */
+@media screen and (min-width: 1181px) and (max-width: 1200px){
+    .contentBanner{
+        padding: 5rem 2rem;
+    }
+    .banner{
+        width: auto;
+        height: auto;
+    }
+    .tituloBanner{
+        font-size: 46px;
+        margin-left: 0rem;
+        margin-top: -0.5rem;
+    }
+    .textBanner p{
+        width: 37rem;
+        font-size: 19px;
+        margin-left: 0rem;
+    }
+    .imgBanner {
+        margin-left: 3rem;
+    }
+    .imgBanner img{
+        max-width: 73%;
+        margin-left: 5rem;
+    }
+    .btnBanner{
+        width: 10rem;
+        font-size: 17px;
+        margin-top: 1.5rem;
+    }
+}
+
+/* Tablet 7-computador de mesa 3/4-Nast Hub Max 1280px */
+@media screen and (min-width: 1201px) and (max-width: 1284px){
+    .contentBanner{
+        padding: 5rem 2rem;
+    }
+    .banner{
+        width: auto;
+        height: auto;
+    }
+    .tituloBanner{
+        font-size: 46px;
+    }
+    .textBanner p{
+        width: 37rem;
+        font-size: 19px;
+    }
+    .imgBanner {
+        margin-left: 3rem;
+    }
+    .imgBanner img{
+        max-width: 73%;
+        margin-left: 5rem;
+    }
+    .btnBanner{
+        width: 10rem;
+        font-size: 17px;
+        margin-top: 1.5rem;
+    }
+}
+
+/* Tableta 7 1285px */
+@media screen and (min-width: 1285px) and (max-width: 1335px){
+    .contentBanner{
+        padding: 5rem 2rem;
+    }
+    .banner{
+        width: auto;
+        height: auto;
+    }
+    .tituloBanner{
+        font-size: 49px;
+    }
+    .textBanner p{
+        width: 38rem;
+        font-size: 21px;
+    }
+    .imgBanner img{
+        max-width: 70%;
+        margin-left: 6rem;
+    }
+    .btnBanner{
+        width: 10rem;
+        font-size: 17px;
+        margin-top: 1.5rem;
+    }
+}
+
+/* 1336px - 1376px*/
+@media screen and (min-width: 1336px) and (max-width: 1376px){
+    .contentBanner{
+        padding: 5rem 2rem;
+    }
+    .banner{
+        width: auto;
+        height: auto;
+    }
+    .tituloBanner{
+        font-size: 49px;
+    }
+    .textBanner p{
+        width: 38rem;
+        font-size: 21px;
+    }
+    .imgBanner img{
+        max-width: 70%;
+        margin-left: 6rem;
+    }
+    .btnBanner{
+        width: 10rem;
+        font-size: 17px;
+        margin-top: 1.5rem;
+    }
+}
+
+/* Computador de mesa 5 1400px */
+@media screen and (min-width: 1377px) and (max-width: 1420px){
+    .contentBanner{
+        padding: 5rem 2rem;
+    }
+    .banner{
+        width: auto;
+        height: auto;
+    }
+    .tituloBanner{
+        font-size: 49px;
+    }
+    .textBanner p{
+        width: 38rem;
+        font-size: 21px;
+    }
+    .imgBanner img{
+        max-width: 70%;
+        margin-left: 6rem;
+    }
+    .btnBanner{
+        width: 10rem;
+        font-size: 17px;
+        margin-top: 1.5rem;
+    }
+}
+
+/* 1421px - 1499px */
+@media screen and (min-width: 1421px) and (max-width: 1499px){
+    .banner{
+        width: auto;
+        height: auto;
+    }
+    .tituloBanner{
+        font-size: 49px;
+    }
+    .textBanner p{
+        width: 40rem;
+        font-size: 21px;
+    }
+    .imgBanner img{
+        max-width: 70%;
+        margin-left: 6rem;
+    }
+    .btnBanner{
+        width: 10rem;
+        font-size: 17px;
+        margin-top: 1.5rem;
+    }
+}
+
+/* Tablet 8 1536px */
+@media screen and (min-width: 1500px) and (max-width: 1599px){
+    .banner{
+        width: auto;
+        height: auto;
+    }
+    .tituloBanner{
+        font-size: 49px;
+    }
+    .textBanner p{
+        width: 40rem;
+        font-size: 21px;
+    }
+    .imgBanner img{
+        max-width: 70%;
+        margin-left: 6rem;
+    }
+    .btnBanner{
+        width: 10rem;
+        font-size: 17px;
+        margin-top: 1.5rem;
+    }
+}
+
+/* Computador de mesa 6  1600px */
+@media screen and (min-width: 1600px) and (max-width: 1699px){
+    .banner{
+        width: auto;
+        height: auto;
+    }
+    .tituloBanner{
+        font-size: 49px;
+    }
+    .textBanner p{
+        width: 40rem;
+        font-size: 21px;
+    }
+    .imgBanner img{
+        max-width: 70%;
+        margin-left: 6rem;
+    }
+    .btnBanner{
+        width: 10rem;
+        font-size: 17px;
+        margin-top: 1.5rem;
+    }
+}
+
+/* 1700px - 1799px */
+@media screen and (min-width: 1700px) and (max-width: 1799px){
+    .contentBanner {
+        padding: 5rem 9rem;
+        margin: auto;
+    }
+    .banner{
+        width: auto;
+        height: auto;
+    }
+    .tituloBanner{
+        font-size: 49px;
+    }
+    .textBanner p{
+        width: 40rem;
+        font-size: 21px;
+    }
+    .imgBanner img{
+        max-width: 70%;
+        margin-left: 6rem;
+    }
+    .btnBanner{
+        width: 10rem;
+        font-size: 17px;
+        margin-top: 1.5rem;
+    }
+}
+
+/* 1800px - 1919px */
+@media screen and (min-width: 1800px) and (max-width: 1919px){
+    .contentBanner {
+        padding: 5rem 9rem;
+        margin: auto;
+    }
+    .banner{
+        width: auto;
+        height: auto;
+    }
+    .tituloBanner{
+        font-size: 49px;
+    }
+    .textBanner p{
+        width: 40rem;
+        font-size: 21px;
+    }
+    .imgBanner img{
+        max-width: 70%;
+        margin-left: 6rem;
+    }
+    .btnBanner{
+        width: 10rem;
+        font-size: 17px;
+        margin-top: 1.5rem;
+    }
+}
+
+/* Computador de mesa 7 1920px */
+@media screen and (min-width: 1920px) and (max-width: 1949px){
+    .contentBanner{
+        padding: 5rem;
+        margin: auto;
+    }
+    .banner {
+        padding: 2rem;
+        width: 110rem;
+        height: 30rem;
+    }
+    .imgMegafono{
+        width: 9rem;
+        margin-top: -1rem;
+        margin-left: -1rem;
+    }
+    .textBanner{
+        margin-top: 1rem;  
+    }
+    .tituloBanner{
+        font-size: 60px;
+        margin-left: 2rem;
+    }    
+    .textBanner p{
+        width: 48rem;
+        margin-left: 2rem;
+        font-size: 22px;
+    }
+    .btnBanner{
+        width: 11rem;
+        height: 3rem;
+        font-size: 18px;
+        margin-left: 2rem;
+        margin-top: 2.5rem;
+    }
+}
+
+/* Tablet 9 2048px */
+@media screen and (min-width: 1950px) and (max-width: 2050px){
+    .contentBanner {
+        padding: 5rem 12rem;
+        margin: auto;
+    }
+    .imgMegafono {
+        width: 11rem;
+        margin-left: 0rem;
+        margin-top: -1rem;
+    }
+    .banner{
+        width: auto;
+        height: auto;
+    }
+    .tituloBanner{
+        font-size: 70px;
+    }
+    .textBanner p{
+        font-size: 25px;
+    }
+    .imgBanner img{
+        max-width: 70%;
+        margin-left: 6rem;
+    }
+    .btnBanner{
+        width: 12rem;
+        font-size: 24px;
+        margin-top: 3.5rem;
+    }
+}
+
+/* 2051px - 2159px */
+@media screen and (min-width: 2051px) and (max-width: 2159px){
+    .contentBanner {
+        padding: 5rem 12rem;
+        margin: auto;
+    }
+    .imgMegafono {
+        width: 11rem;
+        margin-left: 0rem;
+        margin-top: -1rem;
+    }
+    .banner{
+        width: auto;
+        height: auto;
+    }
+    .tituloBanner{
+        font-size: 70px;
+    }
+    .textBanner p{
+        font-size: 25px;
+    }
+    .imgBanner img{
+        max-width: 70%;
+        margin-left: 6rem;
+    }
+    .btnBanner{
+        width: 12rem;
+        font-size: 24px;
+        margin-top: 3.5rem;
+    }
+}
+
+/* Tablet 10 2160px */
+@media screen and (min-width: 2160px) and (max-width: 2259px){
+    .contentBanner {
+        padding: 5rem 15rem;
+        margin: auto;
+    }
+    .imgMegafono {
+        width: 13rem;
+        margin-left: 0rem;
+        margin-top: -1rem;
+    }
+    .banner{
+        width: auto;
+        height: auto;
+    }
+    .tituloBanner{
+        font-size: 70px;
+    }
+    .textBanner p{
+        width: 52rem;
+        font-size: 27px;
+    }
+    .imgBanner img{
+        max-width: 70%;
+        margin-left: 6rem;
+    }
+    .btnBanner{
+        width: 13rem;
+        height: 4rem;
+        font-size: 27px;
+    }
+}

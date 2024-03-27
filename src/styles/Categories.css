@@ -1,0 +1,56 @@
+.tittleCategories{
+    font-size: 28px;
+    font-weight: 700;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: "Racing", sans-serif;
+}
+.sliderCategories{
+    padding: 1rem 8rem;
+    margin-top: 1rem;
+}
+.btnCategories{
+    width: 200px;
+    height: 200px;
+    border-radius: 20px;
+    background: #D9D9D9;
+}
+.btnCategories .imgPilas{
+    margin: auto;
+    width: 150px;
+    height: 150px;
+    padding: 1rem;
+}
+.btnCategories p{
+    color: #fff;
+    padding: 1rem;
+    font-size: 22px;
+    font-weight: bolder;
+    background-color: #20A980; 
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    box-shadow: 8px 7px 13px -1px rgba(82, 82, 82, 0.5);
+      
+}
+.slick-slide > div{
+    margin: 2rem 5rem;
+}
+.flechaSliderL{
+    top: 50%;
+    left: -30px;
+    position: absolute;
+    transform: translateY(-50%);  
+}
+.flechaSliderR{
+    top: 50%;
+    right: -15px;
+    position: absolute;
+    transform: translateY(-50%);  
+}
+.slick-dots{
+    display: none !important;
+}
+.iconsFlecha{
+    font-size: 3rem;
+    color: #3e8c7e;
+}

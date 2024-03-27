@@ -1,0 +1,1368 @@
+@import url('https://fonts.googleapis.com/css2?family=Racing+Sans+One&display=swap');
+
+.navbar {
+    width: auto;
+    padding: 1rem;
+    background-color: #EEF8F5;
+    box-shadow: 0 0 27px rgba(0, 0, 0, 0.5);
+}
+
+.contentNav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logoimg {
+    width: 70px;
+    height: 70px;
+    margin: 1.2rem 1.5rem;
+}
+
+.tituloNav {
+    width: 12.5rem;
+    font-size: 28px;
+    font-weight: 700;
+    color: #20A980;
+    font-style: normal;
+    margin-top: 1.2rem;
+    line-height: 2.2rem;
+    text-transform: uppercase;
+    font-family: "Racing", sans-serif;
+}
+
+.buscadorNav {
+    width: 50rem;
+    height: 2.5rem;
+    padding: 0 15px;
+    border-radius: 7px;
+    align-items: center;
+    background-color: #E2E6E5;
+}
+
+.buscadorNav input {
+    height: 100%;
+    width: 100%;
+    outline: none;
+    background-color: transparent;
+}
+
+.itemsNav ul {
+    display: flex;
+    margin: -1rem 32rem;
+    padding-bottom: 1rem;
+    justify-content: space-between;
+}
+
+.itemsNav ul li a {
+    font-size: 17px;
+    align-items: center;
+    color: #1d1d1d;
+    font-weight: 500;
+    text-transform: uppercase;
+    transition: 0.2s ease-in-out;
+}
+
+.itemsNav ul li a:hover{
+    color: #12a579;
+    border-bottom: 1.5px solid #12a579;
+}
+
+.iconUserNav:hover,
+.iconShopCart:hover {
+    color: #12a579;
+}
+
+.iconsNav {
+    display: flex;
+    color: #7F7F7F;
+    margin-left: auto;
+    margin-top: -1.5rem;
+    align-items: center;
+}
+
+/* Responsive */
+/* Móvil p1 - Móvil p2-Samsung Galaxy S8+ - Móvil p3.1-p3.2-iPhone SE - iPhonde 12 pro  */
+@media screen and (min-width: 280px) and (max-width: 410px) {
+    .navbar {
+        width: 34.8rem;
+    }
+    .logoimg {
+        width: 45px;
+        height: 45px;
+        margin: 0.5rem;
+    }
+    .tituloNav {
+        width: 126px;
+        font-size: 20px;
+        margin-top: 0.5rem;
+        margin-left: 1.2rem;
+        line-height: 1.2rem;
+    }
+    .buscadorNav {
+        width: 18.5rem;
+        height: 2.2rem;
+        padding: 0 15px;
+        margin-left: -0.2rem;
+    }
+    .iconsNav {
+        margin: auto;
+    }
+    .iconUserNav {
+        font-size: 20px;
+    }
+    .iconShopCart {
+        font-size: 27px;
+        margin-left: 1rem;
+    }
+    .itemsNav ul {
+        margin-left: 0rem;
+        margin-right: 0rem;
+        margin-top: 0.5rem;
+    }
+}
+
+/* Móvil p4, Pixel 7, Samsung Galaxy S20, Ultra-Samsung Galaxy a51/71, iphone Xr, iphone 14 pro Max */
+@media screen and (min-width: 411px) and (max-width: 439px){
+    .navbar {
+        width: 34.8rem;
+    }
+    .logoimg {
+        width: 45px;
+        height: 45px;
+        margin: 0.5rem;
+    }
+    .tituloNav {
+        width: 126px;
+        font-size: 20px;
+        margin-top: 0.5rem;
+        margin-left: 1.2rem;
+        line-height: 1.2rem;
+    }
+    .buscadorNav {
+        width: 18.5rem;
+        height: 2.2rem;
+        padding: 0 15px;
+        margin-left: -0.2rem;
+    }
+    .iconsNav {
+        margin: auto;
+    }
+    .iconUserNav {
+        font-size: 20px;
+    }
+    .iconShopCart {
+        font-size: 27px;
+        margin-left: 1rem;
+    }
+    .itemsNav ul {
+        margin-left: 0rem;
+        margin-right: 0rem;
+        margin-top: 0.5rem;
+    }
+}
+
+/* Surface Duo 540px */
+@media screen and (min-width: 440px) and (max-width: 551px){
+    .logoimg {
+        width: 35px;
+        height: 35px;
+        margin: 0.5rem;
+    }
+    .tituloNav {
+        width: 4rem;
+        font-size: 15px;
+        margin-top: 0.5rem;
+        margin-left: 0rem;
+        line-height: 1.2rem;
+    }
+    .buscadorNav {
+        width: 17rem;
+        height: 2.2rem;
+        padding: 0 15px;
+    }
+    .itemsNav ul {
+        margin-left: 3rem;
+        margin-right: 3rem;
+        margin-top: 0.5rem;
+    }
+    .itemsNav ul li a{
+        font-size: 13px;
+    }
+    .iconsNav {
+        margin-top: 0;
+    }
+    .iconUserNav {
+        font-size: 17px;
+    }
+    .iconShopCart {
+        font-size: 25px;
+        margin-left: 0.5rem;
+    }
+}
+
+/* 551px-599px */
+@media screen and (min-width: 552px) and (max-width: 599px){
+    .logoimg {
+        width: 45px;
+        height: 45px;
+        margin: 0.5rem;
+    }
+    .tituloNav {
+        width: 4rem;
+        font-size: 20px;
+        margin-top: 0.5rem;
+        margin-left: 0.2rem;
+        line-height: 1.2rem;
+    }
+    .buscadorNav {
+        height: 2.2rem;
+        width: 18.5rem;
+        padding: 0 15px;
+    }
+    .itemsNav ul {
+        margin-left: 5.5rem;
+        margin-right: 5.5rem;
+        margin-top: 0.5rem;
+    }
+    .itemsNav ul li a{
+        font-size: 13px;
+    }
+    .iconsNav {
+        margin-top: 0;
+    }
+    .iconUserNav {
+        font-size: 20px;
+    }
+    .iconShopCart {
+        font-size: 27px;
+        margin-left: 1rem;
+    }
+}
+
+/* Tablet 1 600px */
+@media screen and (min-width: 600px) and (max-width: 639px){
+    .logoimg {
+        width: 45px;
+        height: 45px;
+        margin: 0.5rem;
+    }
+    .tituloNav {
+        width: 5rem;
+        font-size: 20px;
+        margin-top: 0.5rem;
+        margin-left: 0.5rem;
+        line-height: 1.2rem;
+    }
+    .buscadorNav {
+        height: 2.2rem;
+        width: 18.5rem;
+        padding: 0 15px;
+    }
+    .itemsNav ul {
+        margin-left: 7rem;
+        margin-right: 4rem;
+        margin-top: 0.5rem;
+    }
+    .itemsNav ul li a{
+        font-size: 14px;
+    }
+    .iconsNav {
+        margin-top: 0;
+    }
+    .iconUserNav {
+        font-size: 20px;
+    }
+    .iconShopCart {
+        font-size: 27px;
+        margin-left: 1rem;
+    }
+}
+
+/* Portatil 1 640px */
+@media screen and (min-width: 640px) and (max-width: 679px){
+    .logoimg {
+        width: 45px;
+        height: 45px;
+        margin: 0.5rem;
+    }
+    .tituloNav {
+        width: 5rem;
+        font-size: 20px;
+        margin-top: 0.5em;
+        margin-left: 0.4rem;
+        line-height: 1.2rem;
+    }
+    .buscadorNav {
+        width: 23rem;
+        height: 2.2rem;
+        padding: 0 15px;  
+    }
+    .itemsNav ul {
+        margin-left: 8rem;
+        margin-right: 5rem;
+        margin-top: 0.5rem;
+    }
+    .itemsNav ul li a{
+        font-size: 13.5px;
+    }
+    .iconsNav {
+        margin-top: 0;
+    }
+    .iconUserNav {
+        font-size: 20px;
+    }
+    .iconShopCart {
+        font-size: 27px;
+        margin-left: 1rem;
+    }
+}
+
+/* Tableta 1 680px */
+@media screen and (min-width: 680px) and (max-width: 700px){
+    .logoimg {
+        width: 45px;
+        height: 45px;
+        margin: 0.5rem;
+    }
+    .tituloNav {
+        width: 5rem;
+        font-size: 20px;
+        margin-top: 0.5em;
+        margin-left: 0.4rem;
+        line-height: 1.2rem;
+    }
+    .buscadorNav {
+        width: 23rem;
+        height: 2.2rem;
+        padding: 0 15px;   
+    }
+    .itemsNav ul {
+        margin-left: 8rem;
+        margin-right: 5.5rem;
+        margin-top: 0.5rem;
+    }
+    .itemsNav ul li a{
+        font-size: 14px;
+    }
+    .iconsNav {
+        margin-top: 0;
+    }
+    .iconUserNav {
+        font-size: 20px;
+    }
+    .iconShopCart {
+        font-size: 27px;
+        margin-left: 1rem;
+    }
+}
+
+@media screen and (min-width: 701px) and (max-width: 755px){
+    .logoimg {
+        width: 45px;
+        height: 45px;
+        margin: 0.5rem;
+    }
+    .tituloNav {
+        width: 5rem;
+        font-size: 20px;
+        margin-top: 0.5em;
+        margin-left: 0.4rem;
+        line-height: 1.2rem;
+    }
+    .buscadorNav {
+        width: 25rem;
+        height: 2.2rem;
+        padding: 0 15px;  
+    }
+    .itemsNav ul {
+        margin-left: 6rem;
+        margin-right: 6rem;
+        margin-top: 0.5rem;
+    }
+    .iconsNav {
+        margin-top: 0;
+    }
+    .iconUserNav {
+        font-size: 20px;
+    }
+    .iconShopCart {
+        font-size: 27px;
+        margin-left: 1rem;
+    }
+}
+
+/* Tableta 2 756px */
+@media screen and (min-width: 756px) and (max-width: 767px){
+    .logoimg {
+        width: 45px;
+        height: 45px;
+        margin: 0.5rem;
+    }
+    .tituloNav {
+        width: 4.5rem;
+        font-size: 20px;
+        margin-top: 0.5em;
+        margin-left: 0.4rem;
+        line-height: 1.2rem;
+    }
+    .buscadorNav {
+        width: 25rem;
+        height: 2.2rem;
+        padding: 0 15px;
+        margin-right: 1rem;   
+    }
+    .itemsNav ul {
+        margin-left: 8rem;
+        margin-right: 8rem;
+        margin-top: 0.5rem;
+    }
+    .itemsNav ul li a{
+        font-size: 15px;
+    }
+    .iconsNav {
+        margin-top: 0;
+    }
+    .iconUserNav {
+        font-size: 20px;
+    }
+    .iconShopCart {
+        font-size: 27px;
+        margin-left: 1rem;
+    }
+}
+
+/* Tablet 2-Ipad Mini 768px */
+@media screen and (min-width: 768px) and (max-width: 799px){
+    .logoimg {
+        width: 45px;
+        height: 45px;
+        margin: 0.5rem;
+    }
+    .tituloNav {
+        width: 4rem;
+        font-size: 20px;
+        margin-top: 0.5em;
+        margin-left: 0.4rem;
+        line-height: 1.2rem;
+    }
+    .buscadorNav {
+        width: 25rem;
+        height: 2.2rem;
+        padding: 0 15px;
+    }
+    .itemsNav ul {
+        margin-left: 8rem;
+        margin-right: 8rem;
+        margin-top: 0.5rem;
+    }
+    .itemsNav ul li a{
+        font-size: 15px;
+    }
+    .iconsNav {
+        margin-top: 0;
+    }
+    .iconUserNav {
+        font-size: 20px;
+    }
+    .iconShopCart {
+        font-size: 27px;
+        margin-left: 1rem;
+    }
+}
+
+/* Tablet 3 800px */
+@media screen and (min-width: 800px) and (max-width: 819px){
+    .navbar {
+        width: auto;
+    }
+    .logoimg {
+        width: 45px;
+        height: 45px;
+        margin: 0.5rem;
+    }
+    .tituloNav {
+        width: 5.5rem;
+        font-size: 20px;
+        margin-top: 0.5em;
+        margin-left: 0.4rem;
+        line-height: 1.2rem;
+    }
+    .buscadorNav {
+        width: 25rem;
+        height: 2.2rem;
+        padding: 0 15px;
+        margin-right: 1rem;   
+    }
+    .itemsNav ul {
+        margin-left: 8rem;
+        margin-right: 8rem;
+        margin-top: 0.5rem;
+    }
+    .iconsNav {
+        margin-top: 0;
+    }
+    .iconUserNav {
+        font-size: 20px;
+    }
+    .iconShopCart {
+        font-size: 27px;
+        margin-left: 1rem;
+    }
+}
+
+/* ipad Air 820px */
+@media screen and (min-width: 820px) and (max-width: 868px){
+    .navbar {
+        width: auto;
+    }
+    .logoimg {
+        width: 45px;
+        height: 45px;
+        margin: 0.5rem;
+    }
+    .tituloNav {
+        width: 5.5rem;
+        font-size: 20px;
+        margin-top: 0.5em;
+        margin-left: 0.4rem;
+        line-height: 1.2rem;
+    }
+    .buscadorNav {
+        width: 29rem;
+        height: 2.2rem;
+        padding: 0 15px; 
+    }
+    .itemsNav ul {
+        margin-left: 7rem;
+        margin-right: 7rem;
+        margin-top: 0.5rem;
+    }
+    .itemsNav ul li a{
+        font-size: 15px;
+    }
+    .iconsNav {
+        margin-top: 0;
+    }
+    .iconUserNav {
+        font-size: 20px;
+    }
+    .iconShopCart {
+        font-size: 27px;
+        margin-left: 1rem;
+    }
+}
+
+/* Tableta 3 869px */
+@media screen and (min-width: 869px) and (max-width: 911px){
+    .logoimg {
+        width: 45px;
+        height: 45px;
+        margin: 0.5rem;
+    }
+    .tituloNav {
+        width: 6rem;
+        font-size: 20px;
+        margin-top: 0.5em;
+        margin-left: 0.4rem;
+        line-height: 1.2rem;
+    }
+    .buscadorNav {
+        width: 29rem;
+        height: 2.2rem;
+        padding: 0 15px; 
+    }
+    .itemsNav ul {
+        margin-left: 6rem;
+        margin-right: 6rem;
+        margin-top: 0.5rem;
+    }
+    .iconsNav {
+        margin-top: 0;
+    }
+    .iconUserNav {
+        font-size: 20px;
+    }
+    .iconShopCart {
+        font-size: 27px;
+        margin-left: 1rem;
+    }
+}
+
+/* Surface Pro 7 912px */
+@media screen and (min-width: 912px) and (max-width: 943px){
+    .logoimg {
+        width: 45px;
+        height: 45px;
+        margin: 0.5rem;
+    }
+    .tituloNav {
+        width: 6rem;
+        font-size: 20px;
+        margin-top: 0.5em;
+        margin-left: 0.4rem;
+        line-height: 1.2rem;
+    }
+    .buscadorNav {
+        width: 36rem;
+        height: 2.2rem;
+        padding: 0 15px;
+    }
+    .itemsNav ul {
+        margin-left: 9rem;
+        margin-right: 6.5rem;
+        margin-top: 0.5rem;
+    }
+    .iconsNav {
+        margin-top: 0;
+    }
+    .iconUserNav {
+        font-size: 20px;
+    }
+    .iconShopCart {
+        font-size: 27px;
+        margin-left: 1rem;
+    }
+}
+
+/* Tableta 4 944px */
+@media screen and (min-width: 944px) and (max-width: 959px){
+    .logoimg {
+        width: 45px;
+        height: 45px;
+        margin: 0.5rem;
+    }
+    .tituloNav {
+        width: 5.5rem;
+        font-size: 20px;
+        margin-top: 0.5em;
+        margin-left: 0.4rem;
+        line-height: 1.2rem;
+    }
+    .buscadorNav {
+        width: 38rem;
+        height: 2.2rem;
+        margin-left: -1rem;
+        padding: 0 15px;
+    }
+    .itemsNav ul {
+        margin-left: 9rem;
+        margin-right: 6.5rem;
+        margin-top: 0.5rem;
+    }
+    .iconsNav {
+        margin-top: 0;
+    }
+    .iconUserNav {
+        font-size: 20px;
+    }
+    .iconShopCart {
+        font-size: 27px;
+        margin-left: 1rem;
+    }
+}
+
+/* Portatil 2 960px */
+@media screen and (min-width: 960px) and (max-width: 999px){
+    .logoimg {
+        width: 45px;
+        height: 45px;
+        margin: 0.5rem;
+    }
+    .tituloNav {
+        width: 6rem;
+        font-size: 20px;
+        margin-top: 0.5em;
+        margin-left: 0.4rem;
+        line-height: 1.2rem;
+    }
+    .buscadorNav {
+        width: 38rem;
+        height: 2.2rem;
+        padding: 0 15px;
+    }
+    .itemsNav ul {
+        margin-left: 9rem;
+        margin-right: 6.5rem;
+        margin-top: 0.5rem;
+    }
+    .iconsNav {
+        margin-top: 0;
+    }
+    .iconUserNav {
+        font-size: 20px;
+    }
+    .iconShopCart {
+        font-size: 27px;
+        margin-left: 1rem;
+    }
+}
+
+/* Tablet 4-computador de mesa 1/2-iPad Pro-Nest Hub 1024px */
+@media screen and (min-width: 1000px) and (max-width: 1050px){
+    .logoimg {
+        width: 45px;
+        height: 45px;
+        margin: 0.5rem;
+    }
+    .tituloNav {
+        width: 6.5rem;
+        font-size: 20px;
+        margin-top: 0.5em;
+        margin-left: 0.4rem;
+        line-height: 1.2rem;
+    }
+    .buscadorNav {
+        width: 43rem;
+        height: 2.2rem;
+        padding: 0 15px;
+    }
+    .itemsNav ul {
+        margin-left: 10rem;
+        margin-top: 0.5rem;
+        margin-right: 5.5rem;
+    }
+    .iconsNav {
+        margin-top: 0;
+    }
+    .iconUserNav {
+        font-size: 20px;
+    }
+    .iconShopCart {
+        font-size: 27px;
+        margin-left: 1rem;
+    }
+}
+
+/* Tableta 5 1058px */
+@media screen and (min-width: 1051px) and (max-width: 1079px){
+    .logoimg {
+        width: 45px;
+        height: 45px;
+        margin: 0.5rem;
+    }
+    .tituloNav {
+        width: 126px;
+        font-size: 20px;
+        margin-top: 0.5em;
+        margin-left: 0.4rem;
+        line-height: 1.2rem;
+    }
+    .buscadorNav {
+        width: 43rem;
+        height: 2.2rem;
+        padding: 0 15px;
+    }
+    .itemsNav ul {
+        margin-left: 10rem;
+        margin-top: 0.5rem;
+        margin-right: 5.5rem;
+    }
+    .iconsNav {
+        margin-top: 0;
+    }
+    .iconUserNav {
+        font-size: 20px;
+    }
+    .iconShopCart {
+        font-size: 27px;
+        margin-left: 1rem;
+    }
+}
+
+/* Tablet 5 1080px */
+@media screen and (min-width: 1080px) and (max-width: 1130px){
+    .logoimg {
+        width: 45px;
+        height: 45px;
+        margin: 0.5rem;
+    }
+    .tituloNav {
+        width: 126px;
+        font-size: 20px;
+        margin-top: 0.5em;
+        margin-left: 0.4rem;
+        line-height: 1.2rem;
+    }
+    .buscadorNav {
+        width: 43rem;
+        height: 2.2rem;
+        padding: 0 15px;
+    }
+    .itemsNav ul {
+        margin-left: 10rem;
+        margin-top: 0.5rem;
+        margin-right: 8rem;
+    }
+    .iconsNav {
+        margin-top: 0;
+    }
+    .iconUserNav {
+        font-size: 20px;
+    }
+    .iconShopCart {
+        font-size: 27px;
+        margin-left: 1rem;
+    }
+}
+
+/* Tableta 6 1171px*/
+@media screen and (min-width: 1131px) and (max-width: 1180px){
+    .logoimg {
+        width: 45px;
+        height: 45px;
+        margin: 0.5rem;
+    }
+    .tituloNav {
+        width: 126px;
+        font-size: 20px;
+        margin-top: 0.5em;
+        margin-left: 0.4rem;
+        line-height: 1.2rem;
+    }
+    .buscadorNav {
+        width: 43rem;
+        height: 2.2rem;
+        padding: 0 15px;
+    }
+    .itemsNav ul {
+        margin-left: 10rem;
+        margin-top: 0.5rem;
+        margin-right: 8rem;
+    }
+    .iconsNav {
+        margin-top: 0;
+    }
+    .iconUserNav {
+        font-size: 20px;
+    }
+    .iconShopCart {
+        font-size: 27px;
+        /* margin-left: 1rem; */
+    }
+}
+
+/* Tablet 6 1200px */
+@media screen and (min-width: 1181px) and (max-width: 1200px){
+    .logoimg {
+        width: 45px;
+        height: 45px;
+        margin: 0.5rem;
+    }
+    .tituloNav {
+        width: 126px;
+        font-size: 20px;
+        margin-top: 0.5em;
+        margin-left: 0.4rem;
+        line-height: 1.2rem;
+    }
+    .buscadorNav {
+        width: 43rem;
+        height: 2.2rem;
+        padding: 0 15px;
+    }
+    .itemsNav ul {
+        margin-left: 10rem;
+        margin-top: 0.5rem;
+        margin-right: 8rem;
+    }
+    .iconsNav {
+        margin-top: 0;
+    }
+    .iconUserNav {
+        font-size: 20px;
+    }
+    .iconShopCart {
+        font-size: 27px;
+        margin-left: 1rem;
+    }
+}
+
+/* Tablet 7-computador de mesa 3/4-Nast Hub Max 1280px */
+@media screen and (min-width: 1201px) and (max-width: 1284px){
+    .logoimg {
+        width: 45px;
+        height: 45px;
+        margin: 0.5rem;
+    }
+    .tituloNav {
+        width: 126px;
+        font-size: 20px;
+        margin-top: 0.5em;
+        margin-left: 0.4rem;
+        line-height: 1.2rem;
+    }
+    .buscadorNav {
+        width: 45rem;
+        padding: 0 15px;
+    }
+    .itemsNav ul {
+        margin-left: 11.5rem;
+        margin-top: 0.8rem;
+        margin-right: 11rem;
+    }
+    .iconsNav {
+        margin-top: 0;
+    }
+}
+
+/* Tableta 7 1285px */
+@media screen and (min-width: 1285px) and (max-width: 1335px){
+    .logoimg {
+        width: 45px;
+        height: 45px;
+        margin: 0.5rem;
+    }
+    .tituloNav {
+        width: 7rem;
+        font-size: 20px;
+        margin-top: 0.5em;
+        margin-left: 0.4rem;
+        line-height: 1.2rem;
+    }
+    .itemsNav ul {
+        margin-left: 11.5rem;
+        margin-top: 0.8rem;
+        margin-right: 11rem;
+    }
+    .iconsNav {
+        margin-top: 0;
+    }
+}
+
+/* 1336px - 1376px*/
+@media screen and (min-width: 1336px) and (max-width: 1376px){
+    .logoimg {
+        width: 45px;
+        height: 45px;
+        margin: 0.5rem;
+    }
+    .tituloNav {
+        width: 7rem;
+        font-size: 20px;
+        margin-top: 0.5em;
+        margin-left: 0.4rem;
+        line-height: 1.2rem;
+    }
+    .itemsNav ul {
+        margin-left: 11.5rem;
+        margin-top: 0.8rem;
+        margin-right: 11rem;
+    }
+    .iconsNav {
+        margin-top: 0;
+    }
+}
+
+/* Computador de mesa 5 1400px */
+@media screen and (min-width: 1377px) and (max-width: 1420px){
+    .logoimg {
+        width: 45px;
+        height: 45px;
+        margin: 0.5rem;
+    }
+    .tituloNav {
+        width: 7rem;
+        font-size: 20px;
+        margin-top: 0.5em;
+        margin-left: 0.4rem;
+        line-height: 1.2rem;
+    }
+    .itemsNav ul {
+        margin-top: 0.8rem;
+        margin-right: 16rem;
+        margin-left: 16.5rem;
+    }
+    .iconsNav {
+        margin-top: 0;
+    }
+}
+
+/* 1421px - 1499px */
+@media screen and (min-width: 1421px) and (max-width: 1499px){
+    .logoimg {
+        width: 45px;
+        height: 45px;
+        margin: 0.5rem;
+    }
+    .tituloNav {
+        width: 7rem;
+        font-size: 20px;
+        margin-top: 0.5em;
+        margin-left: 0.4rem;
+        line-height: 1.2rem;
+    }
+    .itemsNav ul {
+        margin-top: 0.8rem;
+        margin-right: 16rem;
+        margin-left: 15.5rem;
+    }
+    .iconsNav {
+        margin-top: 0;
+    }
+}
+
+/* Tablet 8 1536px */
+@media screen and (min-width: 1500px) and (max-width: 1599px){
+    .logoimg {
+        width: 45px;
+        height: 45px;
+        margin: 0.5rem;
+    }
+    .tituloNav {
+        width: 7rem;
+        font-size: 20px;
+        margin-top: 0.5em;
+        margin-left: 0.4rem;
+        line-height: 1.2rem;
+    }
+    .itemsNav ul {
+        margin-top: 0.8rem;
+        margin-right: 16rem;
+        margin-left: 15.5rem;
+    }
+    .iconsNav {
+        margin-top: 0;
+    }
+}
+
+/* Computador de mesa 6  1600px */
+@media screen and (min-width: 1600px) and (max-width: 1699px){
+    .logoimg {
+        width: 45px;
+        height: 45px;
+        margin: 0.5rem;
+    }
+    .tituloNav {
+        width: 11rem;
+        font-size: 25px;
+        margin-top: 0.5rem;
+        margin-left: 0.4rem;
+        line-height: 1.5rem;
+    }
+    .itemsNav ul {
+        margin-top: 0.8rem;
+        margin-left: 21rem;
+        margin-right: 21rem;
+    }
+    .iconsNav {
+        margin-top: 0;
+    }
+}
+
+/* 1700px - 1799px */
+@media screen and (min-width: 1700px) and (max-width: 1799px){
+    .logoimg {
+        width: 45px;
+        height: 45px;
+        margin: 0.5rem;
+    }
+    .tituloNav {
+        width: 11rem;
+        font-size: 25px;
+        margin-top: 0.5rem;
+        margin-left: 0.4rem;
+        line-height: 1.5rem;
+    }
+    .itemsNav ul {
+        margin-top: 0.8rem;
+        margin-left: 21rem;
+        margin-right: 21rem;
+    }
+    .iconsNav {
+        margin-top: 0;
+    }
+}
+
+/* 1800px - 1919px */
+@media screen and (min-width: 1800px) and (max-width: 1919px){
+    .logoimg {
+        margin: 0.5rem;
+    }
+    .tituloNav {
+        margin-top: 0.5rem;
+        margin-left: 1.5rem;
+    }
+    .iconsNav {
+        margin-top: 0;
+    }
+}
+
+/* Computador de mesa 7 1920px */
+@media screen and (min-width: 1920px) and (max-width: 1949px){
+    .logoimg {
+        width: 70px;
+        height: 70px;
+        margin: 1.2rem 1.5rem;
+    }
+    .tituloNav {
+        width: 12.5rem;
+        font-size: 28px;
+        margin-top: 1.2rem;
+        line-height: 2.2rem;
+    }
+    .buscadorNav {
+        width: 50rem;
+        height: 2.5rem;
+        padding: 0 15px;
+        border-radius: 7px;
+    }
+    .itemsNav ul {
+        margin: -1rem 32rem;
+        padding-bottom: 1rem;
+    }
+    .itemsNav ul li a {
+        font-size: 17px;
+    }
+    .iconsNav {
+        margin-top: -1.5rem;
+    }        
+}
+
+/* Tablet 9 2048px */
+@media screen and (min-width: 1950px) and (max-width: 2050px){
+    .logoimg {
+        width: 70px;
+        height: 70px;
+    }
+    .tituloNav {
+        width: 13rem;
+        font-size: 35px;
+    }
+    .buscadorNav {
+        width: 56rem;
+        height: 3rem;
+        font-size: 23px;
+    }
+    .itemsNav ul li a {
+        font-size: 23px;
+    }
+    .iconUserNav{
+        font-size: 2rem;
+    }
+    .iconShopCart{
+        font-size: 2.8rem;
+    }
+}
+
+/* 2051px - 2159px */
+@media screen and (min-width: 2051px) and (max-width: 2159px){
+    .logoimg {
+        width: 70px;
+        height: 70px;
+    }
+    .tituloNav {
+        width: 13rem;
+        font-size: 35px;
+    }
+    .buscadorNav {
+        width: 57rem;
+        height: 3rem;
+        font-size: 23px;
+    }
+    .itemsNav ul {
+        margin: -1rem 31rem;
+    }
+    .itemsNav ul li a {
+        font-size: 23px;
+    }
+    .iconUserNav{
+        font-size: 2rem;
+    }
+    .iconShopCart{
+        font-size: 2.8rem;
+    }
+}
+
+/* Tablet 10 2160px */
+@media screen and (min-width: 2160px) and (max-width: 2259px){
+    .logoimg {
+        width: 70px;
+        height: 70px;
+    }
+    .tituloNav {
+        width: 14rem;
+        font-size: 35px;
+    }
+    .buscadorNav {
+        width: 57rem;
+        height: 3rem;
+        font-size: 23px;
+    }
+    .itemsNav ul {
+        margin: -1rem 31rem;
+    }
+    .itemsNav ul li a {
+        font-size: 23px;
+    }
+    .iconUserNav{
+        font-size: 2rem;
+    }
+    .iconShopCart{
+        font-size: 2.8rem;
+    }
+}
+
+/* 2260px - 2360px */
+@media screen and (min-width: 2260px) and (max-width: 2360px){
+    .navbar{
+        padding: 2rem;
+    }
+    .logoimg {
+        width: 70px;
+        height: 70px;
+    }
+    .tituloNav {
+        width: 15rem;
+        font-size: 35px;
+    }
+    .buscadorNav {
+        width: 64rem;
+        height: 3.5rem;
+        font-size: 25px;
+    }
+    .itemsNav ul {
+        margin: -0.5rem 38rem;
+        margin-bottom: -2rem;
+    }
+    .itemsNav ul li a {
+        font-size: 23px;
+    }
+    .iconUserNav{
+        font-size: 2rem;
+    }
+    .iconShopCart{
+        font-size: 2.8rem;
+    }
+}
+
+/* 2361px - 2450px */
+@media screen and (min-width: 2361px) and (max-width: 2450px){
+    .navbar{
+        padding: 2rem;
+    }
+    .logoimg {
+        width: 70px;
+        height: 70px;
+    }
+    .tituloNav {
+        width: 15rem;
+        font-size: 35px;
+    }
+    .buscadorNav {
+        width: 64rem;
+        height: 3.5rem;
+        font-size: 25px;
+    }
+    .itemsNav ul {
+        margin: -0.5rem 38rem;
+        margin-bottom: -2rem;
+    }
+    .itemsNav ul li a {
+        font-size: 23px;
+    }
+    .iconUserNav{
+        font-size: 2rem;
+    }
+    .iconShopCart{
+        font-size: 2.8rem;
+    }
+}
+
+/* 2451px - 2500px */
+@media screen and (min-width: 2451px) and (max-width: 2500px){
+    .navbar{
+        padding: 2rem;
+    }
+    .logoimg {
+        width: 70px;
+        height: 70px;
+    }
+    .tituloNav {
+        width: 17rem;
+        font-size: 35px;
+    }
+    .buscadorNav {
+        width: 64rem;
+        height: 3.5rem;
+        font-size: 25px;
+    }
+    .itemsNav ul {
+        margin: -0.5rem 38rem;
+        margin-bottom: -2rem;
+    }
+    .itemsNav ul li a {
+        font-size: 23px;
+    }
+    .iconUserNav{
+        font-size: 2rem;
+    }
+    .iconShopCart{
+        font-size: 2.8rem;
+    }
+}
+
+/* 2501px - 2559px */
+@media screen and (min-width: 2501px) and (max-width: 2559px){
+    .navbar{
+        padding: 2rem;
+    }
+    .logoimg {
+        width: 70px;
+        height: 70px;
+    }
+    .tituloNav {
+        width: 17rem;
+        font-size: 35px;
+    }
+    .buscadorNav {
+        width: 64rem;
+        height: 3.5rem;
+        font-size: 25px;
+    }
+    .itemsNav ul {
+        margin: -0.5rem 38rem;
+        margin-bottom: -2rem;
+    }
+    .itemsNav ul li a {
+        font-size: 23px;
+    }
+    .iconUserNav{
+        font-size: 2rem;
+    }
+    .iconShopCart{
+        font-size: 2.8rem;
+    }
+}
+
+/* Tablet 11 y 12 portatil 5 2560px */
+@media screen and (min-width: 2560px) and (max-width: 2600px){
+    .navbar{
+        padding: 2rem;
+    }
+    .logoimg {
+        width: 70px;
+        height: 70px;
+    }
+    .tituloNav {
+        width: 19rem;
+        font-size: 35px;
+    }
+    .buscadorNav {
+        width: 67rem;
+        height: 3.5rem;
+        font-size: 25px;
+    }
+    .itemsNav ul {
+        margin: -0.5rem 42rem;
+        margin-bottom: -2rem;
+    }
+    .itemsNav ul li a {
+        font-size: 23px;
+    }
+    .iconUserNav{
+        font-size: 2rem;
+    }
+    .iconShopCart{
+        font-size: 2.8rem;
+    }
+}
