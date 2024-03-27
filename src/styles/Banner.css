@@ -995,3 +995,36 @@
         font-size: 27px;
     }
 }
+
+/* 2260px - 2360px */
+@media screen and (min-width: 2260px) and (max-width: 2360px){
+    .contentBanner {
+        padding: 5rem 15rem;
+        margin: auto;
+    }
+    .imgMegafono {
+        width: 13rem;
+        margin-left: 0rem;
+        margin-top: -1rem;
+    }
+    .banner{
+        width: auto;
+        height: auto;
+    }
+    .tituloBanner{
+        font-size: 70px;
+    }
+    .textBanner p{
+        width: 52rem;
+        font-size: 27px;
+    }
+    .imgBanner img{
+        max-width: 70%;
+        margin-left: 6rem;
+    }
+    .btnBanner{
+        width: 13rem;
+        height: 4rem;
+        font-size: 27px;
+    }
+}
