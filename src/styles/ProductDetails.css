@@ -1,0 +1,1662 @@
+.contentProductDetails {
+    width: auto;
+    height: auto;
+    padding: 5rem;
+    display: flex;
+    justify-content: space-between;
+    font-family: "Racing", sans-serif;
+    box-shadow: 0 8px 22px -2px gray;
+    background: linear-gradient(180deg, rgba(30, 77, 74, 1) 0%, rgba(43, 132, 115, 1) 18%, rgba(40, 165, 130, 1) 100%);
+}
+
+.img-ProductDetails {
+    gap: 7rem;
+    display: flex;
+    justify-content: space-between;
+}
+.additional-img {
+    height: 28rem;
+    padding: 2rem;
+    display: flex;
+    border-radius: 10px;
+    flex-direction: column;
+    backdrop-filter: blur(8rem);
+    justify-content: space-between;
+    box-shadow: 0 0 20px rgba(61, 61, 61, 0.5);
+    background-color: rgba(255, 255, 255, 0.082);
+}
+.additional-img img {
+    width: 120px;
+    height: 120px;
+    background-color: #fff;
+}
+.main-img {
+    width: 500px;
+    height: 500px;
+    padding: 2rem;
+    border-radius: 5px;
+    background-color: #fff;
+}
+
+.info-ProductDetails {
+    width: 50rem;
+    display: flex;
+    text-align: right;
+    flex-direction: column;
+}
+
+.name-ProductDetails {
+    color: #fff;
+    font-size: 40px;
+    font-weight: bolder;
+}
+
+.prices-ProductDetails{
+    gap: 1rem;
+    margin: 1rem 0;
+    display: flex;
+    color: #fff;
+    font-size: 35px;
+    font-weight: bold;
+    justify-content: end;
+}
+
+.paymentMethods h1{
+    font-size: 18px;
+    color: #3F3F46;
+    margin-top: 1.5rem;
+    font-weight: bolder;
+}
+.paymentMethods-img {
+    gap: 1rem;
+    margin-top: 1rem;
+    display: flex;
+    justify-content: end;
+}
+.visaCard, .mastercardCard {
+    width: 5rem;
+    height: 3rem;
+    padding: 0.5rem;
+    border-radius: 5px;
+    background-color: #fff;
+}
+.bancolombiaCard {
+    width: 80px;
+    height: 45px;
+}
+
+.cant{
+    color: #000;
+    font-weight: bolder;
+    margin-top: 3rem;
+}
+.cant input{
+    width: 2.5rem;
+    outline: none;
+    margin-top: 0.8rem;
+    background: transparent;
+    border-bottom: 1px solid #000;
+}
+
+.addToCart button{
+    width: 13rem;
+    height: 3.5rem;
+    color: #fff;
+    margin-top: 3rem;
+    text-align: center;
+    align-items: center;
+    border-radius: 15px;
+    background-color: #333232;
+    transition: all 0.2s ease-in-out;
+}
+.addToCart button:hover{
+    transform: scale(1.03);
+    background-color: #4b4a4a;
+}
+
+.contentProductDetails2{
+    gap: 2rem;
+    padding: 4rem;
+    display: flex;
+    margin: 5rem 12rem 0;
+    background-color: #D9D9D9;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+.contentProductDetails2 h1{
+    font-size: 20px;
+    color: #27AB84;
+    margin-bottom: 0.5rem;
+    font-weight: bolder;
+}
+.contentProductDetails2 p{
+    font-size: 18px;
+}
+
+/* Responsive */
+/* Tablet 1 600px */
+@media screen and (min-width: 600px) and (max-width: 639px){
+    .contentProductDetails {
+        padding: 3rem;
+        flex-direction: column;
+    }
+    .img-ProductDetails {
+        gap: 4rem;
+        flex-direction: column;
+    }
+
+    .additional-img {
+        height: 10rem;
+        padding: 2rem;
+        flex-direction: row;
+        backdrop-filter: blur(2rem);
+    }
+    .additional-img img {
+        width: 100px;
+        height: 100px;
+    }
+
+    .main-img {
+        margin: auto;
+        width: 350px;
+        height: 350px;
+        padding: 0rem;
+        margin-top: -2rem;
+    }
+
+    .info-ProductDetails{
+        width: auto;
+        text-align: center;
+    }
+    .name-ProductDetails{
+        font-size: 26px;
+        margin-top: 2rem;
+    }
+    .prices-ProductDetails{
+        font-size: 24px;
+        justify-content: center;
+    }
+
+    .paymentMethods-img{
+        justify-content: center;
+    }
+
+    .contentProductDetails2{
+        padding: 2rem;
+        margin: 5rem 2rem 0;
+    }
+    .contentProductDetails2 h1 {
+        font-size: 18px;
+    }
+    .contentProductDetails2 p {
+        font-size: 16px;
+    }
+}
+
+/* Portatil 1 640px */
+@media screen and (min-width: 640px) and (max-width: 679px){
+    .contentProductDetails {
+        padding: 3rem;
+        flex-direction: column;
+    }
+    .img-ProductDetails {
+        gap: 4rem;
+        flex-direction: column;
+    }
+
+    .additional-img {
+        height: 10rem;
+        padding: 2rem;
+        flex-direction: row;
+        backdrop-filter: blur(2rem);
+    }
+    .additional-img img {
+        width: 100px;
+        height: 100px;
+    }
+
+    .main-img {
+        margin: auto;
+        width: 350px;
+        height: 350px;
+        padding: 0rem;
+        margin-top: -2rem;
+    }
+
+    .info-ProductDetails{
+        width: auto;
+        text-align: center;
+    }
+    .name-ProductDetails{
+        font-size: 26px;
+        margin-top: 2rem;
+    }
+    .prices-ProductDetails{
+        font-size: 24px;
+        justify-content: center;
+    }
+
+    .paymentMethods-img{
+        justify-content: center;
+    }
+
+    .contentProductDetails2{
+        padding: 2rem;
+        margin: 5rem 2rem 0;
+    }
+    .contentProductDetails2 h1 {
+        font-size: 18px;
+    }
+    .contentProductDetails2 p {
+        font-size: 16px;
+    }
+}
+
+/* Tableta 1 680px */
+@media screen and (min-width: 680px) and (max-width: 700px){
+    .contentProductDetails {
+        padding: 3rem;
+        flex-direction: column;
+    }
+    .img-ProductDetails {
+        gap: 4rem;
+        flex-direction: column;
+    }
+
+    .additional-img {
+        height: 10rem;
+        padding: 2rem;
+        flex-direction: row;
+        backdrop-filter: blur(2rem);
+    }
+    .additional-img img {
+        width: 100px;
+        height: 100px;
+    }
+
+    .main-img {
+        margin: auto;
+        width: 350px;
+        height: 350px;
+        padding: 0rem;
+        margin-top: -2rem;
+    }
+
+    .info-ProductDetails{
+        width: auto;
+        text-align: center;
+    }
+    .name-ProductDetails{
+        font-size: 28px;
+        margin-top: 2rem;
+    }
+    .prices-ProductDetails{
+        font-size: 26px;
+        justify-content: center;
+    }
+
+    .paymentMethods-img{
+        justify-content: center;
+    }
+
+    .contentProductDetails2{
+        padding: 2rem;
+        margin: 5rem 2rem 0;
+    }
+    .contentProductDetails2 h1 {
+        font-size: 20px;
+    }
+    .contentProductDetails2 p {
+        font-size: 16px;
+    }
+}
+
+@media screen and (min-width: 701px) and (max-width: 755px){
+    .contentProductDetails {
+        padding: 3rem;
+        flex-direction: column;
+    }
+    .img-ProductDetails {
+        gap: 4rem;
+        flex-direction: column;
+    }
+
+    .additional-img {
+        height: 10rem;
+        padding: 2rem;
+        flex-direction: row;
+        backdrop-filter: blur(2rem);
+    }
+    .additional-img img {
+        width: 100px;
+        height: 100px;
+    }
+
+    .main-img {
+        margin: auto;
+        width: 350px;
+        height: 350px;
+        padding: 0rem;
+        margin-top: -2rem;
+    }
+
+    .info-ProductDetails{
+        width: 34rem;
+    }
+    .name-ProductDetails{
+        font-size: 28px;
+        margin-top: 2rem;
+    }
+    .prices-ProductDetails{
+        font-size: 26px;
+    }
+
+    .contentProductDetails2{
+        padding: 2rem;
+        margin: 5rem 2rem 0;
+    }
+    .contentProductDetails2 h1 {
+        font-size: 20px;
+    }
+    .contentProductDetails2 p {
+        font-size: 16px;
+    }
+}
+
+/* Tableta 2 756px */
+@media screen and (min-width: 756px) and (max-width: 767px){
+    .contentProductDetails{
+        padding: 3rem;
+    }
+
+    .img-ProductDetails {
+        gap: 4rem;
+        flex-direction: column;
+    }
+
+    .additional-img {
+        height: 7rem;
+        padding: 1rem;
+        flex-direction: row;
+        backdrop-filter: blur(2rem);
+    }
+    .additional-img img {
+        width: 80px;
+        height: 80px;
+    }
+
+    .main-img {
+        margin: auto;
+        width: 300px;
+        height: 300px;
+        padding: 0rem;
+        margin-top: -2rem;
+    }
+
+    .info-ProductDetails{
+        width: 20rem;
+    }
+    .name-ProductDetails{
+        font-size: 22px;
+    }
+    .prices-ProductDetails{
+        font-size: 20px;
+    }
+
+    .paymentMethods-img {
+        gap: 0.5rem;
+    }
+    .visaCard, .mastercardCard{
+        width: 4.5rem;
+        height: 2.5rem;
+        padding: 0rem;
+    }
+    .bancolombiaCard {
+        width: 70px;
+        height: 40px;
+    }
+    .contentProductDetails2 {
+        gap: 4rem;
+        padding: 2rem;
+        display: flex;
+        margin: 4rem 1rem 0;
+    }
+}
+
+/* Tablet 2-Ipad Mini 768px */
+@media screen and (min-width: 768px) and (max-width: 799px){
+    .contentProductDetails{
+        padding: 3rem;
+    }
+
+    .img-ProductDetails {
+        gap: 4rem;
+        flex-direction: column;
+    }
+
+    .additional-img {
+        height: 7rem;
+        padding: 1rem;
+        flex-direction: row;
+        backdrop-filter: blur(2rem);
+    }
+    .additional-img img {
+        width: 80px;
+        height: 80px;
+    }
+
+    .main-img {
+        margin: auto;
+        width: 300px;
+        height: 300px;
+        padding: 0rem;
+        margin-top: -2rem;
+    }
+
+    .info-ProductDetails{
+        width: 20rem;
+    }
+    .name-ProductDetails{
+        font-size: 22px;
+    }
+    .prices-ProductDetails{
+        font-size: 20px;
+    }
+
+    .paymentMethods-img {
+        gap: 0.5rem;
+    }
+    .visaCard, .mastercardCard{
+        width: 4.5rem;
+        height: 2.5rem;
+        padding: 0rem;
+    }
+    .bancolombiaCard {
+        width: 70px;
+        height: 40px;
+    }
+    .contentProductDetails2 {
+        gap: 4rem;
+        padding: 2rem;
+        display: flex;
+        margin: 4rem 1rem 0;
+    }
+}
+
+/* Tablet 3 800px */
+@media screen and (min-width: 800px) and (max-width: 819px){
+    .contentProductDetails{
+        padding: 3rem;
+    }
+
+    .img-ProductDetails {
+        gap: 4rem;
+        flex-direction: column;
+    }
+
+    .additional-img {
+        height: 7rem;
+        padding: 1rem;
+        flex-direction: row;
+        backdrop-filter: blur(2rem);
+    }
+    .additional-img img {
+        width: 80px;
+        height: 80px;
+    }
+
+    .main-img {
+        margin: auto;
+        width: 300px;
+        height: 300px;
+        padding: 0rem;
+        margin-top: -2rem;
+    }
+
+    .info-ProductDetails{
+        width: 20rem;
+    }
+    .name-ProductDetails{
+        font-size: 22px;
+    }
+    .prices-ProductDetails{
+        font-size: 20px;
+    }
+
+    .paymentMethods-img {
+        gap: 0.5rem;
+    }
+    .visaCard, .mastercardCard{
+        width: 4.5rem;
+        height: 2.5rem;
+        padding: 0rem;
+    }
+    .bancolombiaCard {
+        width: 70px;
+        height: 40px;
+    }
+    .contentProductDetails2 {
+        gap: 4rem;
+        padding: 2rem;
+        display: flex;
+        margin: 4rem 1rem 0;
+    }
+}
+
+/* ipad Air 820px */
+@media screen and (min-width: 820px) and (max-width: 868px){
+    .contentProductDetails{
+        padding: 3rem;
+    }
+
+    .img-ProductDetails {
+        gap: 4rem;
+        flex-direction: column;
+    }
+
+    .additional-img {
+        height: 7rem;
+        padding: 1rem;
+        flex-direction: row;
+        backdrop-filter: blur(2rem);
+    }
+    .additional-img img {
+        width: 80px;
+        height: 80px;
+    }
+
+    .main-img {
+        margin: auto;
+        width: 300px;
+        height: 300px;
+        padding: 0rem;
+        margin-top: -2rem;
+    }
+
+    .info-ProductDetails{
+        width: 20rem;
+    }
+    .name-ProductDetails{
+        font-size: 23px;
+    }
+    .prices-ProductDetails{
+        font-size: 20px;
+    }
+
+    .paymentMethods-img {
+        gap: 0.5rem;
+    }
+    .visaCard, .mastercardCard{
+        width: 4.5rem;
+        height: 2.5rem;
+        padding: 0rem;
+    }
+    .bancolombiaCard {
+        width: 70px;
+        height: 40px;
+    }
+    .contentProductDetails2 {
+        gap: 4rem;
+        padding: 2rem;
+        display: flex;
+        margin: 4rem 1rem 0;
+    }
+}
+
+/* Tableta 3 869px */
+@media screen and (min-width: 869px) and (max-width: 911px){
+    .contentProductDetails{
+        padding: 3rem;
+    }
+
+    .img-ProductDetails {
+        gap: 4rem;
+        flex-direction: column;
+    }
+
+    .additional-img {
+        height: 7rem;
+        padding: 1rem;
+        flex-direction: row;
+        backdrop-filter: blur(2rem);
+    }
+    .additional-img img {
+        width: 80px;
+        height: 80px;
+    }
+
+    .main-img {
+        margin: auto;
+        width: 300px;
+        height: 300px;
+        padding: 0rem;
+        margin-top: -2rem;
+    }
+
+    .info-ProductDetails{
+        width: 20rem;
+    }
+    .name-ProductDetails{
+        font-size: 23px;
+    }
+    .prices-ProductDetails{
+        font-size: 20px;
+    }
+
+    .paymentMethods-img {
+        gap: 0.5rem;
+    }
+    .visaCard, .mastercardCard{
+        width: 4.5rem;
+        height: 2.5rem;
+        padding: 0rem;
+    }
+    .bancolombiaCard {
+        width: 70px;
+        height: 40px;
+    }
+    .contentProductDetails2 {
+        gap: 4rem;
+        padding: 2rem;
+        display: flex;
+        margin: 4rem 3rem 0;
+    }
+}
+
+/* Surface Pro 7 912px */
+@media screen and (min-width: 912px) and (max-width: 943px){
+    .contentProductDetails{
+        padding: 3rem;
+    }
+
+    .img-ProductDetails {
+        gap: 4rem;
+        flex-direction: column;
+    }
+
+    .additional-img {
+        height: 7rem;
+        padding: 1rem;
+        flex-direction: row;
+        backdrop-filter: blur(2rem);
+    }
+    .additional-img img {
+        width: 80px;
+        height: 80px;
+    }
+
+    .main-img {
+        margin: auto;
+        width: 300px;
+        height: 300px;
+        padding: 0rem;
+        margin-top: -2rem;
+    }
+
+    .info-ProductDetails{
+        width: 25rem;
+    }
+    .name-ProductDetails{
+        font-size: 25px;
+    }
+    .prices-ProductDetails{
+        font-size: 23px;
+    }
+
+    .paymentMethods-img {
+        gap: 0.5rem;
+    }
+    .visaCard, .mastercardCard{
+        width: 4.5rem;
+        height: 2.5rem;
+        padding: 0rem;
+    }
+    .bancolombiaCard {
+        width: 70px;
+        height: 40px;
+    }
+    .contentProductDetails2 {
+        gap: 4rem;
+        padding: 2rem;
+        display: flex;
+        margin: 4rem 3rem 0;
+    }
+}
+
+/* Tableta 4 944px */
+@media screen and (min-width: 944px) and (max-width: 959px){
+    .contentProductDetails{
+        padding: 3rem;
+    }
+
+    .img-ProductDetails {
+        gap: 4rem;
+        flex-direction: column;
+    }
+
+    .additional-img {
+        height: 7rem;
+        padding: 1rem;
+        flex-direction: row;
+        backdrop-filter: blur(2rem);
+    }
+    .additional-img img {
+        width: 80px;
+        height: 80px;
+    }
+
+    .main-img {
+        margin: auto;
+        width: 300px;
+        height: 300px;
+        padding: 0rem;
+        margin-top: -2rem;
+    }
+
+    .info-ProductDetails{
+        width: 25rem;
+    }
+    .name-ProductDetails{
+        font-size: 25px;
+    }
+    .prices-ProductDetails{
+        font-size: 23px;
+    }
+
+    .paymentMethods-img {
+        gap: 0.5rem;
+    }
+    .visaCard, .mastercardCard{
+        width: 4.5rem;
+        height: 2.5rem;
+        padding: 0rem;
+    }
+    .bancolombiaCard {
+        width: 70px;
+        height: 40px;
+    }
+    .contentProductDetails2 {
+        gap: 4rem;
+        padding: 2rem;
+        display: flex;
+        margin: 4rem 3rem 0;
+    }
+}
+
+/* Portatil 2 960px */
+@media screen and (min-width: 960px) and (max-width: 999px){
+    .contentProductDetails{
+        padding: 4rem;
+    }
+
+    .img-ProductDetails {
+        gap: 4rem;
+        flex-direction: column;
+    }
+
+    .additional-img {
+        height: 7rem;
+        padding: 1rem;
+        flex-direction: row;
+        backdrop-filter: blur(2rem);
+    }
+    .additional-img img {
+        width: 80px;
+        height: 80px;
+    }
+
+    .main-img {
+        margin: auto;
+        width: 300px;
+        height: 300px;
+        padding: 0rem;
+        margin-top: -2rem;
+    }
+
+    .info-ProductDetails{
+        width: 28rem;
+    }
+    .name-ProductDetails{
+        font-size: 30px;
+    }
+    .prices-ProductDetails{
+        font-size: 25px;
+    }
+
+    .paymentMethods-img {
+        gap: 0.5rem;
+    }
+    .visaCard, .mastercardCard{
+        width: 4.5rem;
+        height: 2.5rem;
+        padding: 0rem;
+    }
+    .bancolombiaCard {
+        width: 70px;
+        height: 40px;
+    }
+    .contentProductDetails2 {
+        gap: 4rem;
+        padding: 2rem;
+        display: flex;
+        margin: 4rem 3rem 0;
+    }
+}
+
+/* Tablet 4-computador de mesa 1/2-iPad Pro-Nest Hub 1024px */
+@media screen and (min-width: 1000px) and (max-width: 1050px){
+    .contentProductDetails{
+        padding: 4rem;
+    }
+
+    .img-ProductDetails {
+        gap: 4rem;
+        flex-direction: column;
+    }
+
+    .additional-img {
+        width: 25rem;
+        height: 8.5rem;
+        padding: 1rem;
+        flex-direction: row;
+        backdrop-filter: blur(1rem);
+    }
+    .additional-img img {
+        width: 100px;
+        height: 100px;
+    }
+
+    .main-img {
+        margin: auto;
+        width: 300px;
+        height: 300px;
+        padding: 0rem;
+        margin-top: -2rem;
+    }
+
+    .info-ProductDetails{
+        width: 28rem;
+    }
+    .name-ProductDetails{
+        font-size: 30px;
+    }
+    .prices-ProductDetails{
+        font-size: 25px;
+    }
+
+    .paymentMethods-img {
+        gap: 0.5rem;
+    }
+    .visaCard, .mastercardCard{
+        width: 4.5rem;
+        height: 2.5rem;
+        padding: 0rem;
+    }
+    .bancolombiaCard {
+        width: 70px;
+        height: 40px;
+    }
+    .contentProductDetails2 {
+        gap: 4rem;
+        padding: 2rem;
+        display: flex;
+        margin: 4rem 3rem 0;
+    }
+}
+
+/* Tableta 5 1058px */
+@media screen and (min-width: 1051px) and (max-width: 1079px){
+    .contentProductDetails{
+        padding: 4rem;
+    }
+
+    .img-ProductDetails {
+        gap: 4rem;
+        flex-direction: column;
+    }
+
+    .additional-img {
+        width: 25rem;
+        height: 8.5rem;
+        padding: 1rem;
+        flex-direction: row;
+        backdrop-filter: blur(1rem);
+    }
+    .additional-img img {
+        width: 100px;
+        height: 100px;
+    }
+
+    .main-img {
+        margin: auto;
+        width: 390px;
+        height: 390px;
+        padding: 0rem;
+        margin-top: -2rem;
+    }
+
+    .info-ProductDetails{
+        width: 28rem;
+    }
+    .name-ProductDetails{
+        font-size: 30px;
+    }
+    .prices-ProductDetails{
+        font-size: 25px;
+    }
+
+    .paymentMethods-img {
+        gap: 0.5rem;
+    }
+    .visaCard, .mastercardCard{
+        width: 4.5rem;
+        height: 2.5rem;
+        padding: 0rem;
+    }
+    .bancolombiaCard {
+        width: 70px;
+        height: 40px;
+    }
+    .contentProductDetails2 {
+        gap: 4rem;
+        padding: 2rem;
+        display: flex;
+        margin: 4rem 3rem 0;
+    }
+}
+
+/* Tablet 5 1080px */
+@media screen and (min-width: 1080px) and (max-width: 1130px){
+    .contentProductDetails{
+        padding: 4rem;
+    }
+
+    .img-ProductDetails {
+        gap: 4rem;
+        flex-direction: column;
+    }
+
+    .additional-img {
+        width: 25rem;
+        height: 8.5rem;
+        padding: 1rem;
+        flex-direction: row;
+        backdrop-filter: blur(1rem);
+    }
+    .additional-img img {
+        width: 100px;
+        height: 100px;
+    }
+
+    .main-img {
+        margin: auto;
+        width: 390px;
+        height: 390px;
+        padding: 0rem;
+        margin-top: -2rem;
+    }
+
+    .info-ProductDetails{
+        width: 28rem;
+    }
+    .name-ProductDetails{
+        font-size: 30px;
+    }
+    .prices-ProductDetails{
+        font-size: 25px;
+    }
+
+    .contentProductDetails2 {
+        gap: 4rem;
+        padding: 2rem;
+        display: flex;
+        margin: 4rem 3rem 0;
+    }
+}
+
+/* Tableta 6 1171px*/
+@media screen and (min-width: 1131px) and (max-width: 1180px){
+    .contentProductDetails{
+        padding: 4rem;
+    }
+
+    .img-ProductDetails {
+        gap: 4rem;
+        flex-direction: column;
+    }
+
+    .additional-img {
+        width: 25rem;
+        height: 8.5rem;
+        padding: 1rem;
+        flex-direction: row;
+        backdrop-filter: blur(1rem);
+    }
+    .additional-img img {
+        width: 100px;
+        height: 100px;
+    }
+
+    .main-img {
+        margin: auto;
+        width: 390px;
+        height: 390px;
+        padding: 0rem;
+        margin-top: -2rem;
+    }
+
+    .info-ProductDetails{
+        width: 28rem;
+    }
+    .name-ProductDetails{
+        font-size: 30px;
+    }
+    .prices-ProductDetails{
+        font-size: 25px;
+    }
+
+    .contentProductDetails2 {
+        gap: 4rem;
+        padding: 2rem;
+        display: flex;
+        margin: 4rem 5rem 0;
+    }
+}
+
+/* Tablet 6 1200px */
+@media screen and (min-width: 1181px) and (max-width: 1200px){
+    .contentProductDetails{
+        padding: 4rem;
+    }
+
+    .img-ProductDetails {
+        gap: 4rem;
+        flex-direction: column;
+    }
+
+    .additional-img {
+        width: 25rem;
+        height: 8.5rem;
+        padding: 1rem;
+        flex-direction: row;
+        backdrop-filter: blur(1rem);
+    }
+    .additional-img img {
+        width: 100px;
+        height: 100px;
+    }
+
+    .main-img {
+        margin: auto;
+        width: 390px;
+        height: 390px;
+        padding: 0rem;
+        margin-top: -2rem;
+    }
+
+    .info-ProductDetails{
+        width: 28rem;
+    }
+    .name-ProductDetails{
+        font-size: 30px;
+    }
+    .prices-ProductDetails{
+        font-size: 25px;
+    }
+
+    .contentProductDetails2 {
+        gap: 4rem;
+        padding: 2rem;
+        display: flex;
+        margin: 4rem 5rem 0;
+    }
+}
+
+/* Tablet 7-computador de mesa 3/4-Nast Hub Max 1280px */
+@media screen and (min-width: 1201px) and (max-width: 1284px){
+    .contentProductDetails{
+        padding: 3rem;
+    }
+
+    .img-ProductDetails {
+        gap: 4rem;
+    }
+
+    .additional-img {
+        padding: 1rem;
+        backdrop-filter: blur(1rem);
+    }
+    .additional-img img {
+        width: 100px;
+        height: 100px;
+    }
+
+    .main-img {
+        width: 390px;
+        height: 390px;
+        padding: 0rem;
+    }
+
+    .info-ProductDetails{
+        width: 28rem;
+    }
+    .name-ProductDetails{
+        font-size: 30px;
+    }
+    .prices-ProductDetails{
+        font-size: 25px;
+    }
+
+    .contentProductDetails2 {
+        gap: 4rem;
+        padding: 2rem;
+        display: flex;
+        margin: 4rem 5rem 0;
+    }
+}
+
+/* Tableta 7 1285px */
+@media screen and (min-width: 1285px) and (max-width: 1335px){
+    .contentProductDetails{
+        padding: 3rem;
+    }
+
+    .img-ProductDetails {
+        gap: 4rem;
+    }
+
+    .additional-img {
+        padding: 1rem;
+        backdrop-filter: blur(1rem);
+    }
+    .additional-img img {
+        width: 100px;
+        height: 100px;
+    }
+
+    .main-img {
+        width: 390px;
+        height: 390px;
+        padding: 0rem;
+    }
+
+    .info-ProductDetails{
+        width: 28rem;
+    }
+    .name-ProductDetails{
+        font-size: 30px;
+    }
+    .prices-ProductDetails{
+        font-size: 25px;
+    }
+
+    .contentProductDetails2 {
+        gap: 4rem;
+        padding: 2rem;
+        display: flex;
+        margin: 4rem 5rem 0;
+    }
+}
+
+/* 1336px - 1376px*/
+@media screen and (min-width: 1336px) and (max-width: 1376px){
+    .contentProductDetails{
+        padding: 3rem;
+    }
+
+    .img-ProductDetails {
+        gap: 4rem;
+    }
+
+    .additional-img {
+        padding: 1rem;
+        backdrop-filter: blur(1rem);
+    }
+    .additional-img img {
+        width: 100px;
+        height: 100px;
+    }
+
+    .main-img {
+        width: 390px;
+        height: 390px;
+        padding: 0rem;
+    }
+
+    .info-ProductDetails{
+        width: 28rem;
+    }
+    .name-ProductDetails{
+        font-size: 30px;
+    }
+    .prices-ProductDetails{
+        font-size: 25px;
+    }
+
+    .contentProductDetails2 {
+        gap: 4rem;
+        padding: 2rem;
+        display: flex;
+        margin: 4rem 5rem 0;
+    }
+}
+
+/* Computador de mesa 5 1400px */
+@media screen and (min-width: 1377px) and (max-width: 1420px){
+    .contentProductDetails{
+        padding: 4rem;
+    }
+
+    .img-ProductDetails {
+        gap: 4rem;
+    }
+
+    .additional-img {
+        padding: 1rem;
+        backdrop-filter: blur(1rem);
+    }
+    .additional-img img {
+        width: 105px;
+        height: 105px;
+    }
+
+    .main-img {
+        width: 400px;
+        height: 400px;
+        padding: 0rem;
+    }
+
+    .info-ProductDetails{
+        width: 30rem;
+    }
+    .name-ProductDetails{
+        font-size: 33px;
+    }
+    .prices-ProductDetails{
+        font-size: 28px;
+    }
+
+    .contentProductDetails2 {
+        gap: 4rem;
+        padding: 2rem;
+        display: flex;
+        margin: 4rem 5rem 0;
+    }
+}
+
+/* 1421px - 1499px */
+@media screen and (min-width: 1421px) and (max-width: 1499px){
+    .contentProductDetails{
+        padding: 4rem;
+    }
+
+    .img-ProductDetails {
+        gap: 4rem;
+    }
+
+    .additional-img {
+        padding: 1rem;
+        backdrop-filter: blur(1rem);
+    }
+    .additional-img img {
+        width: 105px;
+        height: 105px;
+    }
+
+    .main-img {
+        width: 400px;
+        height: 400px;
+        padding: 0rem;
+    }
+
+    .info-ProductDetails{
+        width: 30rem;
+    }
+    .name-ProductDetails{
+        font-size: 35px;
+    }
+    .prices-ProductDetails{
+        font-size: 30px;
+    }
+
+    .contentProductDetails2 {
+        gap: 4rem;
+        padding: 2rem;
+        display: flex;
+        margin: 4rem 7rem 0;
+    }
+}
+
+/* Tablet 8 1536px */
+@media screen and (min-width: 1500px) and (max-width: 1599px){
+    .contentProductDetails{
+        padding: 4rem;
+    }
+
+    .img-ProductDetails {
+        gap: 4rem;
+    }
+
+    .additional-img {
+        padding: 1rem;
+        backdrop-filter: blur(1rem);
+    }
+    .additional-img img {
+        width: 105px;
+        height: 105px;
+    }
+
+    .main-img {
+        width: 400px;
+        height: 400px;
+        padding: 0rem;
+    }
+
+    .info-ProductDetails{
+        width: 30rem;
+    }
+    .name-ProductDetails{
+        font-size: 35px;
+    }
+    .prices-ProductDetails{
+        font-size: 30px;
+    }
+
+    .contentProductDetails2 {
+        gap: 4rem;
+        padding: 2rem;
+        display: flex;
+        margin: 4rem 7rem 0;
+    }
+}
+
+/* Computador de mesa 6  1600px */
+@media screen and (min-width: 1600px) and (max-width: 1699px){
+    .img-ProductDetails {
+        gap: 4rem;
+    }
+
+    .additional-img {
+        padding: 1rem;
+        backdrop-filter: blur(1rem);
+    }
+    .additional-img img {
+        width: 105px;
+        height: 105px;
+    }
+
+    .main-img {
+        width: 400px;
+        height: 400px;
+        padding: 0rem;
+    }
+
+    .info-ProductDetails{
+        width: 30rem;
+    }
+    .name-ProductDetails{
+        font-size: 35px;
+    }
+    .prices-ProductDetails{
+        font-size: 30px;
+    }
+
+    .contentProductDetails2 {
+        gap: 4rem;
+        padding: 2rem;
+        display: flex;
+        margin: 4rem 7rem 0;
+    }
+}
+
+/* 1700px - 1799px */
+@media screen and (min-width: 1700px) and (max-width: 1799px){
+    .img-ProductDetails {
+        gap: 4rem;
+    }
+
+    .additional-img {
+        padding: 1rem;
+        backdrop-filter: blur(1rem);
+    }
+    .additional-img img {
+        width: 105px;
+        height: 105px;
+    }
+
+    .main-img {
+        width: 400px;
+        height: 400px;
+        padding: 0rem;
+    }
+
+    .info-ProductDetails{
+        width: 30rem;
+    }
+    .name-ProductDetails{
+        font-size: 35px;
+    }
+    .prices-ProductDetails{
+        font-size: 30px;
+    }
+
+    .contentProductDetails2 {
+        gap: 4rem;
+        padding: 2rem;
+        display: flex;
+        margin: 4rem 7rem 0;
+    }
+}
+
+/* 1800px - 1919px */
+@media screen and (min-width: 1800px) and (max-width: 1919px){
+    .img-ProductDetails {
+        gap: 4rem;
+    }
+
+    .additional-img {
+        padding: 1rem;
+        backdrop-filter: blur(1rem);
+    }
+    .additional-img img {
+        width: 105px;
+        height: 105px;
+    }
+
+    .info-ProductDetails{
+        width: 40rem;
+    }
+    .name-ProductDetails{
+        font-size: 38px;
+    }
+    .prices-ProductDetails{
+        font-size: 32px;
+    }
+
+    .contentProductDetails2 {
+        gap: 4rem;
+        padding: 2rem;
+        display: flex;
+        margin: 4rem 7rem 0;
+    }
+}
+
+/* Computador de mesa 7 1920px */
+@media screen and (min-width: 1920px) and (max-width: 1949px){
+    .contentProductDetails {
+        padding: 5rem;
+    }
+    
+    .img-ProductDetails {
+        gap: 7rem;
+    }
+    .additional-img {
+        height: 28rem;
+        padding: 2rem;
+        backdrop-filter: blur(8rem);
+    }
+    .additional-img img {
+        width: 120px;
+        height: 120px;
+    }
+    .main-img {
+        width: 500px;
+        height: 500px;
+        padding: 2rem;
+    }
+    
+    .info-ProductDetails {
+        width: 50rem;
+    }
+    
+    .name-ProductDetails {
+        font-size: 40px;
+    }
+    
+    .prices-ProductDetails{
+        gap: 1rem;
+        margin: 1rem;
+        font-size: 35px;
+    }
+    
+    .paymentMethods h1{
+        font-size: 18px;
+        margin-top: 1.5rem;
+    }
+    .paymentMethods-img {
+        gap: 1rem;
+        margin-top: 1rem;
+    }
+    .visaCard, .mastercardCard {
+        width: 5rem;
+        height: 3rem;
+        padding: 0.5rem;
+        border-radius: 5px;
+    }
+    .bancolombiaCard {
+        width: 80px;
+        height: 45px;
+    }
+    
+    .cant{
+        margin-top: 3rem;
+    }
+    .cant input{
+        width: 2.5rem;
+        margin-top: 0.8rem;
+    }
+    
+    .addToCart button{
+        width: 13rem;
+        height: 3.5rem;
+        margin-top: 3rem;
+    }
+    
+    .contentProductDetails2{
+        gap: 2rem;
+        padding: 4rem;
+        margin: 5rem 12rem 0;
+    }
+    .contentProductDetails2 h1{
+        font-size: 20px;
+        margin-bottom: 0.5rem;
+    }
+    .contentProductDetails2 p{
+        font-size: 18px;
+    }
+}
+
+/* Tablet 9 2048px */
+@media screen and (min-width: 1950px) and (max-width: 2050px){
+    .additional-img {
+        height: 32rem;
+    }
+    .additional-img img {
+        width: 140px;
+        height: 140px;
+    }
+    .main-img {
+        width: 520px;
+        height: 520px;
+    }
+    
+    .name-ProductDetails {
+        font-size: 46px;
+    }
+    
+    .prices-ProductDetails{
+        gap: 1.5rem;
+        margin: 1.5rem 0;
+        font-size: 38px;
+    }
+    
+    .paymentMethods h1{
+        font-size: 22px;
+    }
+    
+    .addToCart button{
+        width: 14rem;
+        height: 3.8rem;    
+    }
+    
+    .contentProductDetails2{
+        gap: 3rem;
+        margin: 5rem 14rem 0;
+    }
+    .contentProductDetails2 h1{
+        font-size: 24px;
+    }
+    .contentProductDetails2 p{
+        font-size: 22px;
+    }
+}
+
+/* 2051px - 2159px */
+@media screen and (min-width: 2051px) and (max-width: 2159px){
+    .additional-img {
+        height: 37rem;
+    }
+    .additional-img img {
+        width: 170px;
+        height: 170px;
+    }
+    .main-img {
+        width: 520px;
+        height: 520px;
+        padding: 0;
+    }
+    
+    .name-ProductDetails {
+        font-size: 46px;
+    }
+    
+    .prices-ProductDetails{
+        gap: 1.5rem;
+        margin: 1.5rem 0;
+        font-size: 38px;
+    }
+    
+    .paymentMethods h1{
+        font-size: 25px;
+    }
+    .visaCard, .bancolombiaCard, .mastercardCard {
+        width: 6rem;
+        height: 4rem;
+    }
+    
+    .addToCart button{
+        width: 14rem;
+        height: 3.8rem;    
+    }
+    
+    .contentProductDetails2{
+        gap: 3rem;
+        margin: 5rem 14rem 0;
+    }
+    .contentProductDetails2 h1{
+        font-size: 24px;
+    }
+    .contentProductDetails2 p{
+        font-size: 22px;
+    }
+}
