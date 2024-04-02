@@ -3,6 +3,20 @@
     height: 100vh;
     padding: 0.5rem 1rem;
 }
+.contentSidebar.sidebarOpen{
+    width: 23rem;
+    transition: width 0.2s ease-in-out;
+
+}
+.contentSidebar.sidebarClosed{
+    width: 8rem;
+    transition: width 0.2s ease-in-out;
+
+}
+.contentSidebar.sidebarClosed .alignRight, 
+.contentSidebar.sidebarClosed .itemsSidebar p{
+    display: none;
+}
 .tittleSidebar{
     margin: 0.5rem 0;
     margin-bottom: 1rem;
@@ -12,6 +26,16 @@
     font-weight: 700;
     text-transform: uppercase;
     font-family: "Racing", sans-serif;
+}
+.iconMenuClosed{
+    margin-left: 1rem;
+}
+.iconMenuOpen, .iconMenuClosed{
+    font-size: 30px;
+    color: #7C7C7C;
+}
+.iconMenuOpen:hover, .iconMenuClosed:hover{
+    color: #20A980;
 }
 .itemsSidebar{
     margin-top: 12px;

@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import '../styles/Sidebar.css';
 import * as BiIcons from 'react-icons/bi';
 import * as RiIcons from 'react-icons/ri';
@@ -7,61 +7,69 @@ import * as FaIcons from 'react-icons/fa';
 import * as Fa6Icons from 'react-icons/fa6';
 
 const Sidebar = () => {
-  return (
-    <div className='contentSidebar'>
-        <div className="tittleSidebar">
-            <h1>Navegación</h1>
+    const [isOpen, setIsOpen] = useState(true);
+
+    const toggleSidebar = () => {
+        setIsOpen(!isOpen);
+    };
+    return (
+        <div className={`contentSidebar ${isOpen ? 'sidebarOpen' : 'sidebarClosed'}`}>
+            <div className="tittleSidebar flex justify-between">
+                {isOpen && <h1>Navegación</h1>}
+                <button onClick={toggleSidebar}>
+                    {isOpen ? <BiIcons.BiMenuAltRight className='iconMenuOpen' /> : <BiIcons.BiMenu className='iconMenuClosed' />}
+                </button>
+            </div>
+
+            <ul className='itemsSidebar'>
+                <li>
+                    <a href="/">
+                        <Fa6Icons.FaHouseChimney className='iconSidebar' />
+                        <p>Inicio</p>
+                        <span className='alignRight'>
+                            <BiIcons.BiPlusMedical className='text-base' />
+                        </span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <FaIcons.FaShoppingBag className='iconSidebar' />
+                        <p>Productos</p>
+                        <span className='alignRight'>
+                            <BiIcons.BiPlusMedical className='text-base' />
+                        </span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <PiIcons.PiPhoneCallFill className='iconSidebar' />
+                        <p>Contacto</p>
+                        <span className='alignRight'>
+                            <BiIcons.BiPlusMedical className='text-base' />
+                        </span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <RiIcons.RiFileList3Fill className='iconSidebar' />
+                        <p>Políticas</p>
+                        <span className='alignRight'>
+                            <BiIcons.BiPlusMedical className='text-base' />
+                        </span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <FaIcons.FaClipboardList className='iconSidebar' />
+                        <p>Encuesta satisfacción</p>
+                        <span className='alignRight'>
+                            <BiIcons.BiPlusMedical className='text-base' />
+                        </span>
+                    </a>
+                </li>
+            </ul>
         </div>
+    );
+};
 
-        <ul className='itemsSidebar'>
-            <li>
-                <a href="/">
-                    <Fa6Icons.FaHouseChimney className='iconSidebar' />
-                    Inicio
-                    <span className='alignRight'>
-                        <BiIcons.BiPlusMedical className='text-base' />
-                    </span>
-                </a>
-            </li>
-            <li>
-                <a href="#">
-                    <FaIcons.FaShoppingBag  className='iconSidebar' />
-                    Productos
-                    <span className='alignRight'>
-                        <BiIcons.BiPlusMedical className='text-base' />
-                    </span>
-                </a>
-            </li>
-            <li>
-                <a href="#">
-                    <PiIcons.PiPhoneCallFill className='iconSidebar' />
-                    Contacto
-                    <span className='alignRight'>
-                        <BiIcons.BiPlusMedical className='text-base' />
-                    </span>
-                </a>
-            </li>
-            <li>
-                <a href="#">
-                    <RiIcons.RiFileList3Fill className='iconSidebar' />
-                    Políticas
-                    <span className='alignRight'>
-                        <BiIcons.BiPlusMedical className='text-base' />
-                    </span>
-                </a>
-            </li>
-            <li>
-                <a href="#">
-                    <FaIcons.FaClipboardList  className='iconSidebar' />
-                    Encuesta satisfacción
-                    <span className='alignRight'>
-                        <BiIcons.BiPlusMedical className='text-base' />
-                    </span>
-                </a>
-            </li>
-        </ul>
-    </div>
-  )
-}
-
-export default Sidebar
+export default Sidebar;
