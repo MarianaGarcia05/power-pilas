@@ -115,7 +115,7 @@ const Products = () => {
         <div className='contentProducts'>
             <div className='products'>
                 {data.map((product) => (
-                    <button key={product.id} className='btnProducts flex' onClick={() => handleProductClick(product)}>
+                    <button key={product.id} className='btnProducts flex items-center' onClick={() => handleProductClick(product)}>
                         <div className='bgImg-Products'>
                             <img className='imgProducts' src={product.img} alt="" />
                         </div>
@@ -123,7 +123,7 @@ const Products = () => {
                         <div className='column'>
                             <p className='nameProducts'>{product.name}</p>
                             <p className='descriptionProducts'>{product.description}</p>
-                            <p className='priceProducts'>{product.price}</p>
+                            {/* <p className='priceProducts'>{product.price}</p> */}
                         </div>
                     </button>
                 ))}

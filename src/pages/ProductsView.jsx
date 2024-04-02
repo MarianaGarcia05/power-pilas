@@ -3,10 +3,12 @@ import '../styles/ProductsView.css'
 import Sidebar from '../components/Sidebar';
 import Products from '../components/Products';
 import Footer from '../components/Footer';
+import Navbar from '../components/Navbar';
 
 const ProductsView = () => {
     return (
         <>
+            <Navbar />
             <div className='contentProductsView'>
                 <div className='side'>
                     <Sidebar />

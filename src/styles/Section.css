@@ -1,0 +1,18 @@
+.contenSection{
+    display: flex;
+    align-items: center;
+    padding: 4rem 20rem;
+    margin-bottom: 8rem;
+    background-color: #EEF8F5;
+    justify-content: space-between;
+}
+.circle{
+    width: 7rem;
+    height: 7rem;
+    display: flex;
+    align-items: center;
+    border-radius: 100px;
+    justify-content: center;
+    background-color: #fff;
+    box-shadow: 0 0 20px rgba(65, 64, 64, 0.5);
+}
