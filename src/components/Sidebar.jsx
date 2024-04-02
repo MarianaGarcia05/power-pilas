@@ -7,18 +7,10 @@ import * as FaIcons from 'react-icons/fa';
 import * as Fa6Icons from 'react-icons/fa6';
 
 const Sidebar = () => {
-    const [isOpen, setIsOpen] = useState(true);
-
-    const toggleSidebar = () => {
-        setIsOpen(!isOpen);
-    };
     return (
-        <div className={`contentSidebar ${isOpen ? 'sidebarOpen' : 'sidebarClosed'}`}>
+        <div className="contentSidebar">
             <div className="tittleSidebar flex justify-between">
-                {isOpen && <h1>Navegación</h1>}
-                <button onClick={toggleSidebar}>
-                    {isOpen ? <BiIcons.BiMenuAltRight className='iconMenuOpen' /> : <BiIcons.BiMenu className='iconMenuClosed' />}
-                </button>
+                <h1>Navegación</h1>
             </div>
 
             <ul className='itemsSidebar'>

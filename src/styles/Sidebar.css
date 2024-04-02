@@ -3,20 +3,6 @@
     height: 100vh;
     padding: 0.5rem 1rem;
 }
-.contentSidebar.sidebarOpen{
-    width: 23rem;
-    transition: width 0.2s ease-in-out;
-
-}
-.contentSidebar.sidebarClosed{
-    width: 8rem;
-    transition: width 0.2s ease-in-out;
-
-}
-.contentSidebar.sidebarClosed .alignRight, 
-.contentSidebar.sidebarClosed .itemsSidebar p{
-    display: none;
-}
 .tittleSidebar{
     margin: 0.5rem 0;
     margin-bottom: 1rem;
@@ -26,16 +12,6 @@
     font-weight: 700;
     text-transform: uppercase;
     font-family: "Racing", sans-serif;
-}
-.iconMenuClosed{
-    margin-left: 1rem;
-}
-.iconMenuOpen, .iconMenuClosed{
-    font-size: 30px;
-    color: #7C7C7C;
-}
-.iconMenuOpen:hover, .iconMenuClosed:hover{
-    color: #20A980;
 }
 .itemsSidebar{
     margin-top: 12px;
@@ -68,4 +44,418 @@
 }
 .alignRight {
     margin-left: auto;
+}
+
+/* Responsive */
+/* Tablet 1 600px */
+@media screen and (min-width: 600px) and (max-width: 639px){
+    .contentSidebar{
+        width: 33rem;
+    }
+}
+
+/* Portatil 1 640px */
+@media screen and (min-width: 640px) and (max-width: 679px){
+    .contentSidebar{
+        width: 33rem;
+    }
+}
+
+/* Tableta 1 680px */
+@media screen and (min-width: 680px) and (max-width: 700px){
+    .contentSidebar{
+        width: 33rem;
+    }
+}
+
+@media screen and (min-width: 701px) and (max-width: 755px){
+    .contentSidebar{
+        width: 33rem;
+    }
+}
+
+/* Tableta 2 756px */
+@media screen and (min-width: 756px) and (max-width: 767px){
+    .contentSidebar{
+        width: 33rem;
+    }
+}
+
+/* Tablet 2-Ipad Mini 768px */
+@media screen and (min-width: 768px) and (max-width: 799px){
+    .contentSidebar{
+        width: 33rem;
+    }
+}
+
+/* Tablet 3 800px */
+@media screen and (min-width: 800px) and (max-width: 819px){
+    .contentSidebar{
+        width: 33rem;
+    }
+}
+
+/* ipad Air 820px */
+@media screen and (min-width: 820px) and (max-width: 868px){
+    .contentSidebar{
+        width: 37rem;
+    }
+}
+
+/* Tableta 3 869px */
+@media screen and (min-width: 869px) and (max-width: 911px){
+    .contentSidebar{
+        width: 18rem;
+    }
+}
+
+/* Surface Pro 7 912px */
+@media screen and (min-width: 912px) and (max-width: 943px){
+    .contentSidebar{
+        width: 18rem;
+    }
+    .tittleSidebar h1 {
+        font-size: 22px;
+    }
+    .itemsSidebar a {
+        font-size: 17px;
+        padding: 0 24px;
+    }
+}
+
+/* Tableta 4 944px */
+@media screen and (min-width: 944px) and (max-width: 959px){
+    .contentSidebar{
+        width: 18rem;
+    }
+    .tittleSidebar h1 {
+        font-size: 22px;
+    }
+    .itemsSidebar a {
+        font-size: 17px;
+        padding: 0 24px;
+    }
+}
+
+/* Portatil 2 960px */
+@media screen and (min-width: 960px) and (max-width: 999px){
+    .contentSidebar{
+        width: 18rem;
+    }
+    .tittleSidebar h1 {
+        font-size: 22px;
+    }
+    .itemsSidebar a {
+        font-size: 17px;
+        padding: 0 24px;
+    }
+}
+
+/* Tablet 4-computador de mesa 1/2- iPad Pro-Nest Hub 1024px */
+@media screen and (min-width: 1000px) and (max-width: 1050px){
+    .contentSidebar {
+        width: 22rem;
+        padding: 4.5rem 2rem;
+    }
+    .tittleSidebar h1 {
+        font-size: 24px;
+    }
+    
+    .itemsSidebar a {
+        padding: 0px 25px;
+        font-size: 18px;
+    }
+}
+
+/* Tableta 5 1058px - Tablet 5 1080px */
+@media screen and (min-width: 1051px) and (max-width: 1130px){
+    .contentSidebar {
+        width: 22rem;
+        padding: 4.5rem 2rem;
+    }
+    .tittleSidebar h1 {
+        font-size: 24px;
+    }
+    
+    .itemsSidebar a {
+        padding: 0px 25px;
+        font-size: 18px;
+    }
+}
+
+/* Tableta 6 1171px*/
+@media screen and (min-width: 1131px) and (max-width: 1180px){
+    .contentSidebar {
+        width: 22rem;
+        padding: 4.5rem 2rem;
+    }
+    .tittleSidebar h1 {
+        font-size: 24px;
+    }
+    
+    .itemsSidebar a {
+        padding: 0px 25px;
+        font-size: 18px;
+    }
+}
+
+/* Tablet 6 1200px */
+@media screen and (min-width: 1181px) and (max-width: 1200px){
+    .contentSidebar {
+        width: 22rem;
+        padding: 4.5rem 2rem;
+    }
+    .tittleSidebar h1 {
+        font-size: 24px;
+    }
+    
+    .itemsSidebar a {
+        padding: 0px 25px;
+        font-size: 18px;
+    }
+}
+
+/* Tableta 7 1285px */
+@media screen and (min-width: 1285px) and (max-width: 1335px){
+    .contentSidebar {
+        width: 22rem;
+        padding: 4.5rem 2rem;
+    }
+    .tittleSidebar h1 {
+        font-size: 24px;
+    }
+    
+    .itemsSidebar a {
+        padding: 0px 25px;
+        font-size: 18px;
+    }
+}
+
+/* 1336px - 1376px*/
+@media screen and (min-width: 1336px) and (max-width: 1376px){
+    .contentSidebar {
+        width: 22rem;
+        padding: 4.5rem 2rem;
+    }
+    .tittleSidebar h1 {
+        font-size: 24px;
+    }
+    
+    .itemsSidebar a {
+        padding: 0px 25px;
+        font-size: 18px;
+    }
+}
+
+/* Computador de mesa 5 1400px */
+@media screen and (min-width: 1377px) and (max-width: 1420px){
+    .contentSidebar {
+        width: 22rem;
+        padding: 4.5rem 2rem;
+    }
+    .tittleSidebar h1 {
+        font-size: 24px;
+    }
+    
+    .itemsSidebar a {
+        padding: 0px 25px;
+        font-size: 18px;
+    }
+}
+
+/* 1421px - 1499px */
+@media screen and (min-width: 1421px) and (max-width: 1499px){
+    .tittleSidebar h1 {
+        font-size: 24px;
+    }
+    .itemsSidebar a {
+        font-size: 18px;
+    }
+}
+
+/* Tablet 8 1536px */
+@media screen and (min-width: 1500px) and (max-width: 1599px){
+    .tittleSidebar h1 {
+        font-size: 24px;
+    }
+    .itemsSidebar a {
+        font-size: 18px;
+    }
+}
+
+/* Computador de mesa 6  1600px */
+@media screen and (min-width: 1600px) and (max-width: 1699px){
+    .tittleSidebar h1 {
+        font-size: 24px;
+    }
+    .itemsSidebar a {
+        font-size: 18px;
+    }
+}
+
+/* 1700px - 1919px */
+@media screen and (min-width: 1700px) and (max-width: 1919px){
+    .contentSidebar {
+        width: 21rem;
+        height: 70vh;
+    }
+}
+
+/* Computador de mesa 7 1920px */
+@media screen and (min-width: 1920px) and (max-width: 1949px){
+    .contentSidebar{
+        width: 23rem;
+        height: 100vh;
+        padding: 0.5rem 1rem;
+    }
+    .tittleSidebar{
+        margin: 0.5rem 0;
+        margin-bottom: 1rem;
+    }
+    .tittleSidebar h1{
+        font-size: 28px;
+        font-weight: 700;
+    }
+    .itemsSidebar{
+        margin-top: 12px;
+    }
+    .itemsSidebar li{
+        padding: 8px;
+        margin-bottom: 8px;
+    }
+    .itemsSidebar a{
+        padding: 0 12px;
+        font-size: 20px;
+    }
+    .iconSidebar{
+        width: 22px;
+        height: 22px;
+        margin-right: 1.5rem;
+    }
+}
+
+/* Tablet 9 2048px */
+@media screen and (min-width: 1950px) and (max-width: 2050px){
+    .contentSidebar{
+        width: 25rem;
+        height: 63vh;
+    }
+    .tittleSidebar h1{
+        font-size: 30px;
+    }
+    .itemsSidebar{
+        margin-top: 13px;
+    }
+    .itemsSidebar a{
+        font-size: 23px;
+    }
+    .iconSidebar {
+        width: 30px;
+        height: 30px;
+    }
+}
+
+/* Tablet 10 2160px */
+@media screen and (min-width: 2160px) and (max-width: 2259px){
+    .contentSidebar{
+        width: 25rem;
+        height: 63vh;
+    }
+    .tittleSidebar h1{
+        font-size: 30px;
+    }
+    .itemsSidebar{
+        margin-top: 13px;
+    }
+    .itemsSidebar a{
+        font-size: 23px;
+    }
+    .iconSidebar {
+        width: 30px;
+        height: 30px;
+    }
+}
+
+/* 2260px - 2360px */
+@media screen and (min-width: 2260px) and (max-width: 2360px){
+    .contentSidebar{
+        width: 25rem;
+        height: 63vh;
+    }
+    .tittleSidebar h1{
+        font-size: 30px;
+    }
+    .itemsSidebar{
+        margin-top: 13px;
+    }
+    .itemsSidebar a{
+        font-size: 23px;
+    }
+    .iconSidebar {
+        width: 30px;
+        height: 30px;
+    }
+}
+
+/* 2361px - 2450px */
+@media screen and (min-width: 2361px) and (max-width: 2450px){
+    .contentSidebar{
+        width: 25rem;
+        height: 63vh;
+    }
+    .tittleSidebar h1{
+        font-size: 30px;
+    }
+    .itemsSidebar{
+        margin-top: 13px;
+    }
+    .itemsSidebar a{
+        font-size: 23px;
+    }
+    .iconSidebar {
+        width: 30px;
+        height: 30px;
+    }
+}
+
+/* 2451px - 2559px */
+@media screen and (min-width: 2451px) and (max-width: 2559px){
+    .contentSidebar{
+        width: 25rem;
+        height: 63vh;
+    }
+    .tittleSidebar h1{
+        font-size: 30px;
+    }
+    .itemsSidebar{
+        margin-top: 13px;
+    }
+    .itemsSidebar a{
+        font-size: 23px;
+    }
+    .iconSidebar {
+        width: 30px;
+        height: 30px;
+    }
+}
+
+/* Tablet 11 y 12 portatil 5 2560px */
+@media screen and (min-width: 2560px) and (max-width: 2600px){
+    .contentSidebar{
+        width: 33rem;
+        height: 63vh;
+    }
+    .tittleSidebar h1{
+        font-size: 35px;
+    }
+    .itemsSidebar{
+        margin-top: 25px;
+    }
+    .itemsSidebar a{
+        font-size: 25px;
+    }
+    .iconSidebar {
+        width: 40px;
+        height: 40px;
+    }
 }

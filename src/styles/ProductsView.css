@@ -11,6 +11,411 @@
     width: 6px;
     height: 71vh;
     margin-top: 1rem;
-    margin-left: 2rem;
+    margin-left: 1rem;
     background-color: #D9D9D9;
+}
+
+/* Responsive */
+/* Tablet 1 600px */
+@media screen and (min-width: 600px) and (max-width: 639px){
+    .contentProductsView {
+        padding: 3rem;
+        flex-direction: column;
+    }
+    .linea-vertical{
+        width: 40vh;
+        height: 6px;
+        margin-top: -28rem;
+        margin-left: 1rem;
+    }
+    .contentProducts{
+        margin-top: 5rem;
+        margin-left: -8rem;
+        margin-bottom: 4rem;
+    }
+}
+
+/* Portatil 1 640px */
+@media screen and (min-width: 640px) and (max-width: 679px){
+    .contentProductsView {
+        padding: 3rem;
+        flex-direction: column;
+    }
+    .linea-vertical{
+        width: 40vh;
+        height: 6px;
+        margin-top: -28rem;
+        margin-left: 1rem;
+    }
+    .contentProducts{
+        margin-top: 5rem;
+        margin-left: -8rem;
+        margin-bottom: 4rem;
+    }
+}
+
+/* Tableta 1 680px */
+@media screen and (min-width: 680px) and (max-width: 700px){
+    .contentProductsView {
+        padding: 3rem;
+        flex-direction: column;
+    }
+    .linea-vertical{
+        width: 40vh;
+        height: 6px;
+        margin-top: -28rem;
+        margin-left: 1rem;
+    }
+    .contentProducts{
+        margin-top: 5rem;
+        margin-left: -8rem;
+        margin-bottom: 4rem;
+    }
+}
+
+@media screen and (min-width: 701px) and (max-width: 755px){
+    .contentProductsView {
+        padding: 3rem 7rem;
+        flex-direction: column;
+    }
+    .linea-vertical{
+        width: 40vh;
+        height: 6px;
+        margin-top: -28rem;
+        margin-left: 1rem;
+    }
+    .contentProducts{
+        margin-top: 5rem;
+        margin-left: -8rem;
+        margin-bottom: 4rem;
+    }
+}
+
+/* Tableta 2 756px */
+@media screen and (min-width: 756px) and (max-width: 767px){
+    .contentProductsView {
+        padding: 3rem 7rem;
+        flex-direction: column;
+    }
+    .linea-vertical{
+        width: 40vh;
+        height: 6px;
+        margin-top: -28rem;
+        margin-left: 1rem;
+    }
+    .contentProducts{
+        margin-top: 5rem;
+        margin-left: -8rem;
+        margin-bottom: 4rem;
+    }
+}
+
+/* Tablet 2-Ipad Mini 768px */
+@media screen and (min-width: 768px) and (max-width: 799px){
+    .contentProductsView {
+        padding: 3rem 7rem;
+        flex-direction: column;
+    }
+    .linea-vertical{
+        width: 40vh;
+        height: 6px;
+        margin-top: -28rem;
+        margin-left: 1rem;
+    }
+    .contentProducts{
+        margin-top: 5rem;
+        margin-left: -8rem;
+        margin-bottom: 4rem;
+    }
+}
+
+/* Tablet 3 800px */
+@media screen and (min-width: 800px) and (max-width: 819px){
+    .contentProductsView {
+        padding: 3rem 7rem;
+        flex-direction: column;
+    }
+    .linea-vertical{
+        width: 40vh;
+        height: 6px;
+        margin-top: -28rem;
+        margin-left: 1rem;
+    }
+    .contentProducts{
+        margin-top: 5rem;
+        margin-left: -8rem;
+        margin-bottom: 4rem;
+    }
+}
+
+/* ipad Air 820px */
+@media screen and (min-width: 820px) and (max-width: 868px){
+    .contentProductsView {
+        padding: 3rem 7rem;
+        flex-direction: column;
+    }
+    .linea-vertical{
+        width: 40vh;
+        height: 6px;
+        margin-top: -28rem;
+        margin-left: 1rem;
+    }
+    .contentProducts{
+        margin-top: 5rem;
+        margin-left: -8rem;
+        margin-bottom: 4rem;
+    }
+}
+
+/* Tableta 3 869px */
+@media screen and (min-width: 869px) and (max-width: 911px){
+    .contentProductsView {
+        padding: 3rem 
+    }
+}
+
+/* Surface Pro 7 912px */
+@media screen and (min-width: 912px) and (max-width: 943px){
+    .contentProductsView {
+        padding: 3rem 
+    }
+    .linea-vertical {
+        height: 136vh;
+        margin-top: 3rem;
+        margin-left: -1rem;
+    } 
+}
+
+/* Tableta 4 944px */
+@media screen and (min-width: 944px) and (max-width: 959px){
+    .contentProductsView {
+        padding: 3rem 
+    }
+    .linea-vertical {
+        height: 136vh;
+        margin-top: 3rem;
+        margin-left: 0rem;
+    } 
+}
+
+/* Portatil 2 960px */
+@media screen and (min-width: 960px) and (max-width: 999px){
+    .contentProductsView {
+        padding: 3rem 
+    }
+    .linea-vertical {
+        height: 136vh;
+        margin-top: 3rem;
+        margin-left: 0rem;
+    } 
+}
+
+/* Tablet 4-computador de mesa 1/2-iPad Pro-Nest Hub 1024px */
+@media screen and (min-width: 1000px) and (max-width: 1050px){
+    .contentProductsView {
+        padding: 1rem 
+    }
+    .linea-vertical {
+        height: 136vh;
+        margin-top: 3rem;
+        margin-left: 0rem;
+    }    
+}
+
+/* Tableta 5 1058px - Tablet 5 1080px */
+@media screen and (min-width: 1051px) and (max-width: 1130px){
+    .contentProductsView {
+        padding: 1rem 
+    }
+    .linea-vertical {
+        height: 136vh;
+        margin-top: 3rem;
+        margin-left: 0rem;
+    }    
+}
+
+/* Tableta 6 1171px*/
+@media screen and (min-width: 1131px) and (max-width: 1180px){
+    .contentProductsView {
+        padding: 1rem 
+    }
+    .linea-vertical {
+        height: 136vh;
+        margin-top: 3rem;
+        margin-left: 0rem;
+    }    
+}
+
+/* Tablet 6 1200px */
+@media screen and (min-width: 1181px) and (max-width: 1200px){
+    .contentProductsView {
+        padding: 4rem 
+    }
+    .linea-vertical {
+        height: 136vh;
+        margin-top: 3rem;
+        margin-left: 0rem;
+    }    
+}
+
+/* Tablet 7-computador de mesa 3/4-Nast Hub Max 1280px */
+@media screen and (min-width: 1201px) and (max-width: 1284px){
+    .contentProductsView {
+        padding: 4rem 
+    }
+    .linea-vertical {
+        height: 136vh;
+        margin-top: 3rem;
+        margin-left: 3rem;
+    }    
+}
+
+/* Tableta 7 1285px */
+@media screen and (min-width: 1285px) and (max-width: 1335px){
+    .contentProductsView {
+        padding: 4rem 
+    }
+    .linea-vertical {
+        height: 122vh;
+        margin-top: 3rem;
+        margin-left: 3rem;
+    }    
+}
+
+/* 1336px - 1376px*/
+@media screen and (min-width: 1336px) and (max-width: 1376px){
+    .contentProductsView {
+        padding: 4rem 
+    }
+    .linea-vertical {
+        height: 122vh;
+        margin-top: 3rem;
+        margin-left: 3rem;
+    }    
+}
+
+/* Computador de mesa 5 1400px */
+@media screen and (min-width: 1377px) and (max-width: 1420px){
+    .contentProductsView {
+        padding: 4rem 
+    }
+    .linea-vertical {
+        height: 122vh;
+        margin-top: 3rem;
+        margin-left: 3rem;
+    }    
+}
+
+/* 1421px - 1499px */
+@media screen and (min-width: 1421px) and (max-width: 1499px){
+    .linea-vertical {
+        height: 122vh;
+        margin-left: 4rem;
+    }    
+}
+
+/* Tablet 8 1536px */
+@media screen and (min-width: 1500px) and (max-width: 1599px){
+    .linea-vertical {
+        height: 107vh;
+        margin-left: 4rem;
+    }    
+}
+
+/* Computador de mesa 6  1600px */
+@media screen and (min-width: 1600px) and (max-width: 1699px){
+    .linea-vertical {
+        height: 107vh;
+        margin-left: 4rem;
+    }    
+}
+
+/* 1700px - 1919px */
+@media screen and (min-width: 1700px) and (max-width: 1919px){
+    .contentProductsView {
+        padding: 3rem;
+    }
+    .linea-vertical {
+        height: 74vh;
+    }
+}
+
+/* Computador de mesa 7 1920px */
+@media screen and (min-width: 1920px) and (max-width: 1949px){
+    .contentProductsView {
+        padding: 5rem;
+    }
+    .contentProductsView .side{
+        height: 70vh;
+    }
+    
+    .linea-vertical {
+        width: 6px;
+        height: 71vh;
+        margin-top: 1rem;
+        margin-left: 1rem;
+    } 
+}
+
+/* Tablet 9 2048px */
+@media screen and (min-width: 1950px) and (max-width: 2050px){
+    .contentProductsView {
+        padding: 5rem 5rem 0;
+    }
+    .linea-vertical {
+        height: 60vh;
+    } 
+}
+
+/* Tablet 10 2160px */
+@media screen and (min-width: 2160px) and (max-width: 2259px){
+    .contentProductsView {
+        padding: 5rem 5rem 0;
+    }
+    .linea-vertical {
+        height: 60vh;
+    } 
+}
+
+/* 2260px - 2360px */
+@media screen and (min-width: 2260px) and (max-width: 2360px){
+    .contentProductsView {
+        padding: 5rem 5rem 7rem;
+    }
+    .linea-vertical {
+        height: 60vh;
+    } 
+}
+
+/* 2361px - 2450px */
+@media screen and (min-width: 2361px) and (max-width: 2450px){
+    .contentProductsView {
+        padding: 5rem 5rem 7rem;
+    }
+    .linea-vertical {
+        height: 73vh;
+        margin-left: 4rem;
+    } 
+}
+
+/* 2451px - 2559px */
+@media screen and (min-width: 2451px) and (max-width: 2559px){
+    .contentProductsView {
+        padding: 5rem 5rem 7rem;
+    }
+    .linea-vertical {
+        height: 73vh;
+        margin-left: 4rem;
+    } 
+}
+
+/* Tablet 11 y 12 portatil 5 2560px */
+@media screen and (min-width: 2560px) and (max-width: 2600px){
+    .contentProductsView {
+        padding: 5rem 5rem 7rem;
+    }
+    .linea-vertical {
+        height: 73vh;
+        margin-left: 4rem;
+    } 
 }
