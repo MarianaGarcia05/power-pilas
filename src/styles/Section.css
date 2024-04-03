@@ -21,3 +21,381 @@
     font-size: 24px;
     margin-top: 0.5rem;
 }
+
+.iconSection{
+    font-size: 3rem;
+}
+
+/* Responsive */
+/* Tablet 1 600px */
+@media screen and (min-width: 600px) and (max-width: 639px){
+    .contenSection{
+        padding: 4rem 2rem;
+    }
+    .circle{
+        width: 4.5rem;
+        height: 4.5rem;
+    }
+    
+    .tittleSection{
+        font-size: 14px;
+    }
+    
+    .iconSection{
+        font-size: 1.8rem;
+    }
+}
+
+/* Portatil 1 640px */
+@media screen and (min-width: 640px) and (max-width: 679px){
+    .contenSection{
+        padding: 4rem 2rem;
+    }
+    .circle{
+        width: 4.5rem;
+        height: 4.5rem;
+    }
+    
+    .tittleSection{
+        font-size: 14px;
+    }
+    
+    .iconSection{
+        font-size: 1.8rem;
+    }
+}
+
+/* Tableta 1 680px */
+@media screen and (min-width: 680px) and (max-width: 700px){
+    .contenSection{
+        padding: 4rem 2rem;
+    }
+    .circle{
+        width: 4.5rem;
+        height: 4.5rem;
+    }
+    
+    .tittleSection{
+        font-size: 15px;
+    }
+    
+    .iconSection{
+        font-size: 1.8rem;
+    }
+}
+
+@media screen and (min-width: 701px) and (max-width: 755px){
+    .contenSection{
+        padding: 4rem 2rem;
+    }
+    .circle{
+        width: 4.5rem;
+        height: 4.5rem;
+    }
+    
+    .tittleSection{
+        font-size: 16px;
+    }
+    
+    .iconSection{
+        font-size: 1.8rem;
+    }
+}
+
+/* Tableta 2 756px */
+@media screen and (min-width: 756px) and (max-width: 767px){
+    .contenSection{
+        padding: 4rem 2rem;
+    }
+    .circle{
+        width: 5rem;
+        height: 5rem;
+    }
+    
+    .tittleSection{
+        font-size: 16px;
+    }
+    
+    .iconSection{
+        font-size: 1.8rem;
+    }
+}
+
+/* Tablet 2-Ipad Mini 768px */
+@media screen and (min-width: 768px) and (max-width: 799px){
+    .contenSection{
+        padding: 4rem 2rem;
+    }
+    .circle{
+        width: 5rem;
+        height: 5rem;
+    }
+    
+    .tittleSection{
+        font-size: 17px;
+    }
+    
+    .iconSection{
+        font-size: 1.8rem;
+    }
+}
+
+/* Tablet 3 800px */
+@media screen and (min-width: 800px) and (max-width: 819px){
+    .contenSection{
+        padding: 4rem 2rem;
+    }
+    .circle{
+        width: 5.5rem;
+        height: 5.5rem;
+    }
+    
+    .tittleSection{
+        font-size: 18px;
+    }
+    
+    .iconSection{
+        font-size: 1.9rem;
+    }
+}
+
+/* ipad Air 820px */
+@media screen and (min-width: 820px) and (max-width: 868px){
+    .contenSection{
+        padding: 4rem 2rem;
+    }
+    .circle{
+        width: 5.5rem;
+        height: 5.5rem;
+    }
+    
+    .tittleSection{
+        font-size: 18px;
+    }
+    
+    .iconSection{
+        font-size: 1.9rem;
+    }
+}
+
+/* Tableta 3 869px */
+@media screen and (min-width: 869px) and (max-width: 911px){
+    .contenSection{
+        padding: 4rem 3rem;
+    }
+    .circle{
+        width: 6rem;
+        height: 6rem;
+    }
+    
+    .tittleSection{
+        font-size: 18px;
+    }
+    
+    .iconSection{
+        font-size: 2rem;
+    }
+}
+
+/* Surface Pro 7 912px */
+@media screen and (min-width: 912px) and (max-width: 943px){
+    .contenSection{
+        padding: 4rem 3rem;
+    }
+    .circle{
+        width: 6.5rem;
+        height: 6.5rem;
+    }
+    
+    .tittleSection{
+        font-size: 19px;
+    }
+    
+    .iconSection{
+        font-size: 2rem;
+    }
+}
+
+/* Tableta 4 944px */
+@media screen and (min-width: 944px) and (max-width: 959px){
+    .contenSection{
+        padding: 4rem 3rem;
+    }
+    .circle{
+        width: 6.5rem;
+        height: 6.5rem;
+    }
+    
+    .tittleSection{
+        font-size: 19px;
+    }
+    
+    .iconSection{
+        font-size: 2rem;
+    }
+}
+
+/* Portatil 2 960px */
+@media screen and (min-width: 960px) and (max-width: 999px){
+    .contenSection{
+        padding: 4rem 3rem;
+    }
+    
+    .tittleSection{
+        font-size: 20px;
+    }
+    
+    .iconSection{
+        font-size: 2.3rem;
+    }
+}
+
+/* Tablet 4-computador de mesa 1/2-iPad Pro-Nest Hub 1024px */
+@media screen and (min-width: 1000px) and (max-width: 1050px){
+    .contenSection{
+        padding: 4rem;
+    }
+    
+    .tittleSection{
+        font-size: 20px;
+    }
+    
+    .iconSection{
+        font-size: 2.3rem;
+    }
+}
+
+/* Tableta 5 1058px */
+@media screen and (min-width: 1051px) and (max-width: 1079px){
+    .contenSection{
+        padding: 4rem;
+    }
+    
+    .tittleSection{
+        font-size: 21px;
+    }
+    
+    .iconSection{
+        font-size: 2.3rem;
+    }
+}
+
+/* Tablet 5 1080px */
+@media screen and (min-width: 1080px) and (max-width: 1130px){
+    .contenSection{
+        padding: 4rem;
+    }
+    
+    .tittleSection{
+        font-size: 21px;
+    }
+    
+    .iconSection{
+        font-size: 2.3rem;
+    }
+}
+
+/* Tableta 6 1171px*/
+@media screen and (min-width: 1131px) and (max-width: 1180px){
+    .contenSection{
+        padding: 4rem 5.5rem;
+    }
+    
+    .tittleSection{
+        font-size: 21px;
+    }
+    
+    .iconSection{
+        font-size: 2.3rem;
+    }
+}
+
+/* Tablet 6 1200px */
+@media screen and (min-width: 1181px) and (max-width: 1200px){
+    .contenSection{
+        padding: 4rem 5.5rem;
+    }
+    
+    .tittleSection{
+        font-size: 22px;
+    }
+    
+    .iconSection{
+        font-size: 2.3rem;
+    }
+}
+
+/* Tablet 7-computador de mesa 3/4-Nast Hub Max 1280px */
+@media screen and (min-width: 1201px) and (max-width: 1284px){
+    .contenSection{
+        padding: 4rem 5.5rem;
+    }
+    
+    .tittleSection{
+        font-size: 23px;
+    }
+    
+    .iconSection{
+        font-size: 2.5rem;
+    }
+}
+
+/* Tableta 7 1285px */
+@media screen and (min-width: 1285px) and (max-width: 1335px){
+    .contenSection{
+        padding: 4rem 6rem;
+    }
+    
+    .tittleSection{
+        font-size: 23px;
+    }
+    
+    .iconSection{
+        font-size: 2.5rem;
+    }
+}
+
+/* 1336px - 1376px*/
+@media screen and (min-width: 1336px) and (max-width: 1376px){
+    .contenSection{
+        padding: 4rem 7rem;
+    }
+    
+    .tittleSection{
+        font-size: 23px;
+    }
+    
+    .iconSection{
+        font-size: 2.5rem;
+    }
+}
+
+/* Computador de mesa 5 1400px */
+@media screen and (min-width: 1377px) and (max-width: 1420px){
+    .contenSection{
+        padding: 4rem 7rem;
+    }
+    
+    .tittleSection{
+        margin-top: 0.5rem;
+    }
+    
+    .iconSection{
+        font-size: 2.7rem;
+    }
+}
+
+/* 1421px - 1499px */
+@media screen and (min-width: 1421px) and (max-width: 1499px){
+    .contenSection{
+        padding: 4rem 9rem;
+    }
+    
+    .tittleSection{
+        margin-top: 0.5rem;
+    }
+    
+    .iconSection{
+        font-size: 2.7rem;
+    }
+}

@@ -9,28 +9,28 @@ const Section = () => {
         <div className='contenSection'>
             <div className='flex flex-col items-center'>
                 <div className="circle">
-                    <MdIcon.MdVerifiedUser className='text-5xl' />
+                    <MdIcon.MdVerifiedUser className='iconSection' />
                 </div>
                 <h1 className="tittleSection">Compras seguras</h1>
             </div>
 
             <div className='flex flex-col items-center'>
                 <div className="circle">
-                    <LuIcon.LuPackage  className='text-5xl'  />
+                    <LuIcon.LuPackage  className='iconSection'  />
                 </div>
                 <h1 className="tittleSection">Envíos</h1>
             </div>
 
             <div className='flex flex-col items-center'>
                 <div className="circle">
-                    <MdIcon.MdHeadsetMic  className='text-5xl' />
+                    <MdIcon.MdHeadsetMic  className='iconSection' />
                 </div>
                 <h1 className="tittleSection">Atención al cliente</h1>
             </div>
 
             <div className='flex flex-col items-center'>
                 <div className="circle">
-                    <TbIcon.TbProgressAlert className='text-5xl' />
+                    <TbIcon.TbProgressAlert className='iconSection' />
                 </div>
                 <h1 className="tittleSection">Servicios de instalación</h1>
             </div>

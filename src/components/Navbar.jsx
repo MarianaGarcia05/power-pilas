@@ -10,10 +10,10 @@ const Navbar = () => {
     <nav className='navbar'>
       <div className="column">
         <div className='contentNav'>
-          <div className="flex justify-between">
+          <a href='/' className="flex justify-between">
             <div className="logonav"><img src={logoimg} alt="" className='logoimg' /></div>
             <span className="tituloNav">power <br /> pilas</span>
-          </div>
+          </a>
 
           <div className="buscador-Items mt-4 mx-auto">
             <div className="buscadorNav flex">
