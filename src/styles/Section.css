@@ -16,3 +16,8 @@
     background-color: #fff;
     box-shadow: 0 0 20px rgba(65, 64, 64, 0.5);
 }
+
+.tittleSection{
+    font-size: 24px;
+    margin-top: 0.5rem;
+}
