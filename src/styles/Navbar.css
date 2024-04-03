@@ -48,7 +48,7 @@
 
 .itemsNav ul {
     display: flex;
-    margin: -1rem 32rem;
+    margin: -1rem 42rem;
     padding-bottom: 1rem;
     justify-content: space-between;
 }
@@ -1107,7 +1107,7 @@
         border-radius: 7px;
     }
     .itemsNav ul {
-        margin: -1rem 32rem;
+        margin: -1rem 42rem;
         padding-bottom: 1rem;
     }
     .itemsNav ul li a {

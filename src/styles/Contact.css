@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Imprima&display=swap');
+.nav{
+    z-index: 100;
+    position: relative;
+}
+.contact{
+    width: auto;
+    /* height: 50vh;
+    background-image: url(../assets/img/bgContact.png);
+    background-size: cover;
+    position: relative;
+    background-position: center;
+    background-repeat: no-repeat;  */
+}
+
+.options{
+    display: flex;
+    margin: auto 10rem;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.card button{
+    display: flex;
+    align-items: center;
+    background-color: #EEF8F5;
+    color: #0E3658;
+    padding: 50px 50px;
+    border: none;
+    border-radius: 14px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+    text-decoration: none;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    width: 25rem; 
+    height: 10rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.card button:hover{
+    background-color: #989a9c2f;
+    transform: translateY(-30px);
+}
+
+.information-contact {
+    display: flex;
+    align-items: center;
+}
+
+.texts{
+    display: flex;
+    flex-direction: column;
+}
+
+.texts h2{
+    margin:0;
+    align-items: center;
+    display: flex;
+    font-size: 35px;
+    color: #0E3658;
+    font-family: "Imprima", sans-serif;
+    font-weight: 400;
+    text-align: left;
+}
+.texts p{
+    margin: 0;
+    font-size: 16px;
+    text-align: left;
+}
+.iconContact{
+    font-size: 30px;
+    color: #12a579;
+}

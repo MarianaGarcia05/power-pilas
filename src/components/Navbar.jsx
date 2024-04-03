@@ -29,11 +29,11 @@ const Navbar = () => {
         </div>
         <div className="itemsNav">
           <ul>
-            <li><a href="#">Nosotros</a></li>
-            <li><a href="#">Servicios</a></li>
-            <li><a href="/productsView">productos</a></li>
             <li><a href="/">Inicio</a></li>
-            <li><a href="#">Contacto</a></li>
+            <li><a href="/productsView">productos</a></li>
+            <li><a href="/contact">Contacto</a></li>
+            {/* <li><a href="#">Nosotros</a></li> */}
+            {/* <li><a href="#">Servicios</a></li> */}
           </ul>
         </div>
       </div>

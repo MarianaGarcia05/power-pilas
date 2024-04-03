@@ -6,6 +6,7 @@ import Navbar from "./components/Navbar";
 import Footer from './components/Footer';
 import Banner from './components/Banner';
 import Sidebar from './components/Sidebar';
+import Contact from './components/Contact';
 import Section from './components/Section';
 import Products from './components/Products';
 import ProductsView from './pages/ProductsView';
@@ -53,6 +54,10 @@ const router = createBrowserRouter([
   {
     path: "/section",
     element: <Section />,
+  },
+  {
+    path: "/contact",
+    element: <Contact />,
   },
 ]);
 
