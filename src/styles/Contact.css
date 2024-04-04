@@ -3,17 +3,36 @@
     z-index: 100;
     position: relative;
 }
-/* .bgContect{
-    width: 100%;
-    height: 100vh;
-    background-image: url(../assets/img/bgContact.png);
-    background-size: cover;
-    background-attachment: fixed;
-    position: relative;
-    background-position: center;
-    background-repeat: no-repeat;
-    margin-top: -10px;
-} */
+.bg-contact{
+    display: flex;
+    width: 110rem;
+    height: 20rem;
+    margin: 4rem auto;
+    border-radius: 14px;
+    align-items: center;
+    background-color: #219680;
+    justify-content: space-around;
+    box-shadow: 3px 19px 42px 8px rgba(82, 82, 82, 0.5);
+    background-image: radial-gradient(circle at right, #308980 42%, transparent 20%);
+}
+
+.tittle-contact{
+    color: #fff;
+    font-size: 50px;
+    font-weight: bolder;
+    text-shadow: 0 0 5px #006125, 0 0 15px #006125, 0 0 30px #006125, 0 0 50px #006125;
+}
+
+.text-contact{
+    color: #fff;
+    font-family: 35px;
+    text-align: center;
+    font-family: "Imprima", sans-serif;
+}
+
+.imgContact img{
+    width: 15rem;
+}
 
 .contact h1{
     font-size: 30px;

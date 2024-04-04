@@ -399,3 +399,204 @@
         font-size: 2.7rem;
     }
 }
+
+/* Tablet 8 1536px */
+@media screen and (min-width: 1500px) and (max-width: 1599px){
+    .contenSection{
+        padding: 4rem 9rem;
+    }
+    
+    .tittleSection{
+        margin-top: 0.5rem;
+    }
+    
+    .iconSection{
+        font-size: 2.8rem;
+    }
+}
+
+/* Computador de mesa 6  1600px */
+@media screen and (min-width: 1600px) and (max-width: 1699px){
+    .contenSection{
+        padding: 4rem 11rem;
+    }
+    
+    .tittleSection{
+        margin-top: 0.5rem;
+    }
+    
+    .iconSection{
+        font-size: 2.8rem;
+    }
+}
+
+/* 1700px - 1919px */
+@media screen and (min-width: 1700px) and (max-width: 1919px){
+    .contenSection{
+        padding: 4rem 12rem;
+    }
+    
+    .tittleSection{
+        margin-top: 0.5rem;
+    }
+    
+    .iconSection{
+        font-size: 2.8rem;
+    }
+}
+
+/* Computador de mesa 7 1920px */
+@media screen and (min-width: 1920px) and (max-width: 1949px){
+    .contenSection{
+        padding: 4rem 20rem;
+        margin-bottom: 8rem;
+    }
+    .circle{
+        width: 7rem;
+        height: 7rem;
+    }
+    
+    .tittleSection{
+        font-size: 24px;
+        margin-top: 0.5rem;
+    }
+    
+    .iconSection{
+        font-size: 3rem;
+    }
+}
+
+/* Tablet 9 2048px */
+@media screen and (min-width: 1950px) and (max-width: 2050px){
+    .contenSection{
+        padding: 4rem 21rem;
+    }
+    .circle{
+        width: 7.5rem;
+        height: 7.5rem;
+    }
+    
+    .tittleSection{
+        font-size: 26px;
+    }
+    
+    .iconSection{
+        font-size: 3.3rem;
+    }
+}
+
+/* 2051px - 2159px */
+@media screen and (min-width: 2051px) and (max-width: 2159px){
+    .contenSection{
+        padding: 4rem 21rem;
+    }
+    .circle{
+        width: 7.5rem;
+        height: 7.5rem;
+    }
+    
+    .tittleSection{
+        font-size: 26px;
+    }
+    
+    .iconSection{
+        font-size: 3.3rem;
+    }
+}
+
+/* Tablet 10 2160px */
+@media screen and (min-width: 2160px) and (max-width: 2259px){
+    .contenSection{
+        padding: 4rem 21rem;
+    }
+    .circle{
+        width: 7.5rem;
+        height: 7.5rem;
+    }
+    
+    .tittleSection{
+        font-size: 26px;
+    }
+    
+    .iconSection{
+        font-size: 3.3rem;
+    }
+}
+
+/* 2260px - 2360px */
+@media screen and (min-width: 2260px) and (max-width: 2360px){
+    .contenSection{
+        padding: 4rem 23rem;
+    }
+    .circle{
+        width: 7.5rem;
+        height: 7.5rem;
+    }
+    
+    .tittleSection{
+        font-size: 26px;
+    }
+    
+    .iconSection{
+        font-size: 3.3rem;
+    }
+}
+
+/* 2361px - 2450px */
+@media screen and (min-width: 2361px) and (max-width: 2450px){
+    .contenSection{
+        padding: 4rem 22rem;
+    }
+    .circle{
+        width: 7.5rem;
+        height: 7.5rem;
+    }
+    
+    .tittleSection{
+        font-size: 26px;
+    }
+    
+    .iconSection{
+        font-size: 3.3rem;
+    }
+}
+
+/* 2451px - 2559px */
+@media screen and (min-width: 2451px) and (max-width: 2559px){
+    .contenSection{
+        padding: 4rem 22rem;
+    }
+    .circle{
+        width: 9rem;
+        height: 9rem;
+    }
+    
+    .tittleSection{
+        font-size: 27px;
+    }
+    
+    .iconSection{
+        font-size: 4rem;
+    }
+}
+
+/* Tablet 11 y 12 portatil 5 2560px */
+@media screen and (min-width: 2560px) and (max-width: 2600px){
+    .contenSection{
+        padding: 4rem 22rem;
+        margin-top: 12rem;
+        margin-bottom: 13rem;
+    }
+    .circle{
+        width: 11rem;
+        height: 11rem;
+    }
+    
+    .tittleSection{
+        font-size: 30px;
+    }
+    
+    .iconSection{
+        font-size: 5rem;
+    }
+}

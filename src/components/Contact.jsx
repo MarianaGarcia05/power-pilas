@@ -4,6 +4,7 @@ import '../styles/Contact.css';
 import * as FaIcons from 'react-icons/fa';
 import * as MdIcons from 'react-icons/md';
 import * as Fa6Icons from 'react-icons/fa6';
+import imgContact from '../assets/img/imgContact.png';
 
 const Contact = () => {
     return (
@@ -13,9 +14,14 @@ const Contact = () => {
             </div>
 
             <div className="content">
-                <div className="contact">
-                    <h1 className='pt-28'>Estamos para ayudarte</h1>
-                    <p>Contáctanos</p>
+                <div className="bg-contact">
+                    <div className='flex flex-col'>
+                        <h1 className='tittle-contact'>Estamos para ayudarte</h1>
+                        <p className='text-contact'>Contáctanos</p>
+                    </div>
+                    <div className="imgContact">
+                        <img src={imgContact} />
+                    </div>
                 </div>
 
                 <div className="options">

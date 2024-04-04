@@ -51,86 +51,32 @@
     font-weight: bolder;
 }
 
-.prices-ProductDetails{
-    gap: 1rem;
-    margin: 1rem 0;
-    display: flex;
+.description-ProductDetails{
     color: #fff;
-    font-size: 35px;
-    font-weight: bold;
-    justify-content: end;
-}
-
-.paymentMethods h1{
     font-size: 18px;
-    color: #3F3F46;
     margin-top: 1.5rem;
-    font-weight: bolder;
-}
-.paymentMethods-img {
-    gap: 1rem;
-    margin-top: 1rem;
-    display: flex;
-    justify-content: end;
-}
-.visaCard, .mastercardCard {
-    width: 5rem;
-    height: 3rem;
-    padding: 0.5rem;
-    border-radius: 5px;
-    background-color: #fff;
-}
-.bancolombiaCard {
-    width: 80px;
-    height: 45px;
+    font-family: "Imprima", sans-serif;
 }
 
-.cant{
-    color: #000;
-    font-weight: bolder;
-    margin-top: 3rem;
-}
-.cant input{
-    width: 2.5rem;
-    outline: none;
-    margin-top: 0.8rem;
-    background: transparent;
-    border-bottom: 1px solid #000;
+.contentEntrega{
+    padding: 2.5rem;
+    margin-top: 4rem;
+    border-radius: 1rem;
+    background-color: #E2E8F0;
 }
 
-.addToCart button{
-    width: 13rem;
-    height: 3.5rem;
-    color: #fff;
-    margin-top: 3rem;
-    text-align: center;
-    align-items: center;
-    border-radius: 15px;
-    background-color: #333232;
-    transition: all 0.2s ease-in-out;
-}
-.addToCart button:hover{
-    transform: scale(1.03);
-    background-color: #4b4a4a;
+.contentEntrega h1{
+    font-size: 35px;
+    color: rgba(43, 132, 115, 1);
+    font-weight: bolder;
+    font-family: "Racing", sans-serif;
 }
 
-.contentProductDetails2{
-    gap: 2rem;
-    padding: 4rem;
-    display: flex;
-    margin: 5rem 12rem 0;
-    background-color: #D9D9D9;
-    border-top-left-radius: 20px;
-    border-top-right-radius: 20px;
-}
-.contentProductDetails2 h1{
-    font-size: 20px;
-    color: #27AB84;
-    margin-bottom: 0.5rem;
-    font-weight: bolder;
-}
-.contentProductDetails2 p{
+.contentEntrega p{
+    color: #5f5f5f;
     font-size: 18px;
+    margin-top: 1.5rem;
+    font-family: "Imprima", sans-serif;
 }
 
 /* Responsive */
@@ -172,23 +118,8 @@
         font-size: 26px;
         margin-top: 2rem;
     }
-    .prices-ProductDetails{
-        font-size: 24px;
-        justify-content: center;
-    }
 
-    .paymentMethods-img{
-        justify-content: center;
-    }
-
-    .contentProductDetails2{
-        padding: 2rem;
-        margin: 5rem 2rem 0;
-    }
-    .contentProductDetails2 h1 {
-        font-size: 18px;
-    }
-    .contentProductDetails2 p {
+    .description-ProductDetails, .contentEntrega p {
         font-size: 16px;
     }
 }
@@ -231,23 +162,8 @@
         font-size: 26px;
         margin-top: 2rem;
     }
-    .prices-ProductDetails{
-        font-size: 24px;
-        justify-content: center;
-    }
 
-    .paymentMethods-img{
-        justify-content: center;
-    }
-
-    .contentProductDetails2{
-        padding: 2rem;
-        margin: 5rem 2rem 0;
-    }
-    .contentProductDetails2 h1 {
-        font-size: 18px;
-    }
-    .contentProductDetails2 p {
+    .description-ProductDetails, .contentEntrega p {
         font-size: 16px;
     }
 }
@@ -290,23 +206,8 @@
         font-size: 28px;
         margin-top: 2rem;
     }
-    .prices-ProductDetails{
-        font-size: 26px;
-        justify-content: center;
-    }
 
-    .paymentMethods-img{
-        justify-content: center;
-    }
-
-    .contentProductDetails2{
-        padding: 2rem;
-        margin: 5rem 2rem 0;
-    }
-    .contentProductDetails2 h1 {
-        font-size: 20px;
-    }
-    .contentProductDetails2 p {
+    .description-ProductDetails, .contentEntrega p {
         font-size: 16px;
     }
 }
@@ -347,18 +248,8 @@
         font-size: 28px;
         margin-top: 2rem;
     }
-    .prices-ProductDetails{
-        font-size: 26px;
-    }
 
-    .contentProductDetails2{
-        padding: 2rem;
-        margin: 5rem 2rem 0;
-    }
-    .contentProductDetails2 h1 {
-        font-size: 20px;
-    }
-    .contentProductDetails2 p {
+    .description-ProductDetails, .contentEntrega p {
         font-size: 16px;
     }
 }
@@ -399,27 +290,12 @@
     .name-ProductDetails{
         font-size: 22px;
     }
-    .prices-ProductDetails{
-        font-size: 20px;
-    }
 
-    .paymentMethods-img {
-        gap: 0.5rem;
+    .contentEntrega{
+        padding: 1.5rem;
     }
-    .visaCard, .mastercardCard{
-        width: 4.5rem;
-        height: 2.5rem;
-        padding: 0rem;
-    }
-    .bancolombiaCard {
-        width: 70px;
-        height: 40px;
-    }
-    .contentProductDetails2 {
-        gap: 4rem;
-        padding: 2rem;
-        display: flex;
-        margin: 4rem 1rem 0;
+    .contentEntrega h1{
+        font-size: 30px;
     }
 }
 
@@ -459,28 +335,14 @@
     .name-ProductDetails{
         font-size: 22px;
     }
-    .prices-ProductDetails{
-        font-size: 20px;
+
+    .contentEntrega{
+        padding: 1.5rem;
+    }
+    .contentEntrega h1{
+        font-size: 30px;
     }
 
-    .paymentMethods-img {
-        gap: 0.5rem;
-    }
-    .visaCard, .mastercardCard{
-        width: 4.5rem;
-        height: 2.5rem;
-        padding: 0rem;
-    }
-    .bancolombiaCard {
-        width: 70px;
-        height: 40px;
-    }
-    .contentProductDetails2 {
-        gap: 4rem;
-        padding: 2rem;
-        display: flex;
-        margin: 4rem 1rem 0;
-    }
 }
 
 /* Tablet 3 800px */
@@ -519,28 +381,14 @@
     .name-ProductDetails{
         font-size: 22px;
     }
-    .prices-ProductDetails{
-        font-size: 20px;
+
+    .contentEntrega{
+        padding: 1.5rem;
+    }
+    .contentEntrega h1{
+        font-size: 30px;
     }
 
-    .paymentMethods-img {
-        gap: 0.5rem;
-    }
-    .visaCard, .mastercardCard{
-        width: 4.5rem;
-        height: 2.5rem;
-        padding: 0rem;
-    }
-    .bancolombiaCard {
-        width: 70px;
-        height: 40px;
-    }
-    .contentProductDetails2 {
-        gap: 4rem;
-        padding: 2rem;
-        display: flex;
-        margin: 4rem 1rem 0;
-    }
 }
 
 /* ipad Air 820px */
@@ -579,27 +427,12 @@
     .name-ProductDetails{
         font-size: 23px;
     }
-    .prices-ProductDetails{
-        font-size: 20px;
-    }
 
-    .paymentMethods-img {
-        gap: 0.5rem;
+    .contentEntrega{
+        padding: 1.5rem;
     }
-    .visaCard, .mastercardCard{
-        width: 4.5rem;
-        height: 2.5rem;
-        padding: 0rem;
-    }
-    .bancolombiaCard {
-        width: 70px;
-        height: 40px;
-    }
-    .contentProductDetails2 {
-        gap: 4rem;
-        padding: 2rem;
-        display: flex;
-        margin: 4rem 1rem 0;
+    .contentEntrega h1{
+        font-size: 30px;
     }
 }
 
@@ -639,27 +472,12 @@
     .name-ProductDetails{
         font-size: 23px;
     }
-    .prices-ProductDetails{
-        font-size: 20px;
-    }
 
-    .paymentMethods-img {
-        gap: 0.5rem;
+    .contentEntrega{
+        padding: 1.5rem;
     }
-    .visaCard, .mastercardCard{
-        width: 4.5rem;
-        height: 2.5rem;
-        padding: 0rem;
-    }
-    .bancolombiaCard {
-        width: 70px;
-        height: 40px;
-    }
-    .contentProductDetails2 {
-        gap: 4rem;
-        padding: 2rem;
-        display: flex;
-        margin: 4rem 3rem 0;
+    .contentEntrega h1{
+        font-size: 30px;
     }
 }
 
@@ -699,27 +517,12 @@
     .name-ProductDetails{
         font-size: 25px;
     }
-    .prices-ProductDetails{
-        font-size: 23px;
-    }
 
-    .paymentMethods-img {
-        gap: 0.5rem;
+    .contentEntrega{
+        padding: 1.5rem;
     }
-    .visaCard, .mastercardCard{
-        width: 4.5rem;
-        height: 2.5rem;
-        padding: 0rem;
-    }
-    .bancolombiaCard {
-        width: 70px;
-        height: 40px;
-    }
-    .contentProductDetails2 {
-        gap: 4rem;
-        padding: 2rem;
-        display: flex;
-        margin: 4rem 3rem 0;
+    .contentEntrega h1{
+        font-size: 30px;
     }
 }
 
@@ -759,27 +562,12 @@
     .name-ProductDetails{
         font-size: 25px;
     }
-    .prices-ProductDetails{
-        font-size: 23px;
-    }
 
-    .paymentMethods-img {
-        gap: 0.5rem;
-    }
-    .visaCard, .mastercardCard{
-        width: 4.5rem;
-        height: 2.5rem;
-        padding: 0rem;
-    }
-    .bancolombiaCard {
-        width: 70px;
-        height: 40px;
-    }
-    .contentProductDetails2 {
-        gap: 4rem;
+    .contentEntrega{
         padding: 2rem;
-        display: flex;
-        margin: 4rem 3rem 0;
+    }
+    .contentEntrega h1{
+        font-size: 30px;
     }
 }
 
@@ -817,29 +605,14 @@
         width: 28rem;
     }
     .name-ProductDetails{
-        font-size: 30px;
-    }
-    .prices-ProductDetails{
-        font-size: 25px;
+        font-size: 31px;
     }
 
-    .paymentMethods-img {
-        gap: 0.5rem;
+    .contentEntrega{
+        padding: 1.5rem;
     }
-    .visaCard, .mastercardCard{
-        width: 4.5rem;
-        height: 2.5rem;
-        padding: 0rem;
-    }
-    .bancolombiaCard {
-        width: 70px;
-        height: 40px;
-    }
-    .contentProductDetails2 {
-        gap: 4rem;
-        padding: 2rem;
-        display: flex;
-        margin: 4rem 3rem 0;
+    .contentEntrega h1{
+        font-size: 30px;
     }
 }
 
@@ -880,27 +653,9 @@
     .name-ProductDetails{
         font-size: 30px;
     }
-    .prices-ProductDetails{
-        font-size: 25px;
-    }
 
-    .paymentMethods-img {
-        gap: 0.5rem;
-    }
-    .visaCard, .mastercardCard{
-        width: 4.5rem;
-        height: 2.5rem;
-        padding: 0rem;
-    }
-    .bancolombiaCard {
-        width: 70px;
-        height: 40px;
-    }
-    .contentProductDetails2 {
-        gap: 4rem;
-        padding: 2rem;
-        display: flex;
-        margin: 4rem 3rem 0;
+    .contentEntrega{
+        padding: 1.5rem;
     }
 }
 
@@ -941,27 +696,9 @@
     .name-ProductDetails{
         font-size: 30px;
     }
-    .prices-ProductDetails{
-        font-size: 25px;
-    }
 
-    .paymentMethods-img {
-        gap: 0.5rem;
-    }
-    .visaCard, .mastercardCard{
-        width: 4.5rem;
-        height: 2.5rem;
-        padding: 0rem;
-    }
-    .bancolombiaCard {
-        width: 70px;
-        height: 40px;
-    }
-    .contentProductDetails2 {
-        gap: 4rem;
-        padding: 2rem;
-        display: flex;
-        margin: 4rem 3rem 0;
+    .contentEntrega{
+        padding: 1.5rem;
     }
 }
 
@@ -1002,15 +739,9 @@
     .name-ProductDetails{
         font-size: 30px;
     }
-    .prices-ProductDetails{
-        font-size: 25px;
-    }
 
-    .contentProductDetails2 {
-        gap: 4rem;
+    .contentEntrega{
         padding: 2rem;
-        display: flex;
-        margin: 4rem 3rem 0;
     }
 }
 
@@ -1051,15 +782,9 @@
     .name-ProductDetails{
         font-size: 30px;
     }
-    .prices-ProductDetails{
-        font-size: 25px;
-    }
 
-    .contentProductDetails2 {
-        gap: 4rem;
-        padding: 2rem;
-        display: flex;
-        margin: 4rem 5rem 0;
+    .contentEntrega{
+        padding: 1.5rem;
     }
 }
 
@@ -1100,15 +825,9 @@
     .name-ProductDetails{
         font-size: 30px;
     }
-    .prices-ProductDetails{
-        font-size: 25px;
-    }
 
-    .contentProductDetails2 {
-        gap: 4rem;
-        padding: 2rem;
-        display: flex;
-        margin: 4rem 5rem 0;
+    .contentEntrega{
+        padding: 1.5rem;
     }
 }
 
@@ -1143,15 +862,9 @@
     .name-ProductDetails{
         font-size: 30px;
     }
-    .prices-ProductDetails{
-        font-size: 25px;
-    }
 
-    .contentProductDetails2 {
-        gap: 4rem;
-        padding: 2rem;
-        display: flex;
-        margin: 4rem 5rem 0;
+    .contentEntrega{
+        padding: 1.5rem;
     }
 }
 
@@ -1186,15 +899,9 @@
     .name-ProductDetails{
         font-size: 30px;
     }
-    .prices-ProductDetails{
-        font-size: 25px;
-    }
 
-    .contentProductDetails2 {
-        gap: 4rem;
+    .contentEntrega{
         padding: 2rem;
-        display: flex;
-        margin: 4rem 5rem 0;
     }
 }
 
@@ -1229,15 +936,8 @@
     .name-ProductDetails{
         font-size: 30px;
     }
-    .prices-ProductDetails{
-        font-size: 25px;
-    }
-
-    .contentProductDetails2 {
-        gap: 4rem;
-        padding: 2rem;
-        display: flex;
-        margin: 4rem 5rem 0;
+    .contentEntrega{
+        padding: 1.5rem;
     }
 }
 
@@ -1272,15 +972,9 @@
     .name-ProductDetails{
         font-size: 33px;
     }
-    .prices-ProductDetails{
-        font-size: 28px;
-    }
 
-    .contentProductDetails2 {
-        gap: 4rem;
-        padding: 2rem;
-        display: flex;
-        margin: 4rem 5rem 0;
+    .contentEntrega{
+        padding: 1.5rem;
     }
 }
 
@@ -1315,15 +1009,9 @@
     .name-ProductDetails{
         font-size: 35px;
     }
-    .prices-ProductDetails{
-        font-size: 30px;
-    }
 
-    .contentProductDetails2 {
-        gap: 4rem;
-        padding: 2rem;
-        display: flex;
-        margin: 4rem 7rem 0;
+    .contentEntrega{
+        padding: 1.5rem;
     }
 }
 
@@ -1358,15 +1046,9 @@
     .name-ProductDetails{
         font-size: 35px;
     }
-    .prices-ProductDetails{
-        font-size: 30px;
-    }
 
-    .contentProductDetails2 {
-        gap: 4rem;
-        padding: 2rem;
-        display: flex;
-        margin: 4rem 7rem 0;
+    .contentEntrega{
+        padding: 1.5rem;
     }
 }
 
@@ -1397,15 +1079,9 @@
     .name-ProductDetails{
         font-size: 35px;
     }
-    .prices-ProductDetails{
-        font-size: 30px;
-    }
 
-    .contentProductDetails2 {
-        gap: 4rem;
-        padding: 2rem;
-        display: flex;
-        margin: 4rem 7rem 0;
+    .contentEntrega{
+        padding: 1.8rem;
     }
 }
 
@@ -1436,16 +1112,6 @@
     .name-ProductDetails{
         font-size: 35px;
     }
-    .prices-ProductDetails{
-        font-size: 30px;
-    }
-
-    .contentProductDetails2 {
-        gap: 4rem;
-        padding: 2rem;
-        display: flex;
-        margin: 4rem 7rem 0;
-    }
 }
 
 /* 1800px - 1919px */
@@ -1468,16 +1134,6 @@
     }
     .name-ProductDetails{
         font-size: 38px;
-    }
-    .prices-ProductDetails{
-        font-size: 32px;
-    }
-
-    .contentProductDetails2 {
-        gap: 4rem;
-        padding: 2rem;
-        display: flex;
-        margin: 4rem 7rem 0;
     }
 }
 
@@ -1512,56 +1168,7 @@
     .name-ProductDetails {
         font-size: 40px;
     }
-    
-    .prices-ProductDetails{
-        gap: 1rem;
-        margin: 1rem;
-        font-size: 35px;
-    }
-    
-    .paymentMethods h1{
-        font-size: 18px;
-        margin-top: 1.5rem;
-    }
-    .paymentMethods-img {
-        gap: 1rem;
-        margin-top: 1rem;
-    }
-    .visaCard, .mastercardCard {
-        width: 5rem;
-        height: 3rem;
-        padding: 0.5rem;
-        border-radius: 5px;
-    }
-    .bancolombiaCard {
-        width: 80px;
-        height: 45px;
-    }
-    
-    .cant{
-        margin-top: 3rem;
-    }
-    .cant input{
-        width: 2.5rem;
-        margin-top: 0.8rem;
-    }
-    
-    .addToCart button{
-        width: 13rem;
-        height: 3.5rem;
-        margin-top: 3rem;
-    }
-    
-    .contentProductDetails2{
-        gap: 2rem;
-        padding: 4rem;
-        margin: 5rem 12rem 0;
-    }
-    .contentProductDetails2 h1{
-        font-size: 20px;
-        margin-bottom: 0.5rem;
-    }
-    .contentProductDetails2 p{
+    .description-ProductDetails{
         font-size: 18px;
     }
 }
@@ -1580,33 +1187,10 @@
         height: 520px;
     }
     
-    .name-ProductDetails {
+    .name-ProductDetails, .contentEntrega h1 {
         font-size: 46px;
     }
-    
-    .prices-ProductDetails{
-        gap: 1.5rem;
-        margin: 1.5rem 0;
-        font-size: 38px;
-    }
-    
-    .paymentMethods h1{
-        font-size: 22px;
-    }
-    
-    .addToCart button{
-        width: 14rem;
-        height: 3.8rem;    
-    }
-    
-    .contentProductDetails2{
-        gap: 3rem;
-        margin: 5rem 14rem 0;
-    }
-    .contentProductDetails2 h1{
-        font-size: 24px;
-    }
-    .contentProductDetails2 p{
+    .description-ProductDetails, .contentEntrega p{
         font-size: 22px;
     }
 }
@@ -1626,37 +1210,129 @@
         padding: 0;
     }
     
-    .name-ProductDetails {
+    .name-ProductDetails, .contentEntrega h1 {
         font-size: 46px;
     }
-    
-    .prices-ProductDetails{
-        gap: 1.5rem;
-        margin: 1.5rem 0;
-        font-size: 38px;
+    .description-ProductDetails, .contentEntrega p{
+        font-size: 22px;
+    }
+}
+
+/* Tablet 10 2160px */
+@media screen and (min-width: 2160px) and (max-width: 2259px){
+    .additional-img {
+        height: 37rem;
+    }
+    .additional-img img {
+        width: 170px;
+        height: 170px;
+    }
+    .main-img {
+        width: 520px;
+        height: 520px;
+        padding: 0;
     }
     
-    .paymentMethods h1{
-        font-size: 25px;
+    .name-ProductDetails, .contentEntrega h1 {
+        font-size: 48px;
     }
-    .visaCard, .bancolombiaCard, .mastercardCard {
-        width: 6rem;
-        height: 4rem;
-    }
-    
-    .addToCart button{
-        width: 14rem;
-        height: 3.8rem;    
-    }
-    
-    .contentProductDetails2{
-        gap: 3rem;
-        margin: 5rem 14rem 0;
-    }
-    .contentProductDetails2 h1{
+    .description-ProductDetails, .contentEntrega p{
         font-size: 24px;
     }
-    .contentProductDetails2 p{
-        font-size: 22px;
+}
+
+/* 2260px - 2360px */
+@media screen and (min-width: 2260px) and (max-width: 2360px){
+    .additional-img {
+        height: 37rem;
+    }
+    .additional-img img {
+        width: 170px;
+        height: 170px;
+    }
+    .main-img {
+        width: 520px;
+        height: 520px;
+        padding: 0;
+    }
+    
+    .name-ProductDetails, .contentEntrega h1 {
+        font-size: 48px;
+    }
+    .description-ProductDetails, .contentEntrega p{
+        font-size: 25px;
+    }
+}
+
+/* 2361px - 2450px */
+@media screen and (min-width: 2361px) and (max-width: 2450px){
+    .additional-img {
+        height: 37rem;
+    }
+    .additional-img img {
+        width: 170px;
+        height: 170px;
+    }
+    .main-img {
+        width: 520px;
+        height: 520px;
+        padding: 0;
+    }
+    
+    .name-ProductDetails, .contentEntrega h1 {
+        font-size: 48px;
+    }
+    .description-ProductDetails, .contentEntrega p{
+        font-size: 25px;
+    }
+}
+
+/* 2451px - 2559px */
+@media screen and (min-width: 2451px) and (max-width: 2559px){
+    .additional-img {
+        height: 37rem;
+    }
+    .additional-img img {
+        width: 170px;
+        height: 170px;
+    }
+    .main-img {
+        width: 520px;
+        height: 520px;
+        padding: 0;
+    }
+    
+    .name-ProductDetails, .contentEntrega h1 {
+        font-size: 48px;
+    }
+    .description-ProductDetails, .contentEntrega p{
+        font-size: 25px;
+    }
+}
+
+/* Tablet 11 y 12 portatil 5 2560px */
+@media screen and (min-width: 2560px) and (max-width: 2600px){
+    .contentProductDetails{
+        padding: 8rem;
+    }
+
+    .additional-img {
+        height: 45rem;
+    }
+    .additional-img img {
+        width: 200px;
+        height: 200px;
+    }
+    .main-img {
+        width: 600px;
+        height: 600px;
+        padding: 0;
+    }
+    
+    .name-ProductDetails, .contentEntrega h1 {
+        font-size: 50px;
+    }
+    .description-ProductDetails, .contentEntrega p{
+        font-size: 28px;
     }
 }
