@@ -23,7 +23,6 @@ const Contact = () => {
                         <img src={imgContact} />
                     </div>
                 </div>
-
                 <div className="options">
                     <a href="#" className='card'>
                         <button>

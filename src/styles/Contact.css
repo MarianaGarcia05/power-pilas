@@ -5,15 +5,15 @@
 }
 .bg-contact{
     display: flex;
-    width: 110rem;
-    height: 20rem;
+    width: 90rem;
+    height: 15rem;
     margin: 4rem auto;
     border-radius: 14px;
     align-items: center;
     background-color: #219680;
     justify-content: space-around;
     box-shadow: 3px 19px 42px 8px rgba(82, 82, 82, 0.5);
-    background-image: radial-gradient(circle at right, #308980 42%, transparent 20%);
+    background-image: radial-gradient(circle at right, #308980 37%, transparent 20%);
 }
 
 .tittle-contact{
@@ -25,7 +25,8 @@
 
 .text-contact{
     color: #fff;
-    font-family: 35px;
+    font-size: 22px;
+    margin-top: 0.5rem;
     text-align: center;
     font-family: "Imprima", sans-serif;
 }
@@ -47,7 +48,7 @@
 
 .options{
     display: flex;
-    margin: 5rem 20rem auto;
+    margin: 7rem 20rem auto;
     justify-content: space-between;
 }
 

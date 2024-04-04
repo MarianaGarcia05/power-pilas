@@ -1,8 +1,7 @@
 .contenSection{
     display: flex;
     align-items: center;
-    padding: 4rem 20rem;
-    margin-bottom: 8rem;
+    padding: 4rem 20rem 6rem;
     background-color: #EEF8F5;
     justify-content: space-between;
 }
@@ -448,8 +447,7 @@
 /* Computador de mesa 7 1920px */
 @media screen and (min-width: 1920px) and (max-width: 1949px){
     .contenSection{
-        padding: 4rem 20rem;
-        margin-bottom: 8rem;
+        padding: 4rem 20rem 6rem;
     }
     .circle{
         width: 7rem;

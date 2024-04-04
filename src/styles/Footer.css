@@ -73,15 +73,26 @@
         background-image: radial-gradient(circle at bottom, #308980 35%, transparent 20%);
     }
     .contentFooter h1{
+        font-size: 28px;
         text-align: center;
     }
     .linea-footer{
-        height: 6px;
+        height: 3px;
         width: auto;
         margin: 1.5rem;
     }
+    .socialNetworks ul{
+        display: grid;
+        margin: auto 4rem;
+        grid-column-gap: 2rem;
+        grid-template-columns: repeat(2, 1fr);
+    }
     .location img{
-        margin: 5.5rem auto 0 auto;
+        width: 23rem;
+        margin: 2.5rem auto 0;
+    }
+    .itemsFooter li a {
+        font-size: 14px;
     }
 }
 
