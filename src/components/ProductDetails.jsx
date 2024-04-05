@@ -25,10 +25,13 @@ const ProductDetails = () => {
         <div className="info-ProductDetails">
           <h1 className='name-ProductDetails'>{product.name}</h1>
           <p className='description-ProductDetails'>{product.description}</p>
-          <div className="contentEntrega shadow-lg shadow-green-800">
+          <button className='contentEntrega'>
             <h1>Modo de entrega</h1>
+          </button>
+          {/* <div className="">
+            
             <p>{product.delivery}</p>
-          </div>
+          </div> */}
         </div>
 
       </div>
