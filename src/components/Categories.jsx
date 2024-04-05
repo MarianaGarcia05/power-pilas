@@ -4,30 +4,7 @@ import '../styles/Categories.css';
 import 'slick-carousel/slick/slick.css';
 import * as Fa6Icons from 'react-icons/fa6'
 import 'slick-carousel/slick/slick-theme.css';
-
-// datos quemados
-const data = [
-    {
-        img: `/imgPilas/licb.png`,
-        name: `LICB`
-    },
-    {
-        img: `/imgPilas/maxell.png`,
-        name: `MAXELL`
-    },
-    {
-        img: `/imgPilas/gpAlkaline.png`,
-        name: `GP-ALKALINE`
-    },
-    {
-        img: `/imgPilas/sony.png`,
-        name: `SONY`
-    },
-    {
-        img: `/imgPilas/energizer.png`,
-        name: `ENERGIZER`
-    }
-]
+import datosCategorias from '../datosCategorias.json';
 
 const CustomArrowPrev = ({ onClick }) => (
     <button type="button" onClick={onClick} className="flechaSliderL">
@@ -72,18 +49,18 @@ const Categories = () => {
         ]
     };
     return (
-        <div className='contentCategories mb-32 mt-11'>
+        <div className='contentCategories my-28'>
             <h1 className="tittleCategories"><span className='text-teal-600'>Categorias</span> Especiales</h1>
             <div className="sliderCategories">
                 <Slider {...settings}>
-                    {data.map((d, index) => (
-                        <button className='btnCategories' key={index}>
+                    {datosCategorias.map((Categories) => (
+                        <button className='btnCategories' key={Categories.id}>
                             <div>
-                                <img className='imgPilas' src={d.img} alt="" />
+                                <img className='imgPilas' src={Categories.img} alt="" />
                             </div>
 
                             <div>
-                                <p>{d.name}</p>
+                                <p>{Categories.name}</p>
                             </div>
                         </button>
                     ))}

@@ -9,7 +9,7 @@ import * as Fa6Icons from 'react-icons/fa6';
 const Sidebar = () => {
     return (
         <div className="contentSidebar">
-            <div className="tittleSidebar flex justify-between">
+            <div className="tittleSidebar">
                 <h1>Navegación</h1>
             </div>
 

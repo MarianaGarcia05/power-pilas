@@ -1,0 +1,27 @@
+[
+    {
+        "id": "1",
+        "img": "/imgPilas/licb.png",
+        "name": "LICB"
+    },
+    {
+        "id": "2",
+        "img": "/imgPilas/maxell.png",
+        "name": "MAXELL"
+    },
+    {
+        "id": "3",
+        "img": "/imgPilas/gpAlkaline.png",
+        "name": "GP-ALKALINE"
+    },
+    {
+        "id": "4",
+        "img": "/imgPilas/sony.png",
+        "name": "SONY"
+    },
+    {
+        "id": "5",
+        "img": "/imgPilas/energizer.png",
+        "name": "ENERGIZER"
+    }
+]
