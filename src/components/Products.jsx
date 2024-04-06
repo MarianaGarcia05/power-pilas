@@ -1,9 +1,14 @@
 import React from 'react';
 import '../styles/Products.css';
+import { useNavigate } from 'react-router-dom';
 import dataProductos from '../datosProductos.json'; 
 
 const Products = () => {
+    const navigate = useNavigate();
 
+    const handleProductClick = (product) => {
+        navigate(`/productDetails/${product.id}`, { state: { product } });
+    };  
 
     return (
         <div className='contentProducts'>
