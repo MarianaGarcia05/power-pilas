@@ -1,12 +1,15 @@
-import React from 'react';
 import Navbar from './Navbar';
+import Footer from './Footer';
 import '../styles/ProductDetails.css';
+import React, { useState } from 'react';
+import * as FaIcons from 'react-icons/fa';
 import { useLocation } from 'react-router-dom';
 
 const ProductDetails = () => {
   // tarer la informacion del producto necesario
   const { state } = useLocation();
   const product = state.product;
+  const [isOpen, setIsOpen] = useState(false);
 
   return (
     <>
@@ -25,15 +28,22 @@ const ProductDetails = () => {
         <div className="info-ProductDetails">
           <h1 className='name-ProductDetails'>{product.name}</h1>
           <p className='description-ProductDetails'>{product.description}</p>
-          <button className='contentEntrega'>
+          <button className='contentEntrega' onClick={() => setIsOpen((prev) => !prev)}>
             <h1>Modo de entrega</h1>
+            {!isOpen ? (
+              <FaIcons.FaCaretDown className='text-white' />
+            ) : (
+              <FaIcons.FaCaretUp className='text-white' />
+            )}
           </button>
-          {/* <div className="">
-            
-            <p>{product.delivery}</p>
-          </div> */}
+          {isOpen && (
+            <div className="itemsDetails">
+              <p>{product.item1}</p>
+              <p>{product.item2}</p>
+              <p>{product.item3}</p>
+            </div>
+          )}
         </div>
-
       </div>
     </>
   );

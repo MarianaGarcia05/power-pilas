@@ -12,7 +12,9 @@
         "paymentMethod1": "/paymentMethods/visaCard.png",
         "paymentMethod2": "/paymentMethods/bancolombiaCard.png",
         "paymentMethod3": "/paymentMethods/Mastercard.webp",
-        "delivery": "En la ciudad de Bucaramanga y Área Metropolitana se entrega inmediatamente. Ciudades principales se entrega entre 2 a 3 días hábiles. Destinos especiales se entrega entre 3 a 5 días hábiles."
+        "item1": "Destinos especiales se entrega entre 3 a 5 días hábiles.",
+        "item2": "Ciudades principales se entrega entre 2 a 3 días hábiles.",
+        "item3": "En la ciudad de Bucaramanga y Área Metropolitana se entrega inmediatamente."
     },
     {
         "id": 2,
@@ -27,7 +29,9 @@
         "paymentMethod1": "/paymentMethods/visaCard.png",
         "paymentMethod2": "/paymentMethods/bancolombiaCard.png",
         "paymentMethod3": "/paymentMethods/Mastercard.webp",
-        "delivery": "En la ciudad de Bucaramanga y Área Metropolitana se entrega inmediatamente. Ciudades principales se entrega entre 2 a 3 días hábiles. Destinos especiales se entrega entre 3 a 5 días hábiles."
+        "item1": "Destinos especiales se entrega entre 3 a 5 días hábiles.",
+        "item2": "Ciudades principales se entrega entre 2 a 3 días hábiles.",
+        "item3": "En la ciudad de Bucaramanga y Área Metropolitana se entrega inmediatamente."
     },
     {
         "id": 3,
@@ -42,7 +46,9 @@
         "paymentMethod1": "/paymentMethods/visaCard.png",
         "paymentMethod2": "/paymentMethods/bancolombiaCard.png",
         "paymentMethod3": "/paymentMethods/Mastercard.webp",
-        "delivery": "En la ciudad de Bucaramanga y Área Metropolitana se entrega inmediatamente. Ciudades principales se entrega entre 2 a 3 días hábiles. Destinos especiales se entrega entre 3 a 5 días hábiles."
+        "item1": "Destinos especiales se entrega entre 3 a 5 días hábiles.",
+        "item2": "Ciudades principales se entrega entre 2 a 3 días hábiles.",
+        "item3": "En la ciudad de Bucaramanga y Área Metropolitana se entrega inmediatamente."
     },
     {
         "id": 4,
@@ -57,7 +63,9 @@
         "paymentMethod1": "/paymentMethods/visaCard.png",
         "paymentMethod2": "/paymentMethods/bancolombiaCard.png",
         "paymentMethod3": "/paymentMethods/Mastercard.webp",
-        "delivery": "En la ciudad de Bucaramanga y Área Metropolitana se entrega inmediatamente. Ciudades principales se entrega entre 2 a 3 días hábiles. Destinos especiales se entrega entre 3 a 5 días hábiles."
+        "item1": "En la ciudad de Bucaramanga y Área Metropolitana se entrega inmediatamente.",
+        "item2": "Ciudades principales se entrega entre 2 a 3 días hábiles. ",
+        "item3": "Destinos especiales se entrega entre 3 a 5 días hábiles."
     },
     {
         "id": 5,
@@ -72,7 +80,9 @@
         "paymentMethod1": "/paymentMethods/visaCard.png",
         "paymentMethod2": "/paymentMethods/bancolombiaCard.png",
         "paymentMethod3": "/paymentMethods/Mastercard.webp",
-        "delivery": "En la ciudad de Bucaramanga y Área Metropolitana se entrega inmediatamente. Ciudades principales se entrega entre 2 a 3 días hábiles. Destinos especiales se entrega entre 3 a 5 días hábiles."
+        "item1": "En la ciudad de Bucaramanga y Área Metropolitana se entrega inmediatamente.",
+        "item2": "Ciudades principales se entrega entre 2 a 3 días hábiles. ",
+        "item3": "Destinos especiales se entrega entre 3 a 5 días hábiles."
     },
     {
         "id": 6,
@@ -87,6 +97,8 @@
         "paymentMethod1": "/paymentMethods/visaCard.png",
         "paymentMethod2": "/paymentMethods/bancolombiaCard.png",
         "paymentMethod3": "/paymentMethods/Mastercard.webp",
-        "delivery": "En la ciudad de Bucaramanga y Área Metropolitana se entrega inmediatamente. Ciudades principales se entrega entre 2 a 3 días hábiles. Destinos especiales se entrega entre 3 a 5 días hábiles."
+        "item1": "En la ciudad de Bucaramanga y Área Metropolitana se entrega inmediatamente.",
+        "item2": "Ciudades principales se entrega entre 2 a 3 días hábiles. ",
+        "item3": "Destinos especiales se entrega entre 3 a 5 días hábiles."
     }
 ]

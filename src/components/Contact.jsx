@@ -23,7 +23,31 @@ const Contact = () => {
                         <img src={imgContact} />
                     </div>
                 </div>
+                
+                <div className="flex justify-between px-52">
+                    <a className="card">
+                        <Fa6Icons.FaLocationDot className='iconContact' />
+                        <h2 className='tittle-card'>Ubicación</h2>
+                        <hr className='w-1/4' />
+                        <a href="#" className="">
+                            <p className='info-card'>Calle 10 No. 20 35 Oficina 295, <br /> Centro Comercial Unicentro</p>
+                        </a>
+                    </a>
+                </div>
                 <div className="options">
+                <a href="#" className='card'>
+                        <button>
+                            <div className="flex justify-between">
+                                <Fa6Icons.FaLocationDot className='iconContact' />
+                                <span className='flex flex-col'>
+                                    <h2 className='tittle-card'>Ubicación</h2>
+                                    <p className='info-card'>Calle 10 No. 20 35 Oficina 295, <br /> Centro Comercial Unicentro</p>
+                                </span>
+                            </div>
+                        </button>
+                    </a>
+                </div>
+                {/* <div className="options">
                     <a href="#" className='card'>
                         <button>
                             <div className="flex justify-between">
@@ -57,7 +81,7 @@ const Contact = () => {
                             </div>
                         </button>
                     </a>
-                </div>
+                </div> */}
             </div>
         </>
     )

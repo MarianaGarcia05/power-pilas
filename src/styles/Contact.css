@@ -80,11 +80,16 @@
 .info-card{
     font-size: 16px;
     text-align: start;
-    margin-top: -0.8rem;
+    margin-top: 0.8rem;
     font-family: "Imprima", sans-serif;
 }
 .iconContact{
-    font-size: 30px;
+    margin: auto auto 1.5rem;
+    font-size: 70px;
+    padding: 0.5rem;
     color: #12a579;
-    margin: auto 1rem auto -1.5rem;
+    border-radius: 100px;
+    background-color: #92f7d94d;
+    --tw-shadow-color: #14532d;
+    box-shadow: 0 25px 40px 8px rgb(0 0 0 / 0.25);
 }
