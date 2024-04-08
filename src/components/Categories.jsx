@@ -4,7 +4,7 @@ import '../styles/Categories.css';
 import 'slick-carousel/slick/slick.css';
 import * as Fa6Icons from 'react-icons/fa6'
 import 'slick-carousel/slick/slick-theme.css';
-import datosCategorias from '../datosCategorias.json';
+import datosCategorias from '../json/datosCategorias.json';
 
 const CustomArrowPrev = ({ onClick }) => (
     <button type="button" onClick={onClick} className="flechaSliderL">

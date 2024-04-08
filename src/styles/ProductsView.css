@@ -364,6 +364,7 @@
     }
     .linea-vertical {
         height: 60vh;
+        margin-left: 0;
     } 
 }
 

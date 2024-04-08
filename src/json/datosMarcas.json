@@ -1,0 +1,26 @@
+[
+    {
+        "id": "1",
+        "img": "/logos/img-Duracell.png",
+        "name":"Duracell",
+        "description": "Las pilas de botón son caracterizadas por una potencia de larga duración, Duracell ofrece la calidad en una gran variedad de tamaños."
+    },
+    {
+        "id": "2",
+        "img": "/logos/img-Energizer.png",
+        "name":"Energizer",
+        "description": "Energía duradera y confiable, Energizer ofrece una gama completa de baterías en miniatura de larga duración. Ya sea para su reloj, cámara, u otro dispositivo pequeño."
+    },
+    {
+        "id": "3",
+        "img": "/logos/img-Maxell.png",
+        "name":"Maxell",
+        "description": "Duran 10 veces más que las baterías comunes, Maxell ofrece baterías alcalinas para relojes, controles remotos y otros dispositivos de uso constante."
+    },
+    {
+        "id": "4",
+        "img": "/logos/img-Panasonic.png",
+        "name":"Panasonic",
+        "description": "Las pilas botón LITIO POWER de Panasonic han sido diseñadas para ofrecer un suministro de energía fiable y duradero con amplia gama disponible enblíster."
+    }
+]

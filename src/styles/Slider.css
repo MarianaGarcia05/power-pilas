@@ -101,3 +101,69 @@
         }
     }
 }
+
+
+/* Tablet 2-Ipad Mini 768px */
+@media screen and (min-width: 768px) and (max-width: 799px){
+    .contentSlider{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .contentSlider figure {
+        width: 310px;
+        height: 140px;
+    }
+    .contentSlider figure .informationSlider p {
+        font-size: 14.5px;
+    }
+    .contentSlider figure:hover > .informationSlider h2{
+        margin-top: 12px;
+        margin-bottom: 8px;
+    }
+}
+
+/* Tablet 3 800px */
+@media screen and (min-width: 800px) and (max-width: 819px){
+    .contentSlider{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .contentSlider figure {
+        width: 310px;
+        height: 140px;
+        margin-left: 3.5rem;
+    }
+    .contentSlider figure .informationSlider p {
+        font-size: 14.5px;
+    }
+    .contentSlider figure:hover > .informationSlider h2{
+        margin-top: 12px;
+        margin-bottom: 8px;
+    }
+}
+
+/* ipad Air 820px */
+@media screen and (min-width: 820px) and (max-width: 868px){
+    .contentSlider{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .contentSlider figure {
+        width: 310px;
+        height: 140px;
+        margin-left: 3.5rem;
+    }
+    .contentSlider figure .informationSlider p {
+        font-size: 14.5px;
+    }
+    .contentSlider figure:hover > .informationSlider h2{
+        margin-top: 12px;
+        margin-bottom: 8px;
+    }
+}
+
+/* Tableta 3 869px */
+@media screen and (min-width: 869px) and (max-width: 911px){
+
+}
+

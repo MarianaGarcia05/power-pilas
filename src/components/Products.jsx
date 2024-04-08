@@ -1,7 +1,7 @@
 import React from 'react';
 import '../styles/Products.css';
 import { useNavigate } from 'react-router-dom';
-import dataProductos from '../datosProductos.json'; 
+import dataProductos from '../json/datosProductos.json'; 
 
 const Products = () => {
     const navigate = useNavigate();
