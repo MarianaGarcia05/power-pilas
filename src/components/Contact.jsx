@@ -14,6 +14,35 @@ const Contact = () => {
             </div>
 
             <div className="content">
+                <div className="options">
+                    <a className="card">
+                        <Fa6Icons.FaLocationDot className='iconContact' />
+                        <h2 className='tittle-card'>Ubicación</h2>
+                        <hr className='w-2/5' />
+                        <a href="#" className="">
+                            <p className='info-card'>Calle 10 No. 20 35 Oficina 295, Centro Comercial Unicentro</p>
+                        </a>
+                    </a>
+
+                    <a className="card">
+                        <FaIcons.FaPhoneAlt className='iconContact' />
+                        <h2 className='tittle-card'>Llámanos</h2>
+                        <hr className='w-2/5' />
+                        <a href="#" className="">
+                            <p className='info-card'>324 215 3045</p>
+                        </a>
+                    </a>
+
+                    <a className="card">
+                        <MdIcons.MdAttachEmail className='iconContact' />
+                        <h2 className='tittle-card'>Correo</h2>
+                        <hr className='w-2/5' />
+                        <a href="#" className="">
+                            <p className='info-card'>joyeria@gmail.com</p>
+                        </a>
+                    </a>
+                </div>
+
                 <div className="bg-contact">
                     <div className='flex flex-col'>
                         <h1 className='tittle-contact'>Estamos para ayudarte</h1>
@@ -23,65 +52,6 @@ const Contact = () => {
                         <img src={imgContact} />
                     </div>
                 </div>
-                
-                <div className="flex justify-between px-52">
-                    <a className="card">
-                        <Fa6Icons.FaLocationDot className='iconContact' />
-                        <h2 className='tittle-card'>Ubicación</h2>
-                        <hr className='w-1/4' />
-                        <a href="#" className="">
-                            <p className='info-card'>Calle 10 No. 20 35 Oficina 295, <br /> Centro Comercial Unicentro</p>
-                        </a>
-                    </a>
-                </div>
-                <div className="options">
-                <a href="#" className='card'>
-                        <button>
-                            <div className="flex justify-between">
-                                <Fa6Icons.FaLocationDot className='iconContact' />
-                                <span className='flex flex-col'>
-                                    <h2 className='tittle-card'>Ubicación</h2>
-                                    <p className='info-card'>Calle 10 No. 20 35 Oficina 295, <br /> Centro Comercial Unicentro</p>
-                                </span>
-                            </div>
-                        </button>
-                    </a>
-                </div>
-                {/* <div className="options">
-                    <a href="#" className='card'>
-                        <button>
-                            <div className="flex justify-between">
-                                <Fa6Icons.FaLocationDot className='iconContact' />
-                                <span className='flex flex-col'>
-                                    <h2 className='tittle-card'>Ubicación</h2>
-                                    <p className='info-card'>Calle 10 No. 20 35 Oficina 295, <br /> Centro Comercial Unicentro</p>
-                                </span>
-                            </div>
-                        </button>
-                    </a>
-                    <a href="#" className='card'>
-                        <button>
-                            <div className="flex justify-between">
-                                <FaIcons.FaPhoneAlt className='iconContact' />
-                                <span className='flex flex-col'>
-                                    <h2 className='tittle-card'>Llámanos</h2>
-                                    <p className='info-card'>324 215 3045</p>
-                                </span>
-                            </div>
-                        </button>
-                    </a>
-                    <a href="#" className='card'>
-                        <button>
-                            <div className="flex justify-between">
-                                <MdIcons.MdAttachEmail className='iconContact' />
-                                <span className='flex flex-col'>
-                                    <h2 className='tittle-card'>Correo</h2>
-                                    <p className='info-card'>joyeria@gmail.com</p>
-                                </span>
-                            </div>
-                        </button>
-                    </a>
-                </div> */}
             </div>
         </>
     )

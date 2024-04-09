@@ -3,93 +3,80 @@
     z-index: 100;
     position: relative;
 }
-.bg-contact{
-    display: flex;
-    width: 90rem;
-    height: 15rem;
-    margin: 4rem auto;
-    border-radius: 14px;
-    align-items: center;
-    background-color: #219680;
-    justify-content: space-around;
-    box-shadow: 3px 19px 42px 8px rgba(82, 82, 82, 0.5);
-    background-image: radial-gradient(circle at right, #308980 37%, transparent 20%);
-}
-
-.tittle-contact{
-    color: #fff;
-    font-size: 50px;
-    font-weight: bolder;
-    text-shadow: 0 0 5px #006125, 0 0 15px #006125, 0 0 30px #006125, 0 0 50px #006125;
-}
-
-.text-contact{
-    color: #fff;
-    font-size: 22px;
-    margin-top: 0.5rem;
-    text-align: center;
-    font-family: "Imprima", sans-serif;
-}
-
-.imgContact img{
-    width: 15rem;
-}
-
-.contact h1{
-    font-size: 30px;
-    text-align: center;
-    font-family: "Imprima", sans-serif;
-}
-.contact p{
-    font-size: 26px;
-    text-align: center;
-    font-family: "Imprima", sans-serif;
-}
-
 .options{
     display: flex;
-    margin: 7rem 20rem auto;
+    margin: 8.5rem 25rem;
     justify-content: space-between;
 }
 
-.card button{
-    width: 22rem;
-    display: flex;
-    height: 9rem;
-    align-items: center;
-    border-radius: 14px;
-    justify-content: center;
-    background-color: #EEF8F5;
+.card {
+    width: 271px;
+    padding: 2rem;
+    height: 291px;
+    background: #fff;
+    border-radius: 15px;
     transition: all 0.3s ease 0s;
-    box-shadow: 0px 0px 10px rgba(116, 116, 116, 0.5);
+    box-shadow: 0 6px 23px 9px rgba(165, 164, 164, 0.37);   
+}
+.card:hover{
+    transform: translateY(7px);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);  
 }
 
-.card button:hover{
-    transform: translateY(-7px);
-    background-color: #989a9c2f;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
-}
-
-.tittle-card{
+.iconContact{
+    font-size: 70px;
+    padding: 0.5rem;
     color: #12a579;
+    border-radius: 100px;
+    margin: auto auto 1.5rem;
+    background-color: #92f7d94d;
+    --tw-shadow-color: #14532d;
+    box-shadow: 0 25px 40px -8px rgb(0 0 0 / 0.25);
+}
+.card hr{
+    width: 35%;
+    height: 2px;
+    background-color: #BCBDBC;
+}
+.tittle-card{
     font-size: 35px;
-    font-weight: 400;
+    font-weight: 500;
+    color: #12a579;
     text-align: start;
     font-family: "Imprima", sans-serif;
 }
 .info-card{
     font-size: 16px;
     text-align: start;
-    margin-top: 0.8rem;
+    margin-top: 2rem;
     font-family: "Imprima", sans-serif;
 }
-.iconContact{
-    margin: auto auto 1.5rem;
-    font-size: 70px;
-    padding: 0.5rem;
-    color: #12a579;
-    border-radius: 100px;
-    background-color: #92f7d94d;
-    --tw-shadow-color: #14532d;
-    box-shadow: 0 25px 40px 8px rgb(0 0 0 / 0.25);
+
+.bg-contact{
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    position: fixed;
+    align-items: center;
+    background-color: #219680;
+    justify-content: space-around;
+    box-shadow: 3px 19px 42px 8px rgba(82, 82, 82, 0.5);
+    background-image: radial-gradient(circle at right, #308980 37%, transparent 20%);
+}
+.tittle-contact{
+    color: #fff;
+    font-size: 50px;
+    text-align: center;
+    font-weight: bolder;
+    font-family: "Imprima", sans-serif;
+    text-shadow: 0 0 5px #006125, 0 0 15px #006125, 0 0 30px #006125, 0 0 50px #006125;
+}
+.imgContact img{
+    width: 15rem;
+}
+.bg-contact p{
+    color: #fff;
+    font-size: 26px;
+    text-align: center;
+    font-family: "Imprima", sans-serif;
 }
