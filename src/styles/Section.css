@@ -582,13 +582,11 @@
 /* Tablet 11 y 12 portatil 5 2560px */
 @media screen and (min-width: 2560px) and (max-width: 2600px){
     .contenSection{
-        padding: 4rem 22rem;
-        margin-top: 12rem;
-        margin-bottom: 13rem;
+        padding: 8rem 22rem;
     }
     .circle{
-        width: 11rem;
-        height: 11rem;
+        width: 9rem;
+        height: 9rem;
     }
     
     .tittleSection{

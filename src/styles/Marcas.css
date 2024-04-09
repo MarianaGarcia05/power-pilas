@@ -79,43 +79,103 @@
 }
 
 /* Responsive */
-/* Tablet 1 600px - Portatil 1 640px */
-@media screen and (min-width: 600px) and (max-width: 679px){
+/* Tablet 1 600px */
+@media screen and (min-width: 600px) and (max-width: 639px){
     .contentSlider{
-        animation: scroll 40s linear infinite;
-        -webkit-animation: scroll 80s linear infinite;
-        width: calc(45%* 4);
-    }
-
-    .contentSlider figure{
-        width: 286px;
-        margin: 30px;
-    }
-    @keyframes scroll {
-        0% {
-            -webkit-transform: translateX(0);
-            transform: translateX(0);
-        }
-        100% {
-            -webkit-transform: translateX(calc(-200px * 4));
-            transform: translateX(calc(-200px * 4));
-        }
-    }
-}
-
-
-/* Tablet 2-Ipad Mini 768px */
-@media screen and (min-width: 768px) and (max-width: 799px){
-    .contentSlider{
+        gap: 1rem;
         display: grid;
         grid-template-columns: repeat(2, 1fr);
     }
     .contentSlider figure {
-        width: 310px;
-        height: 140px;
+        width: 265px;
+        height: 130px;
+        margin: 15px auto;
     }
     .contentSlider figure .informationSlider p {
-        font-size: 14.5px;
+        font-size: 12px;
+    }
+    .contentSlider figure:hover > .informationSlider h2{
+        margin-top: 12px;
+        margin-bottom: 8px;
+    }
+}
+
+/* Portatil 1 640px */
+@media screen and (min-width: 640px) and (max-width: 679px){
+    .contentSlider{
+        gap: 1rem;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .contentSlider figure {
+        width: 265px;
+        height: 130px;
+        margin: 15px auto;
+    }
+    .contentSlider figure .informationSlider p {
+        font-size: 12px;
+    }
+    .contentSlider figure:hover > .informationSlider h2{
+        margin-top: 12px;
+        margin-bottom: 8px;
+    }
+}
+
+/* Tableta 1 680px */
+@media screen and (min-width: 680px) and (max-width: 700px){
+    .contentSlider{
+        gap: 1rem;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .contentSlider figure {
+        width: 265px;
+        height: 130px;
+        margin: 15px auto;
+    }
+    .contentSlider figure .informationSlider p {
+        font-size: 12px;
+    }
+    .contentSlider figure:hover > .informationSlider h2{
+        margin-top: 12px;
+        margin-bottom: 8px;
+    }
+}
+
+@media screen and (min-width: 701px) and (max-width: 755px){
+    .contentSlider{
+        gap: 1rem;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .contentSlider figure {
+        width: 265px;
+        height: 130px;
+        margin: 15px auto;
+    }
+    .contentSlider figure .informationSlider p {
+        font-size: 12px;
+    }
+    .contentSlider figure:hover > .informationSlider h2{
+        margin-top: 12px;
+        margin-bottom: 8px;
+    }
+}
+
+/* Tableta 2 756px */
+@media screen and (min-width: 756px) and (max-width: 767px){
+    .contentSlider{
+        gap: 1rem;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .contentSlider figure {
+        width: 265px;
+        height: 130px;
+        margin: 15px auto;
+    }
+    .contentSlider figure .informationSlider p {
+        font-size: 12px;
     }
     .contentSlider figure:hover > .informationSlider h2{
         margin-top: 12px;
@@ -166,7 +226,22 @@
 
 /* Tableta 3 869px */
 @media screen and (min-width: 869px) and (max-width: 911px){
-
+    .contentSlider{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .contentSlider figure {
+        width: 310px;
+        height: 140px;
+        margin-left: 3.5rem;
+    }
+    .contentSlider figure .informationSlider p {
+        font-size: 14.5px;
+    }
+    .contentSlider figure:hover > .informationSlider h2{
+        margin-top: 12px;
+        margin-bottom: 8px;
+    }
 }
 
 /* Tablet 7-computador de mesa 3/4-Nast Hub Max 1280px */

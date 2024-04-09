@@ -1,8 +1,8 @@
 import React from 'react';
-import '../styles/Slider.css';
+import '../styles/Marcas.css';
 import datosMarcas from '../json/datosMarcas.json';
 
-const Slider = () => {
+const Marcas = () => {
     return (
         <div className='mt-18 mb-32'>
             <h1 className='tittleMarcas'><span className='text-teal-600'>Variedad</span> de marcas</h1>
@@ -23,4 +23,4 @@ const Slider = () => {
     )
 }
 
-export default Slider
+export default Marcas;

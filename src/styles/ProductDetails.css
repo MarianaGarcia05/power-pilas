@@ -113,6 +113,7 @@
 }
 
 .itemsDetails p{
+    font-size: 16px;
     color: #fff;
     padding: 0.2rem;
 }
@@ -329,12 +330,10 @@
         font-size: 22px;
     }
 
-    .contentEntrega{
-        padding: 1.5rem;
+    .itemsDetails{
+        width: 20rem;
     }
-    .contentEntrega h1{
-        font-size: 30px;
-    }
+    
 }
 
 /* Tablet 2-Ipad Mini 768px */
@@ -374,11 +373,8 @@
         font-size: 22px;
     }
 
-    .contentEntrega{
-        padding: 1.5rem;
-    }
-    .contentEntrega h1{
-        font-size: 30px;
+    .itemsDetails{
+        width: 20rem;
     }
 
 }
@@ -420,11 +416,8 @@
         font-size: 22px;
     }
 
-    .contentEntrega{
-        padding: 1.5rem;
-    }
-    .contentEntrega h1{
-        font-size: 30px;
+    .itemsDetails{
+        width: 20rem;
     }
 
 }
@@ -466,11 +459,11 @@
         font-size: 23px;
     }
 
-    .contentEntrega{
-        padding: 1.5rem;
+    .itemsDetails{
+        width: 20rem;
     }
-    .contentEntrega h1{
-        font-size: 30px;
+    .itemsDetails p{
+        font-size: 18px;
     }
 }
 
@@ -511,11 +504,8 @@
         font-size: 23px;
     }
 
-    .contentEntrega{
-        padding: 1.5rem;
-    }
-    .contentEntrega h1{
-        font-size: 30px;
+    .itemsDetails {
+        width: 20rem;
     }
 }
 
@@ -556,12 +546,6 @@
         font-size: 25px;
     }
 
-    .contentEntrega{
-        padding: 1.5rem;
-    }
-    .contentEntrega h1{
-        font-size: 30px;
-    }
 }
 
 /* Tableta 4 944px */
@@ -600,13 +584,6 @@
     .name-ProductDetails{
         font-size: 25px;
     }
-
-    .contentEntrega{
-        padding: 2rem;
-    }
-    .contentEntrega h1{
-        font-size: 30px;
-    }
 }
 
 /* Portatil 2 960px */
@@ -644,13 +621,6 @@
     }
     .name-ProductDetails{
         font-size: 31px;
-    }
-
-    .contentEntrega{
-        padding: 1.5rem;
-    }
-    .contentEntrega h1{
-        font-size: 30px;
     }
 }
 
@@ -691,10 +661,6 @@
     .name-ProductDetails{
         font-size: 30px;
     }
-
-    .contentEntrega{
-        padding: 1.5rem;
-    }
 }
 
 /* Tableta 5 1058px */
@@ -734,10 +700,6 @@
     .name-ProductDetails{
         font-size: 30px;
     }
-
-    .contentEntrega{
-        padding: 1.5rem;
-    }
 }
 
 /* Tablet 5 1080px */
@@ -776,10 +738,6 @@
     }
     .name-ProductDetails{
         font-size: 30px;
-    }
-
-    .contentEntrega{
-        padding: 2rem;
     }
 }
 
@@ -821,9 +779,7 @@
         font-size: 30px;
     }
 
-    .contentEntrega{
-        padding: 1.5rem;
-    }
+    
 }
 
 /* Tablet 6 1200px */
@@ -864,9 +820,7 @@
         font-size: 30px;
     }
 
-    .contentEntrega{
-        padding: 1.5rem;
-    }
+    
 }
 
 /* Tablet 7-computador de mesa 3/4-Nast Hub Max 1280px */
@@ -901,9 +855,7 @@
         font-size: 30px;
     }
 
-    .contentEntrega{
-        padding: 1.5rem;
-    }
+    
 }
 
 /* Tableta 7 1285px */
@@ -938,9 +890,7 @@
         font-size: 30px;
     }
 
-    .contentEntrega{
-        padding: 2rem;
-    }
+    
 }
 
 /* 1336px - 1376px*/
@@ -974,9 +924,11 @@
     .name-ProductDetails{
         font-size: 30px;
     }
-    .contentEntrega{
-        padding: 1.5rem;
+
+    .itemsDetails p{
+        font-size: 17px;
     }
+    
 }
 
 /* Computador de mesa 5 1400px */
@@ -1011,9 +963,7 @@
         font-size: 33px;
     }
 
-    .contentEntrega{
-        padding: 1.5rem;
-    }
+    
 }
 
 /* 1421px - 1499px */
@@ -1028,7 +978,7 @@
 
     .additional-img {
         padding: 1rem;
-        backdrop-filter: blur(1rem);
+        backdrop-filter: blur(0.5rem);
     }
     .additional-img img {
         width: 105px;
@@ -1048,9 +998,7 @@
         font-size: 35px;
     }
 
-    .contentEntrega{
-        padding: 1.5rem;
-    }
+    
 }
 
 /* Tablet 8 1536px */
@@ -1085,9 +1033,31 @@
         font-size: 35px;
     }
 
-    .contentEntrega{
-        padding: 1.5rem;
+    .description-ProductDetails {
+        font-size: 23px;
     }
+
+    .contentEntrega {
+        height: 3rem;
+        width: 13.5rem;
+    }
+
+    .contentEntrega:hover {
+        width: 15rem;
+    }
+
+    .contentEntrega h1 {
+        font-size: 22px;
+    }
+
+    .itemsDetails {
+        width: 30rem;
+    }
+
+    .itemsDetails p {
+        font-size: 23px;
+    }
+    
 }
 
 /* Computador de mesa 6  1600px */
@@ -1118,9 +1088,14 @@
         font-size: 35px;
     }
 
-    .contentEntrega{
-        padding: 1.8rem;
+    .contentEntrega {
+        width: 11rem;
     }
+
+    .contentEntrega:hover {
+        width: 12rem;
+    }
+
 }
 
 /* 1700px - 1799px */
@@ -1225,11 +1200,27 @@
         height: 520px;
     }
     
-    .name-ProductDetails, .contentEntrega h1 {
+    .name-ProductDetails {
         font-size: 46px;
     }
     .description-ProductDetails, .itemsDetails p{
         font-size: 22px;
+    }
+
+    .contentEntrega h1{
+        font-size: 24px;
+    }
+    
+    .contentEntrega {
+        width: 15.5rem;
+        height: 3rem;
+    }
+    .contentEntrega:hover{
+        width: 15rem;
+    }
+
+    .itemsDetails {
+        width: 34rem;
     }
 }
 
@@ -1248,11 +1239,27 @@
         padding: 0;
     }
     
-    .name-ProductDetails, .contentEntrega h1 {
+    .name-ProductDetails{
         font-size: 46px;
     }
     .description-ProductDetails, .itemsDetails p{
         font-size: 22px;
+    }
+
+    .contentEntrega h1{
+        font-size: 24px;
+    }
+    
+    .contentEntrega {
+        width: 15.5rem;
+        height: 3rem;
+    }
+    .contentEntrega:hover{
+        width: 15rem;
+    }
+
+    .itemsDetails {
+        width: 34rem;
     }
 }
 
@@ -1271,11 +1278,27 @@
         padding: 0;
     }
     
-    .name-ProductDetails, .contentEntrega h1 {
+    .name-ProductDetails {
         font-size: 48px;
     }
     .description-ProductDetails, .itemsDetails p{
         font-size: 24px;
+    }
+
+    .contentEntrega h1{
+        font-size: 24px;
+    }
+    
+    .contentEntrega {
+        width: 15.5rem;
+        height: 3rem;
+    }
+    .contentEntrega:hover{
+        width: 15rem;
+    }
+
+    .itemsDetails {
+        width: 34rem;
     }
 }
 
@@ -1294,11 +1317,27 @@
         padding: 0;
     }
     
-    .name-ProductDetails, .contentEntrega h1 {
+    .name-ProductDetails {
         font-size: 48px;
     }
     .description-ProductDetails, .itemsDetails p{
         font-size: 25px;
+    }
+
+    .contentEntrega h1{
+        font-size: 24px;
+    }
+    
+    .contentEntrega {
+        width: 15.5rem;
+        height: 3rem;
+    }
+    .contentEntrega:hover{
+        width: 15rem;
+    }
+
+    .itemsDetails {
+        width: 34rem;
     }
 }
 
@@ -1317,11 +1356,27 @@
         padding: 0;
     }
     
-    .name-ProductDetails, .contentEntrega h1 {
+    .name-ProductDetails{
         font-size: 48px;
     }
     .description-ProductDetails, .itemsDetails p{
         font-size: 25px;
+    }
+
+    .contentEntrega h1{
+        font-size: 24px;
+    }
+    
+    .contentEntrega {
+        width: 15.5rem;
+        height: 3rem;
+    }
+    .contentEntrega:hover{
+        width: 15rem;
+    }
+
+    .itemsDetails {
+        width: 34rem;
     }
 }
 
@@ -1340,11 +1395,27 @@
         padding: 0;
     }
     
-    .name-ProductDetails, .contentEntrega h1 {
+    .name-ProductDetails {
         font-size: 48px;
     }
     .description-ProductDetails, .itemsDetails p{
         font-size: 25px;
+    }
+
+    .contentEntrega h1{
+        font-size: 24px;
+    }
+    
+    .contentEntrega {
+        width: 15.5rem;
+        height: 3rem;
+    }
+    .contentEntrega:hover{
+        width: 15rem;
+    }
+
+    .itemsDetails {
+        width: 34rem;
     }
 }
 
@@ -1367,10 +1438,26 @@
         padding: 0;
     }
     
-    .name-ProductDetails, .contentEntrega h1 {
+    .name-ProductDetails {
         font-size: 50px;
     }
     .description-ProductDetails, .itemsDetails p{
         font-size: 28px;
+    }
+
+    .contentEntrega h1{
+        font-size: 24px;
+    }
+    
+    .contentEntrega {
+        width: 15.5rem;
+        height: 3rem;
+    }
+    .contentEntrega:hover{
+        width: 15rem;
+    }
+
+    .itemsDetails {
+        width: 34rem;
     }
 }

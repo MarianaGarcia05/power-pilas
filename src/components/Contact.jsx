@@ -14,33 +14,34 @@ const Contact = () => {
             </div>
 
             <div className="content">
+                
                 <div className="options">
-                    <a className="card">
+                    <button className="card">
                         <Fa6Icons.FaLocationDot className='iconContact' />
                         <h2 className='tittle-card'>Ubicación</h2>
                         <hr className='w-2/5' />
                         <a href="#" className="">
                             <p className='info-card'>Calle 10 No. 20 35 Oficina 295, Centro Comercial Unicentro</p>
                         </a>
-                    </a>
+                    </button>
 
-                    <a className="card">
+                    <button className="card">
                         <FaIcons.FaPhoneAlt className='iconContact' />
                         <h2 className='tittle-card'>Llámanos</h2>
                         <hr className='w-2/5' />
                         <a href="#" className="">
                             <p className='info-card'>324 215 3045</p>
                         </a>
-                    </a>
+                    </button>
 
-                    <a className="card">
+                    <button className="card">
                         <MdIcons.MdAttachEmail className='iconContact' />
                         <h2 className='tittle-card'>Correo</h2>
                         <hr className='w-2/5' />
                         <a href="#" className="">
                             <p className='info-card'>joyeria@gmail.com</p>
                         </a>
-                    </a>
+                    </button>
                 </div>
 
                 <div className="bg-contact">

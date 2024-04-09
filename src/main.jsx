@@ -5,7 +5,7 @@ import ReactDOM from "react-dom/client";
 import Navbar from "./components/Navbar";
 import Footer from './components/Footer';
 import Banner from './components/Banner';
-import Slider from './components/Slider';
+import Marcas from './components/Marcas';
 import Sidebar from './components/Sidebar';
 import Contact from './components/Contact';
 import Section from './components/Section';
@@ -61,8 +61,8 @@ const router = createBrowserRouter([
     element: <Contact />,
   },
   {
-    path: "/slider",
-    element: <Slider />,
+    path: "/marcas",
+    element: <Marcas />,
   },
 ]);
 
