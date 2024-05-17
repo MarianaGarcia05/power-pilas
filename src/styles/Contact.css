@@ -94,6 +94,28 @@
     .bg-contact{
         position: relative;
     }
+    .tittle-contact {
+        padding: 2rem;
+        font-size: 35px;
+    }
+}
+
+/* Portatil 1 640px */
+@media screen and (min-width: 640px) and (max-width: 679px){
+    .options{
+        display: flex;
+        gap: 3rem;
+        margin: 5.5rem 6rem;
+        align-items: center;
+        flex-direction: column;
+    }
+    .bg-contact{
+        position: relative;
+    }
+    .tittle-contact {
+        padding: 2rem;
+        font-size: 35px;
+    }
 }
 
 /* Tableta 1 680px */
@@ -108,19 +130,28 @@
     .bg-contact{
         position: relative;
     }
+    .tittle-contact {
+        padding: 2rem;
+        font-size: 35px;
+    }
 }
 
 @media screen and (min-width: 701px) and (max-width: 755px){
     .options{
-        display: flex;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
         gap: 3rem;
-        margin: 5.5rem 6rem;
+        margin: 4rem;
+        justify-content: center;
         align-items: center;
-        flex-direction: column;
     }
     .bg-contact{
         position: relative;
     }
+    .tittle-contact {
+        padding: 2rem;
+        font-size: 35px;
+    }  
 }
 
 /* Tableta 2 756px */
@@ -128,74 +159,158 @@
     .options{
         display: flex;
         gap: 3rem;
-        margin: 5.5rem 6rem;
+        margin: 3rem;
         align-items: center;
-        flex-direction: column;
+    }
+    .card{
+        padding: 1rem;
     }
     .bg-contact{
         position: relative;
+    }
+    .iconContact {
+        font-size: 50px;
+    }
+    .tittle-card {
+        font-size: 25px;
+    }
+    .tittle-contact {
+        padding: 2rem;
+        font-size: 35px;
+    }
+}
+
+/* Tablet 2-Ipad Mini 768px */
+@media screen and (min-width: 768px) and (max-width: 799px){
+    .options{
+        display: flex;
+        gap: 3rem;
+        margin: 3rem;
+        align-items: center;
+    }
+    .card{
+        padding: 1.5rem;
+    }
+    .bg-contact{
+        position: relative;
+    }
+    .iconContact {
+        font-size: 50px;
+    }
+    .tittle-card {
+        font-size: 25px;
+    }
+    .tittle-contact {
+        padding: 2rem;
+        font-size: 35px;
     }
 }
 
 /* Tablet 3 800px */
 @media screen and (min-width: 800px) and (max-width: 819px){
     .options {
-        margin: 8.5rem 3rem;
+        margin: 2.5rem 3rem;
     }
     .card {
         width: 215px;
         height: 334px;
+        padding: 1.5rem;
+    }
+    .bg-contact{
+        position: relative;
     }
 }
 
 /* ipad Air 820px */
 @media screen and (min-width: 820px) and (max-width: 868px){
     .options {
-        margin: 8.5rem 3rem;
+        margin: 2.5rem 3rem;
     }
     .card {
         width: 215px;
         height: 334px;
+        padding: 1.5rem;
+    }
+    .bg-contact{
+        position: relative;
     }
 }
 
 /* Tableta 3 869px */
 @media screen and (min-width: 869px) and (max-width: 911px){
     .options {
-        margin: 8.5rem 3rem;
+        margin: 3.5rem 3rem;
+    }
+    .iconContact {
+        font-size: 60px;
     }
     .card {
         width: 215px;
-        height: 334px;
+        height: 294px;
+        padding: 1.5rem;
+    }
+    .tittle-card {
+        font-size: 26px;
+    }
+    .info-card {
+        font-size: 11px;
+    }
+    .tittle-contact {
+        font-size: 46px;
+    }
+    .bg-contact{
+        position: relative;
     }
 }
 
 /* Surface Pro 7 912px */
 @media screen and (min-width: 912px) and (max-width: 943px){
     .options {
-        margin: 8.5rem 3rem;
+        margin: 3.5rem 3rem;
+    }
+    .iconContact {
+        font-size: 60px;
     }
     .card {
-        width: 220px;
-        height: 334px;
+        width: 215px;
+        height: 294px;
+        padding: 1.5rem;
+    }
+    .tittle-card {
+        font-size: 26px;
+    }
+    .info-card {
+        font-size: 13px;
+    }
+    .tittle-contact {
+        font-size: 46px;
+    }
+    .bg-contact{
+        position: relative;
     }
 }
 
 /* Tableta 4 944px */
 @media screen and (min-width: 944px) and (max-width: 959px){
     .options {
-        margin: 8.5rem 3rem;
+        margin: 4.5rem 3rem;
     }
     .card {
         width: 220px;
         height: 334px;
+    }
+    .info-card{
+        font-size: 13px;
+    }
+    .bg-contact{
+        position: relative;
     }
 }
 
 /* Portatil 2 960px */
 @media screen and (min-width: 960px) and (max-width: 999px){
     .options {
-        margin: 8.5rem 3rem;
+        margin: 4.5rem 3rem;
     }
     .card {
         width: 220px;
@@ -209,7 +324,7 @@
 /* Tablet 4-computador de mesa 1/2-iPad Pro-Nest Hub 1024px */
 @media screen and (min-width: 1000px) and (max-width: 1050px){
     .options {
-        margin: 8.5rem 3rem;
+        margin: 4.5rem 3rem;
     }
     .card {
         width: 220px;
@@ -223,43 +338,55 @@
 /* Tableta 5 1058px */
 @media screen and (min-width: 1051px) and (max-width: 1079px){
     .options {
-        margin: 8.5rem 3rem;
+        margin: 4.5rem 3rem;
     }
     .card {
         width: 220px;
         height: 334px;
+    }
+    .bg-contact{
+        position: relative;
     }
 }
 
 /* Tablet 5 1080px */
 @media screen and (min-width: 1080px) and (max-width: 1130px){
     .options {
-        margin: 8.5rem 3rem;
+        margin: 4.5rem 3rem;
     }
     .card {
         width: 220px;
         height: 334px;
+    }
+    .bg-contact{
+        position: relative;
     }
 }
 
 /* Tableta 6 1171px*/
 @media screen and (min-width: 1131px) and (max-width: 1180px){
     .options {
-        margin: 8.5rem 5rem;
+        margin: 4.5rem 5rem;
+    }
+    .bg-contact{
+        position: relative;
     }
 }
 
 /* Tablet 6 1200px */
 @media screen and (min-width: 1181px) and (max-width: 1200px){
     .options {
-        margin: 8.5rem 5rem;
+        margin: 5.5rem 5rem;
+    }
+    .bg-contact{
+        position: relative;
     }
 }
 
 /* Tablet 7-computador de mesa 3/4-Nast Hub Max 1280px */
 @media screen and (min-width: 1201px) and (max-width: 1284px){
     .options {
-        margin: 8.5rem 6rem;
+        margin: 4.5rem 6rem;
     }
     .bg-contact{
         position: relative;
@@ -269,7 +396,10 @@
 /* Tableta 7 1285px */
 @media screen and (min-width: 1285px) and (max-width: 1335px){
     .options {
-        margin: 8.5rem 6rem;
+        margin: 4.5rem 6rem;
+    }
+    .bg-contact{
+        position: relative;
     }
 }
 
@@ -285,33 +415,48 @@
     .options {
         margin: 8.5rem 10rem;
     }
+    .bg-contact{
+        position: relative;
+    }
 }
 
 /* 1421px - 1499px */
 @media screen and (min-width: 1421px) and (max-width: 1499px){
     .options {
-        margin: 8.5rem 10rem;
+        margin: 5rem 10rem;
+    }
+    .bg-contact{
+        position: relative;
     }
 }
 
 /* Tablet 8 1536px */
 @media screen and (min-width: 1500px) and (max-width: 1599px){
     .options {
-        margin: 12.5rem 15rem 0;
+        margin: 5rem 15rem;
+    }
+    .bg-contact{
+        position: relative;
     }
 }
 
 /* Computador de mesa 6  1600px */
 @media screen and (min-width: 1600px) and (max-width: 1699px){
     .options {
-        margin: 8.5rem 17rem;
+        margin: 5rem 17rem;
+    }
+    .bg-contact{
+        position: relative;
     }
 }
 
 /* 1700px - 1919px */
 @media screen and (min-width: 1700px) and (max-width: 1919px){
     .options {
-        margin: 8.5rem 17rem;
+        margin: 5rem 17rem;
+    }
+    .bg-contact{
+        position: relative;
     }
 }
 
@@ -347,6 +492,7 @@
     .bg-contact{
         bottom: 0;
         width: 100%;
+        position: relative;
     }
     .tittle-contact{
         font-size: 50px;
@@ -371,6 +517,7 @@
     }
     .bg-contact {
         height: 18rem;
+        position: relative;
     }
 }
 
@@ -386,6 +533,7 @@
     }
     .bg-contact {
         height: 18rem;
+        position: relative;
     }
 }
 
@@ -400,6 +548,7 @@
         font-size: 21px;
     }
     .bg-contact {
+        position: relative;
         height: 18rem;
     }
 }
