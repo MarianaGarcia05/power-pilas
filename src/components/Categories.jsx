@@ -31,7 +31,7 @@ const Categories = () => {
             {
                 breakpoint: 1800,
                 settings: {
-                    slidesToShow: 3
+                    slidesToShow: 4
                 },
             },
             {

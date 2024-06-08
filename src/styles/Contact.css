@@ -1,4 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Imprima&display=swap');
+/* .content-Contact{
+    display: flex;
+    flex-direction: column;
+} */
 .nav{
     z-index: 100;
     position: relative;

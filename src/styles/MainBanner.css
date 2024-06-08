@@ -1,0 +1,2182 @@
+.container-MainBanner {
+    margin: 5rem;
+    width: 110rem;
+    height: 30rem;
+    padding: 2rem 5rem;
+    position: relative;
+    text-align: center;
+    border-radius: 2rem;
+    box-shadow: 3px 19px 42px 8px rgba(82, 82, 82, 0.5);
+    background: linear-gradient(145deg, #7bccc3, #037063);
+}
+
+.container-MainBanner h1 {
+    color: #fff;
+    font-size: 4rem;
+    font-weight: bolder;
+    font-family: 'Imprima';
+    /* text-transform: uppercase; */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+}
+
+.container-MainBanner .content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.contentText {
+    flex: 1;
+    color: #fff;
+    display: flex;
+    padding: 5rem 8rem;
+    font-family: 'Imprima';
+    flex-direction: column;
+    justify-content: center;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+}
+
+.items {
+    display: flex;
+    font-size: 1.6rem;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.item {
+    display: flex;
+    margin: 0 2rem;
+    align-items: center;
+    flex-direction: column;
+    transition: transform 0.3s;
+}
+
+.item-icon,
+.item-icon3 {
+    font-size: 2rem;
+    color: #fff;
+}
+.item h3 br{
+    display: none;
+}
+
+.item h3 {
+    margin: 0;
+}
+
+.item:hover {
+    transform: scale(1.05);
+}
+
+.contacts {
+    display: flex;
+    padding: 0.3rem;
+    color: #308980;
+    margin-top: -5rem;
+    border-radius: 2rem;
+    font-family: 'Imprima';
+    background-color: #fff;
+    justify-content: space-around;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+}
+
+.contacts h3 {
+    display: flex;
+    font-size: 1.3rem;
+    align-items: center;
+}
+
+.contacts h3 .icon {
+    margin-right: 0.8rem;
+}
+
+.contentImg {
+    bottom: 5rem;
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+}
+
+.imgWrapper {
+    position: relative;
+    display: inline-block;
+}
+
+.imgWrapper::before {
+    content: '';
+    position: absolute;
+    bottom: 3rem;
+    left: 46%;
+    transform: translateX(-50%);
+    width: 25rem;
+    height: 6rem;
+    background: #85b1a8;
+    border-radius: 50%;
+    z-index: 0;
+}
+
+.imgReloj {
+    z-index: 1;
+    width: 22rem;
+    display: block;
+    position: relative;
+}
+
+
+/* Responsive */
+/* Tablet 1 600px */
+@media screen and (min-width: 600px) and (max-width: 639px) {
+    .container-MainBanner {
+        width: auto;
+        margin: 3rem;
+        height: 20rem;
+        padding: 2rem 1rem;
+    }
+
+    .container-MainBanner h1 {
+        font-size: 2.5rem;
+    }
+
+    .container-MainBanner .content {
+        flex-direction: column;
+    }
+
+    .contentText {
+        padding: 1rem 0;
+        margin: 1.5rem 1.5rem 5rem;
+    }
+
+    .contentText .items {
+        font-size: 1rem;
+    }
+
+    .item h3 br {
+        display: none;
+    }
+
+    .contentImg {
+        display: none;
+    }
+
+    .contacts {
+        margin-top: -4rem;
+    }
+
+    .contacts h3 {
+        font-size: 16px;
+    }
+}
+
+/* Portatil 1 640px */
+@media screen and (min-width: 640px) and (max-width: 679px) {
+    .container-MainBanner {
+        width: auto;
+        margin: 3rem 2rem;
+        height: 14rem;
+        padding: 1.5rem 1rem;
+    }
+
+    .container-MainBanner h1 {
+        font-size: 23px;
+    }
+
+    .contentText {
+        padding: 0;
+        margin: -0.5rem 1.5rem;
+    }
+
+    .contentText .items {
+        font-size: 11px;
+        flex-direction: column;
+    }
+
+    .items .item {
+        flex-direction: row;
+        margin: 0.5rem 2rem;
+    }
+
+    .item-icon {
+        font-size: 24px;
+        margin-right: 0.5rem;
+    }
+
+    .item-icon3 {
+        font-size: 30px;
+        margin-right: 0.5rem;
+    }
+
+    .item h3 {
+        text-align: left;
+    }
+
+    .item h3 br {
+        display: none;
+    }
+
+    .contentImg {
+        bottom: 2rem;
+    }
+
+    .imgReloj {
+        width: 11rem;
+    }
+
+    .imgWrapper::before {
+        bottom: 1.5rem;
+        left: 48%;
+        width: 12rem;
+        height: 4rem;
+    }
+
+    .contacts {
+        margin-top: -3rem;
+    }
+
+    .contacts h3 {
+        font-size: 12px;
+    }
+}
+
+/* Tableta 1 680px */
+@media screen and (min-width: 680px) and (max-width: 700px) {
+    .container-MainBanner {
+        width: auto;
+        margin: 3rem 2rem;
+        height: 20rem;
+        padding: 1.5rem 1rem;
+    }
+
+    .container-MainBanner h1 {
+        font-size: 25px;
+    }
+
+    .contentText {
+        margin: 1rem;
+        padding: 2rem 0;
+    }
+
+    .contentText .items {
+        font-size: 14px;
+    }
+
+    .item-icon {
+        font-size: 20px;
+        margin-right: 0.5rem;
+    }
+
+    .item-icon3 {
+        font-size: 27px;
+        margin-right: 0.5rem;
+    }
+
+    .item h3 br {
+        display: none;
+    }
+
+    .contentImg {
+        bottom: 2rem;
+    }
+
+    .imgReloj {
+        width: 23rem;
+    }
+
+    .imgWrapper::before {
+        bottom: 1.5rem;
+        left: 48%;
+        width: 12rem;
+        height: 4rem;
+    }
+
+    .contacts {
+        margin-top: 0;
+    }
+
+    .contacts h3 {
+        font-size: 12px;
+    }
+}
+
+@media screen and (min-width: 701px) and (max-width: 755px) {
+    .container-MainBanner {
+        width: auto;
+        margin: 3rem 2rem;
+        height: 20rem;
+        padding: 1.5rem 1rem;
+    }
+
+    .container-MainBanner h1 {
+        font-size: 25px;
+    }
+
+    .contentText {
+        margin: 1rem;
+        padding: 2rem 0;
+    }
+
+    .contentText .items {
+        font-size: 14px;
+    }
+
+    .item-icon {
+        font-size: 20px;
+        margin-right: 0.5rem;
+    }
+
+    .item-icon3 {
+        font-size: 27px;
+        margin-right: 0.5rem;
+    }
+
+    .item h3 br {
+        display: none;
+    }
+
+    .contentImg {
+        bottom: 2rem;
+    }
+
+    .imgReloj {
+        width: 23rem;
+    }
+
+    .imgWrapper::before {
+        bottom: 1.5rem;
+        left: 48%;
+        width: 12rem;
+        height: 4rem;
+    }
+
+    .contacts {
+        margin-top: -1rem;
+    }
+
+    .contacts h3 {
+        font-size: 12px;
+    }
+}
+
+/* Tableta 2 756px */
+@media screen and (min-width: 756px) and (max-width: 767px) {
+    .container-MainBanner {
+        width: auto;
+        margin: 3rem 2rem;
+        height: 22rem;
+        padding: 1.5rem 1rem;
+    }
+
+    .container-MainBanner h1 {
+        font-size: 25px;
+    }
+
+    .contentText {
+        margin: 1rem;
+        padding: 2rem 0;
+    }
+
+    .contentText .items {
+        font-size: 14px;
+    }
+
+    .item-icon {
+        font-size: 20px;
+        margin-right: 0.5rem;
+    }
+
+    .item-icon3 {
+        font-size: 27px;
+        margin-right: 0.5rem;
+    }
+
+    .item h3 br {
+        display: none;
+    }
+
+    .contentImg {
+        bottom: 2rem;
+    }
+
+    .imgReloj {
+        width: 23rem;
+    }
+
+    .imgWrapper::before {
+        bottom: 1.5rem;
+        left: 48%;
+        width: 12rem;
+        height: 4rem;
+    }
+
+    .contacts {
+        margin-top: 0;
+    }
+
+    .contacts h3 {
+        font-size: 12px;
+    }
+}
+
+/* Tablet 2-Ipad Mini 768px */
+@media screen and (min-width: 768px) and (max-width: 799px) {
+    .container-MainBanner {
+        width: auto;
+        margin: 3rem 2rem;
+        height: 22rem;
+        padding: 1.5rem 1rem;
+    }
+
+    .container-MainBanner h1 {
+        font-size: 25px;
+    }
+
+    .contentText {
+        margin: 1rem;
+        padding: 2rem 0;
+    }
+
+    .contentText .items {
+        font-size: 14px;
+    }
+
+    .item-icon {
+        font-size: 20px;
+        margin-right: 0.5rem;
+    }
+
+    .item-icon3 {
+        font-size: 27px;
+        margin-right: 0.5rem;
+    }
+
+    .item h3 br {
+        display: none;
+    }
+
+    .contentImg {
+        bottom: 2rem;
+    }
+
+    .imgReloj {
+        width: 23rem;
+    }
+
+    .imgWrapper::before {
+        bottom: 1.5rem;
+        left: 48%;
+        width: 12rem;
+        height: 4rem;
+    }
+
+    .contacts {
+        margin-top: -1rem;
+    }
+
+    .contacts h3 {
+        font-size: 12px;
+    }
+}
+
+/* Tablet 3 800px */
+@media screen and (min-width: 800px) and (max-width: 819px) {
+    .container-MainBanner {
+        width: auto;
+        margin: 3rem 2rem;
+        height: 20rem;
+        padding: 1.5rem 1rem;
+    }
+
+    .container-MainBanner h1 {
+        font-size: 25px;
+    }
+
+    .contentText {
+        margin: 1rem;
+        padding: 2rem 0;
+    }
+
+    .contentText .items {
+        font-size: 14px;
+    }
+
+    .item-icon {
+        font-size: 20px;
+        margin-right: 0.5rem;
+    }
+
+    .item-icon3 {
+        font-size: 27px;
+        margin-right: 0.5rem;
+    }
+
+    .item h3 br {
+        display: none;
+    }
+
+    .contentImg {
+        bottom: 2rem;
+    }
+
+    .imgReloj {
+        width: 23rem;
+    }
+
+    .imgWrapper::before {
+        bottom: 1.5rem;
+        left: 48%;
+        width: 12rem;
+        height: 4rem;
+    }
+
+    .contacts {
+        margin-top: -2.5rem;
+    }
+
+    .contacts h3 {
+        font-size: 12px;
+    }
+}
+
+/* ipad Air 820px */
+@media screen and (min-width: 820px) and (max-width: 868px) {
+    .container-MainBanner {
+        width: auto;
+        margin: 3rem 2rem;
+        height: 20rem;
+        padding: 1.5rem 1rem;
+    }
+
+    .container-MainBanner h1 {
+        font-size: 25px;
+    }
+
+    .contentText {
+        margin: 1rem;
+        padding: 2rem 0;
+    }
+
+    .contentText .items {
+        font-size: 14px;
+    }
+
+    .item-icon {
+        font-size: 20px;
+        margin-right: 0.5rem;
+    }
+
+    .item-icon3 {
+        font-size: 27px;
+        margin-right: 0.5rem;
+    }
+
+    .item h3 br {
+        display: none;
+    }
+
+    .contentImg {
+        bottom: 2rem;
+    }
+
+    .imgReloj {
+        width: 21rem;
+    }
+
+    .imgWrapper::before {
+        bottom: 1.5rem;
+        left: 48%;
+        width: 12rem;
+        height: 4rem;
+    }
+
+    .contacts {
+        margin-top: -2.5rem;
+    }
+
+    .contacts h3 {
+        font-size: 12px;
+    }
+}
+
+/* Tableta 3 869px */
+@media screen and (min-width: 869px) and (max-width: 911px) {
+    .container-MainBanner {
+        width: auto;
+        margin: 3rem 2rem;
+        height: 20rem;
+        padding: 1.5rem 1rem;
+    }
+
+    .container-MainBanner h1 {
+        font-size: 25px;
+    }
+
+    .contentText {
+        margin: 1rem;
+        padding: 2rem 0;
+    }
+
+    .contentText .items {
+        font-size: 14px;
+    }
+
+    .item-icon {
+        font-size: 20px;
+        margin-right: 0.5rem;
+    }
+
+    .item-icon3 {
+        font-size: 27px;
+        margin-right: 0.5rem;
+    }
+
+    .item h3 br {
+        display: none;
+    }
+
+    .contentImg {
+        bottom: 2rem;
+    }
+
+    .imgReloj {
+        width: 20rem;
+    }
+
+    .imgWrapper::before {
+        bottom: 1.5rem;
+        left: 48%;
+        width: 12rem;
+        height: 4rem;
+    }
+
+    .contacts {
+        margin-top: -3rem;
+    }
+
+    .contacts h3 {
+        font-size: 12px;
+    }
+}
+
+/* Surface Pro 7 912px */
+@media screen and (min-width: 912px) and (max-width: 943px) {
+    .container-MainBanner {
+        width: auto;
+        margin: 3rem 2rem;
+        height: 20rem;
+        padding: 1.5rem 1rem;
+    }
+
+    .container-MainBanner h1 {
+        font-size: 25px;
+    }
+
+    .contentText {
+        margin: 1rem;
+        padding: 2rem 48px;
+    }
+
+    .contentText .items {
+        font-size: 14px;
+    }
+
+    .item-icon {
+        font-size: 20px;
+        margin-right: 0.5rem;
+    }
+
+    .item-icon3 {
+        font-size: 27px;
+        margin-right: 0.5rem;
+    }
+
+    .item h3 br {
+        display: none;
+    }
+
+    .contentImg {
+        bottom: 2rem;
+    }
+
+    .imgReloj {
+        width: 20rem;
+    }
+
+    .imgWrapper::before {
+        bottom: 1.5rem;
+        left: 48%;
+        width: 12rem;
+        height: 4rem;
+    }
+
+    .contacts {
+        margin-top: -2.5rem;
+    }
+
+    .contacts h3 {
+        font-size: 14px;
+    }
+}
+
+/* Tableta 4 944px */
+@media screen and (min-width: 944px) and (max-width: 959px) {
+    .container-MainBanner {
+        width: auto;
+        margin: 3rem 2rem;
+        height: 20rem;
+        padding: 1.5rem 1rem;
+    }
+
+    .container-MainBanner h1 {
+        font-size: 25px;
+    }
+
+    .contentText {
+        margin: 1rem;
+        padding: 2rem 48px;
+    }
+
+    .contentText .items {
+        font-size: 14px;
+    }
+
+    .item-icon {
+        font-size: 20px;
+        margin-right: 0.5rem;
+    }
+
+    .item-icon3 {
+        font-size: 27px;
+        margin-right: 0.5rem;
+    }
+
+    .item h3 br {
+        display: none;
+    }
+
+    .contentImg {
+        bottom: 2rem;
+    }
+
+    .imgReloj {
+        width: 20rem;
+    }
+
+    .imgWrapper::before {
+        bottom: 1.5rem;
+        left: 48%;
+        width: 12rem;
+        height: 4rem;
+    }
+
+    .contacts {
+        margin-top: -2.5rem;
+    }
+
+    .contacts h3 {
+        font-size: 14px;
+    }
+}
+
+/* Portatil 2 960px */
+@media screen and (min-width: 960px) and (max-width: 999px) {
+    .container-MainBanner {
+        width: auto;
+        margin: 3rem 2rem;
+        height: 20rem;
+        padding: 1.5rem 1rem;
+    }
+
+    .container-MainBanner h1 {
+        font-size: 25px;
+    }
+
+    .contentText {
+        margin: 1rem;
+        padding: 2rem 48px;
+    }
+
+    .contentText .items {
+        font-size: 16px;
+    }
+
+    .item-icon {
+        font-size: 20px;
+        margin-right: 0.5rem;
+    }
+
+    .item-icon3 {
+        font-size: 27px;
+        margin-right: 0.5rem;
+    }
+
+    .item h3 br {
+        display: none;
+    }
+
+    .contentImg {
+        bottom: 2rem;
+    }
+
+    .imgReloj {
+        width: 20rem;
+    }
+
+    .imgWrapper::before {
+        bottom: 1.5rem;
+        left: 48%;
+        width: 12rem;
+        height: 4rem;
+    }
+
+    .contacts {
+        margin-top: -2.5rem;
+    }
+
+    .contacts h3 {
+        font-size: 15px;
+    }
+}
+
+/* Tablet 4-computador de mesa 1/2-iPad Pro-Nest Hub 1024px */
+@media screen and (min-width: 1000px) and (max-width: 1050px) {
+    .container-MainBanner {
+        width: 960px;
+        height: 403px;
+        margin: 3rem;
+        padding: 2rem 1rem;
+    }
+
+    .container-MainBanner h1 {
+        font-size: 46px;
+    }
+
+    .contentText {
+        margin: 1rem;
+        padding: 2rem 48px;
+    }
+
+    .contentText .items {
+        font-size: 19px;
+    }
+
+    .item-icon {
+        font-size: 28px;
+        margin-right: 0.5rem;
+    }
+
+    .item-icon3 {
+        font-size: 34px;
+        margin-right: 0.5rem;
+    }
+
+    .item h3 br {
+        display: none;
+    }
+
+    .contentImg {
+        bottom: 2rem;
+    }
+
+    .imgReloj {
+        width: 20rem;
+    }
+
+    .imgWrapper::before {
+        bottom: 1.5rem;
+        left: 48%;
+        width: 12rem;
+        height: 4rem;
+    }
+
+    .contacts {
+        margin-top: -1rem;
+    }
+
+    .contacts h3 {
+        font-size: 17px;
+    }
+}
+
+/* Tableta 5 1058px */
+@media screen and (min-width: 1051px) and (max-width: 1079px) {
+    .container-MainBanner {
+        width: auto;
+        height: auto;
+        margin: 2rem;
+        padding: 2rem 1rem;
+    }
+
+    .container-MainBanner h1 {
+        font-size: 46px;
+    }
+
+    .contentText {
+        margin: 1rem;
+        padding: 2rem 48px;
+    }
+
+    .contentText .items {
+        font-size: 19px;
+    }
+
+    .item-icon {
+        font-size: 28px;
+        margin-right: 0.5rem;
+    }
+
+    .item-icon3 {
+        font-size: 34px;
+        margin-right: 0.5rem;
+    }
+
+    .item h3 br {
+        display: none;
+    }
+
+    .contentImg {
+        bottom: 2rem;
+    }
+
+    .imgReloj {
+        width: 20rem;
+    }
+
+    .imgWrapper::before {
+        bottom: 1.5rem;
+        left: 48%;
+        width: 12rem;
+        height: 4rem;
+    }
+
+    .contacts {
+        margin-top: -1rem;
+    }
+
+    .contacts h3 {
+        font-size: 17px;
+    }
+}
+
+/* Tablet 5 1080px */
+@media screen and (min-width: 1080px) and (max-width: 1130px) {
+    .container-MainBanner {
+        width: auto;
+        height: auto;
+        margin: 2rem;
+        padding: 2rem 1rem;
+    }
+
+    .container-MainBanner h1 {
+        font-size: 46px;
+    }
+
+    .contentText {
+        margin: 1rem;
+        padding: 2rem 48px;
+    }
+
+    .contentText .items {
+        font-size: 19px;
+    }
+
+    .item-icon {
+        font-size: 28px;
+        margin-right: 0.5rem;
+    }
+
+    .item-icon3 {
+        font-size: 34px;
+        margin-right: 0.5rem;
+    }
+
+    .item h3 br {
+        display: none;
+    }
+
+    .contentImg {
+        bottom: 2rem;
+    }
+
+    .imgReloj {
+        width: 20rem;
+    }
+
+    .imgWrapper::before {
+        bottom: 1.5rem;
+        left: 48%;
+        width: 12rem;
+        height: 4rem;
+    }
+
+    .contacts {
+        margin-top: -1rem;
+    }
+
+    .contacts h3 {
+        font-size: 17px;
+    }
+}
+
+/* Tableta 6 1171px*/
+@media screen and (min-width: 1131px) and (max-width: 1180px) {
+    .container-MainBanner {
+        width: auto;
+        height: auto;
+        margin: 2rem;
+        padding: 2rem 1rem;
+    }
+
+    .container-MainBanner h1 {
+        font-size: 46px;
+    }
+
+    .contentText {
+        margin: 1rem;
+        padding: 2rem 48px;
+    }
+
+    .contentText .items {
+        font-size: 19px;
+    }
+
+    .item-icon {
+        font-size: 28px;
+        margin-right: 0.5rem;
+    }
+
+    .item-icon3 {
+        font-size: 34px;
+        margin-right: 0.5rem;
+    }
+
+    .item h3 br {
+        display: none;
+    }
+
+    .contentImg {
+        bottom: 2rem;
+    }
+
+    .imgReloj {
+        width: 20rem;
+    }
+
+    .imgWrapper::before {
+        bottom: 1.5rem;
+        left: 48%;
+        width: 12rem;
+        height: 4rem;
+    }
+
+    .contacts {
+        margin-top: -1rem;
+    }
+
+    .contacts h3 {
+        font-size: 17px;
+    }
+}
+
+/* Tablet 6 1200px */
+@media screen and (min-width: 1181px) and (max-width: 1200px) {
+    .container-MainBanner {
+        width: auto;
+        height: auto;
+        margin: 2rem;
+        padding: 2rem 1rem;
+    }
+
+    .container-MainBanner h1 {
+        font-size: 46px;
+    }
+
+    .contentText {
+        margin: 1rem;
+        padding: 2rem 48px;
+    }
+
+    .contentText .items {
+        font-size: 19px;
+    }
+
+    .item-icon {
+        font-size: 28px;
+        margin-right: 0.5rem;
+    }
+
+    .item-icon3 {
+        font-size: 34px;
+        margin-right: 0.5rem;
+    }
+
+    .item h3 br {
+        display: none;
+    }
+
+    .contentImg {
+        bottom: 2rem;
+    }
+
+    .imgReloj {
+        width: 20rem;
+    }
+
+    .imgWrapper::before {
+        bottom: 1.5rem;
+        left: 48%;
+        width: 12rem;
+        height: 4rem;
+    }
+
+    .contacts {
+        margin-top: -1rem;
+    }
+
+    .contacts h3 {
+        font-size: 17px;
+    }
+}
+
+/* Tablet 7-computador de mesa 3/4-Nast Hub Max 1280px */
+@media screen and (min-width: 1201px) and (max-width: 1284px) {
+    .container-MainBanner {
+        width: auto;
+        height: auto;
+        margin: 2rem;
+        padding: 2rem 1rem;
+    }
+
+    .container-MainBanner h1 {
+        font-size: 46px;
+    }
+
+    .contentText {
+        margin: 1rem;
+        padding: 2rem 48px;
+    }
+
+    .contentText .items {
+        font-size: 22px;
+    }
+
+    .item-icon {
+        font-size: 32px;
+        margin-right: 0.5rem;
+    }
+
+    .item-icon3 {
+        font-size: 36px;
+        margin-right: 0.5rem;
+    }
+
+    .item h3 br {
+        display: none;
+    }
+
+    .contentImg {
+        bottom: 2rem;
+    }
+
+    .imgReloj {
+        width: 20rem;
+    }
+
+    .imgWrapper::before {
+        bottom: 1.5rem;
+        left: 48%;
+        width: 12rem;
+        height: 4rem;
+    }
+
+    .contacts {
+        margin-top: -1rem;
+    }
+
+    .contacts h3 {
+        font-size: 17px;
+    }
+}
+
+/* Tableta 7 1285px */
+@media screen and (min-width: 1285px) and (max-width: 1335px) {
+    .container-MainBanner {
+        width: auto;
+        height: auto;
+        margin: 2rem;
+        padding: 2rem 1rem;
+    }
+
+    .container-MainBanner h1 {
+        font-size: 46px;
+    }
+
+    .contentText {
+        margin: 1rem;
+        padding: 2rem 48px;
+    }
+
+    .contentText .items {
+        font-size: 22px;
+    }
+
+    .item-icon {
+        font-size: 32px;
+        margin-right: 0.5rem;
+    }
+
+    .item-icon3 {
+        font-size: 36px;
+        margin-right: 0.5rem;
+    }
+
+    .item h3 br {
+        display: none;
+    }
+
+    .contentImg {
+        bottom: 2rem;
+    }
+
+    .imgReloj {
+        width: 20rem;
+    }
+
+    .imgWrapper::before {
+        bottom: 1.5rem;
+        left: 48%;
+        width: 12rem;
+        height: 4rem;
+    }
+
+    .contacts {
+        margin-top: -1rem;
+    }
+
+    .contacts h3 {
+        font-size: 17px;
+    }
+}
+
+/* 1336px - 1376px*/
+@media screen and (min-width: 1336px) and (max-width: 1376px) {
+    .container-MainBanner {
+        width: auto;
+        height: auto;
+        margin: 2rem;
+        padding: 2rem 1rem;
+    }
+
+    .container-MainBanner h1 {
+        font-size: 46px;
+    }
+
+    .contentText {
+        margin: 1rem;
+        padding: 2rem 48px;
+    }
+
+    .contentText .items {
+        font-size: 22px;
+    }
+
+    .item-icon {
+        font-size: 32px;
+        margin-right: 0.5rem;
+    }
+
+    .item-icon3 {
+        font-size: 36px;
+        margin-right: 0.5rem;
+    }
+
+    .item h3 br {
+        display: none;
+    }
+
+    .contentImg {
+        bottom: 2rem;
+    }
+
+    .imgReloj {
+        width: 20rem;
+    }
+
+    .imgWrapper::before {
+        bottom: 1.5rem;
+        left: 48%;
+        width: 12rem;
+        height: 4rem;
+    }
+
+    .contacts {
+        margin-top: -1rem;
+    }
+
+    .contacts h3 {
+        font-size: 18spx;
+    }
+}
+
+/* Computador de mesa 5 1400px */
+@media screen and (min-width: 1377px) and (max-width: 1420px) {
+    .container-MainBanner {
+        width: auto;
+        height: auto;
+        margin: 2rem;
+        padding: 2rem 1rem;
+    }
+
+    .container-MainBanner h1 {
+        font-size: 46px;
+    }
+
+    .contentText {
+        margin: 3rem 7rem;
+        padding: 2rem 48px;
+    }
+
+    .contentText .items {
+        font-size: 22px;
+    }
+
+    .item-icon {
+        font-size: 32px;
+        margin-right: 0.5rem;
+    }
+
+    .item-icon3 {
+        font-size: 36px;
+        margin-right: 0.5rem;
+    }
+
+    .contentImg {
+        bottom: 3rem;
+    }
+
+    .imgReloj {
+        width: 20rem;
+    }
+
+    .imgWrapper::before {
+        bottom: 2.5rem;
+        left: 48%;
+        width: 14rem;
+        height: 4rem;
+    }
+
+    .contacts {
+        margin-top: -3.12rem;
+    }
+
+    .contacts h3 {
+        font-size: 18spx;
+    }
+}
+
+/* 1421px - 1499px */
+@media screen and (min-width: 1421px) and (max-width: 1499px) {
+    .container-MainBanner {
+        width: auto;
+        height: auto;
+        margin: 2rem;
+        padding: 2rem 1rem;
+    }
+
+    .container-MainBanner h1 {
+        font-size: 46px;
+    }
+
+    .contentText {
+        margin: 3rem 7rem;
+        padding: 2rem 48px;
+    }
+
+    .contentText .items {
+        font-size: 22px;
+    }
+
+    .item-icon {
+        font-size: 32px;
+        margin-right: 0.5rem;
+    }
+
+    .item-icon3 {
+        font-size: 36px;
+        margin-right: 0.5rem;
+    }
+
+    .contentImg {
+        bottom: 3rem;
+    }
+
+    .imgReloj {
+        width: 20rem;
+    }
+
+    .imgWrapper::before {
+        bottom: 2.5rem;
+        left: 48%;
+        width: 14rem;
+        height: 4rem;
+    }
+
+    .contacts {
+        margin-top: -3.12rem;
+    }
+
+    .contacts h3 {
+        font-size: 18spx;
+    }
+}
+
+/* Tablet 8 1536px */
+@media screen and (min-width: 1500px) and (max-width: 1599px) {
+    .container-MainBanner {
+        width: auto;
+        height: auto;
+        margin: 2rem;
+        padding: 2rem 1rem;
+    }
+
+    .container-MainBanner h1 {
+        font-size: 46px;
+    }
+
+    .contentText {
+        margin: 3rem 7rem;
+        padding: 2rem 48px;
+    }
+
+    .contentText .items {
+        font-size: 22px;
+    }
+
+    .item-icon {
+        font-size: 32px;
+        margin-right: 0.5rem;
+    }
+
+    .item-icon3 {
+        font-size: 36px;
+        margin-right: 0.5rem;
+    }
+    
+    .contentImg {
+        bottom: 3rem;
+    }
+
+    .imgReloj {
+        width: 20rem;
+    }
+
+    .imgWrapper::before {
+        bottom: 2.5rem;
+        left: 48%;
+        width: 14rem;
+        height: 4rem;
+    }
+
+    .contacts {
+        margin-top: -3.12rem;
+    }
+
+    .contacts h3 {
+        font-size: 18spx;
+    }
+}
+
+/* Computador de mesa 6  1600px */
+@media screen and (min-width: 1600px) and (max-width: 1699px) {
+    .container-MainBanner {
+        width: auto;
+        height: auto;
+        margin: 5rem;
+        padding: 2rem 1rem;
+    }
+
+    .container-MainBanner h1 {
+        font-size: 46px;
+    }
+
+    .contentText {
+        margin: 3rem 7rem;
+        padding: 2rem 48px;
+    }
+
+    .contentText .items {
+        font-size: 22px;
+    }
+    .item-icon {
+        font-size: 32px;
+        margin-right: 0.5rem;
+    }
+
+    .item-icon3 {
+        font-size: 36px;
+        margin-right: 0.5rem;
+    }
+
+    .contentImg {
+        bottom: 3rem;
+    }
+
+    .imgReloj {
+        width: 20rem;
+    }
+
+    .imgWrapper::before {
+        bottom: 2.5rem;
+        left: 48%;
+        width: 14rem;
+        height: 4rem;
+    }
+
+    .contacts {
+        margin-top: -3.12rem;
+    }
+
+    .contacts h3 {
+        font-size: 18spx;
+    }
+}
+
+/* 1700px - 1799px */
+@media screen and (min-width: 1700px) and (max-width: 1799px) {
+    .container-MainBanner {
+        width: auto;
+        height: auto;
+        margin: 5rem 9rem;
+        padding: 2rem 1rem;
+    }
+
+    .container-MainBanner h1 {
+        font-size: 46px;
+    }
+
+    .contentText {
+        margin: 3rem 7rem;
+        padding: 2rem 48px;
+    }
+
+    .contentText .items {
+        font-size: 22px;
+    }
+
+    .item-icon {
+        font-size: 32px;
+        margin-right: 0.5rem;
+    }
+
+    .item-icon3 {
+        font-size: 36px;
+        margin-right: 0.5rem;
+    }
+
+    .contentImg {
+        bottom: 3rem;
+    }
+
+    .imgReloj {
+        width: 20rem;
+    }
+
+    .imgWrapper::before {
+        bottom: 2.5rem;
+        left: 48%;
+        width: 14rem;
+        height: 4rem;
+    }
+
+    .contacts {
+        margin-top: -3.12rem;
+    }
+
+    .contacts h3 {
+        font-size: 18spx;
+    }
+}
+
+/* 1800px - 1919px */
+@media screen and (min-width: 1800px) and (max-width: 1919px) {
+    .container-MainBanner {
+        width: auto;
+        height: auto;
+        margin: 5rem 9rem;
+        padding: 2rem 1rem;
+    }
+
+    .container-MainBanner h1 {
+        font-size: 46px;
+    }
+
+    .contentText {
+        margin: 3rem 7rem;
+        padding: 2rem 48px;
+    }
+
+    .contentText .items {
+        font-size: 22px;
+    }
+
+    .item-icon {
+        font-size: 32px;
+        margin-right: 0.5rem;
+    }
+
+    .item-icon3 {
+        font-size: 36px;
+        margin-right: 0.5rem;
+    }
+
+    .contentImg {
+        bottom: 3rem;
+    }
+
+    .imgReloj {
+        width: 20rem;
+    }
+
+    .imgWrapper::before {
+        bottom: 2.5rem;
+        left: 48%;
+        width: 14rem;
+        height: 4rem;
+    }
+
+    .contacts {
+        margin-top: -3.12rem;
+    }
+
+    .contacts h3 {
+        font-size: 18px;
+    }
+}
+
+/* Computador de mesa 7 1920px */
+@media screen and (min-width: 1920px) and (max-width: 1949px) {
+    .container-MainBanner {
+        margin: 5rem;
+        width: 110rem;
+        height: 30rem;
+        padding: 2rem 5rem;
+    }
+    .container-MainBanner h1 {
+        font-size: 4rem;
+    }
+    .contentText {
+        display: flex;
+        padding: 5rem 8rem;
+        flex-direction: column;
+    }
+
+    .items {
+        display: flex;
+        font-size: 1.6rem;
+        align-items: flex-start;
+        justify-content: space-between;
+    }
+
+    .item {
+        display: flex;
+        margin: 0 2rem;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .item:hover {
+        transform: scale(1.05);
+    }
+
+    .contacts {
+        display: flex;
+        padding: 0.3rem;
+        margin-top: -5rem;
+        border-radius: 2rem;
+        justify-content: space-around;
+    }
+
+    .contacts h3 {
+        display: flex;
+        font-size: 1.3rem;
+        align-items: center;
+    }
+
+    .contacts h3 .icon {
+        margin-right: 0.8rem;
+    }
+
+    .contentImg {
+        bottom: 5rem;
+        display: flex;
+        position: relative;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .imgWrapper {
+        position: relative;
+        display: inline-block;
+    }
+
+    .imgWrapper::before {
+        content: '';
+        position: absolute;
+        bottom: 3rem;
+        left: 46%;
+        transform: translateX(-50%);
+        width: 25rem;
+        height: 6rem;
+        background: #2f695e;
+        border-radius: 50%;
+        z-index: 0;
+    }
+
+    .imgReloj {
+        z-index: 1;
+        width: 22rem;
+        display: block;
+        position: relative;
+    }
+}
+
+/* Tablet 9 2048px */
+@media screen and (min-width: 1950px) and (max-width: 2050px){
+    .container-MainBanner {
+        width: auto;
+        height: auto;
+        margin: 5rem 12rem;
+        padding: 2rem 1rem;
+    }
+
+    .container-MainBanner h1 {
+        font-size: 70px;
+    }
+
+    .contentText {
+        margin: 3rem 7rem;
+        padding: 2rem 48px;
+    }
+
+    .contentText .items {
+        font-size: 30px;
+    }
+
+    .item-icon {
+        font-size: 36px;
+        margin-right: 0.5rem;
+    }
+
+    .item-icon3 {
+        font-size: 41px;
+        margin-right: 0.5rem;
+    }
+
+    .contentImg {
+        bottom: 3rem;
+    }
+
+    .imgReloj {
+        width: 24rem;
+    }
+
+    .imgWrapper::before {
+        bottom: 3rem;
+        left: 48%;
+        width: 21rem;
+        height: 4rem;
+    }
+
+    .contacts {
+        margin-top: -3.12rem;
+    }
+
+    .contacts h3 {
+        font-size: 28px;
+    }
+}
+
+/* 2051px - 2159px */
+@media screen and (min-width: 2051px) and (max-width: 2159px){
+    .container-MainBanner {
+        width: auto;
+        height: auto;
+        margin: 5rem 12rem;
+        padding: 2rem 1rem;
+    }
+
+    .container-MainBanner h1 {
+        font-size: 70px;
+    }
+
+    .contentText {
+        margin: 3rem 7rem;
+        padding: 2rem 48px;
+    }
+
+    .contentText .items {
+        font-size: 30px;
+    }
+
+    .item-icon {
+        font-size: 36px;
+        margin-right: 0.5rem;
+    }
+
+    .item-icon3 {
+        font-size: 41px;
+        margin-right: 0.5rem;
+    }
+
+    .contentImg {
+        bottom: 3rem;
+    }
+
+    .imgReloj {
+        width: 24rem;
+    }
+
+    .imgWrapper::before {
+        bottom: 3rem;
+        left: 48%;
+        width: 21rem;
+        height: 4rem;
+    }
+
+    .contacts {
+        margin-top: -3.12rem;
+    }
+
+    .contacts h3 {
+        font-size: 28px;
+    }
+}
+
+/* Tablet 10 2160px */
+@media screen and (min-width: 2160px) and (max-width: 2259px){
+    .container-MainBanner {
+        width: auto;
+        height: auto;
+        margin: 5rem 15rem;
+        padding: 2rem 1rem;
+    }
+
+    .container-MainBanner h1 {
+        font-size: 70px;
+    }
+
+    .contentText {
+        margin: 3rem 7rem;
+        padding: 2rem 48px;
+    }
+
+    .contentText .items {
+        font-size: 34px;
+    }
+    .item-icon {
+        font-size: 38px;
+        margin-right: 0.5rem;
+    }
+
+    .item-icon3 {
+        font-size: 43px;
+        margin-right: 0.5rem;
+    }
+
+    .contentImg {
+        bottom: 3rem;
+    }
+
+    .imgReloj {
+        width: 26rem;
+    }
+
+    .imgWrapper::before {
+        bottom: 3rem;
+        left: 48%;
+        width: 21rem;
+        height: 4rem;
+    }
+
+    .contacts {
+        margin-top: -3.12rem;
+    }
+
+    .contacts h3 {
+        font-size: 32px;
+    }
+}
+
+/* 2260px - 2360px */
+@media screen and (min-width: 2260px) and (max-width: 2360px){
+    .container-MainBanner {
+        width: auto;
+        height: auto;
+        margin: 5rem 15rem;
+        padding: 2rem 1rem;
+    }
+
+    .container-MainBanner h1 {
+        font-size: 70px;
+    }
+
+    .contentText {
+        margin: 3rem 7rem;
+        padding: 2rem 48px;
+    }
+
+    .contentText .items {
+        font-size: 34px;
+    }
+    .item-icon {
+        font-size: 38px;
+        margin-right: 0.5rem;
+    }
+
+    .item-icon3 {
+        font-size: 43px;
+        margin-right: 0.5rem;
+    }
+
+    .contentImg {
+        bottom: 3rem;
+    }
+
+    .imgReloj {
+        width: 25.5rem;
+    }
+
+    .imgWrapper::before {
+        bottom: 3rem;
+        left: 48%;
+        width: 21rem;
+        height: 4rem;
+    }
+
+    .contacts {
+        margin-top: -3.12rem;
+    }
+
+    .contacts h3 {
+        font-size: 32px;
+    }
+}
+
+/* 2361px - 2450px */
+@media screen and (min-width: 2361px) and (max-width: 2450px){
+    .container-MainBanner {
+        width: auto;
+        height: auto;
+        margin: 5rem 15rem;
+        padding: 2rem 1rem;
+    }
+
+    .container-MainBanner h1 {
+        font-size: 70px;
+    }
+
+    .contentText {
+        margin: 3rem 7rem;
+        padding: 2rem 48px;
+    }
+
+    .contentText .items {
+        font-size: 34px;
+    }
+    .item-icon {
+        font-size: 38px;
+        margin-right: 0.5rem;
+    }
+
+    .item-icon3 {
+        font-size: 43px;
+        margin-right: 0.5rem;
+    }
+
+    .contentImg {
+        bottom: 3rem;
+    }
+
+    .imgReloj {
+        width: 25.5rem;
+    }
+
+    .imgWrapper::before {
+        bottom: 3rem;
+        left: 48%;
+        width: 21rem;
+        height: 4rem;
+    }
+
+    .contacts {
+        margin-top: -3.12rem;
+    }
+
+    .contacts h3 {
+        font-size: 32px;
+    }
+}
+
+/* 2451px - 2500px */
+@media screen and (min-width: 2451px) and (max-width: 2500px){
+    .container-MainBanner {
+        width: auto;
+        height: auto;
+        margin: 5rem 15rem;
+        padding: 2rem 1rem;
+    }
+
+    .container-MainBanner h1 {
+        font-size: 70px;
+    }
+
+    .contentText {
+        margin: 3rem 7rem;
+        padding: 2rem 48px;
+    }
+
+    .contentText .items {
+        font-size: 34px;
+    }
+    .item-icon {
+        font-size: 38px;
+        margin-right: 0.5rem;
+    }
+
+    .item-icon3 {
+        font-size: 43px;
+        margin-right: 0.5rem;
+    }
+
+    .contentImg {
+        bottom: 3rem;
+    }
+
+    .imgReloj {
+        width: 25.7rem;
+    }
+
+    .imgWrapper::before {
+        bottom: 3rem;
+        left: 48%;
+        width: 21rem;
+        height: 4rem;
+    }
+
+    .contacts {
+        margin-top: -3.12rem;
+    }
+
+    .contacts h3 {
+        font-size: 32px;
+    }
+}
+
+/* 2501px - 2559px */
+@media screen and (min-width: 2501px) and (max-width: 2559px){
+    .container-MainBanner {
+        width: auto;
+        height: auto;
+        margin: 5rem 17rem;
+        padding: 2rem 1rem;
+    }
+
+    .container-MainBanner h1 {
+        font-size: 75px;
+    }
+
+    .contentText {
+        margin: 3rem 7rem;
+        padding: 2rem 48px;
+    }
+
+    .contentText .items {
+        font-size: 36px;
+    }
+    .item-icon {
+        font-size: 40px;
+        margin-right: 0.5rem;
+    }
+
+    .item-icon3 {
+        font-size: 45px;
+        margin-right: 0.5rem;
+    }
+
+    .contentImg {
+        bottom: 3rem;
+    }
+
+    .imgReloj {
+        width: 26.1rem;
+    }
+
+    .imgWrapper::before {
+        bottom: 3rem;
+        left: 48%;
+        width: 21rem;
+        height: 4rem;
+    }
+
+    .contacts {
+        margin-top: -3.12rem;
+    }
+
+    .contacts h3 {
+        font-size: 32px;
+    }
+}
+
+/* Tablet 11 y 12 portatil 5 2560px */
+@media screen and (min-width: 2560px) and (max-width: 2600px){
+    .container-MainBanner {
+        width: auto;
+        height: auto;
+        margin: 5rem 17rem;
+        padding: 2rem 1rem;
+    }
+
+    .container-MainBanner h1 {
+        font-size: 80px;
+    }
+
+    .contentText {
+        margin: 3rem 7rem;
+        padding: 2rem 48px;
+    }
+
+    .contentText .items {
+        font-size: 40px;
+    }
+    .item-icon {
+        font-size: 45px;
+        margin-right: 0.5rem;
+    }
+
+    .item-icon3 {
+        font-size: 50px;
+        margin-right: 0.5rem;
+    }
+
+    .contentImg {
+        bottom: 3rem;
+    }
+
+    .imgReloj {
+        width: 29.9rem;
+    }
+
+    .imgWrapper::before {
+        bottom: 3rem;
+        left: 49%;
+        width: 26rem;
+        height: 7rem;
+    }
+
+    .contacts {
+        margin-top: -3.12rem;
+    }
+
+    .contacts h3 {
+        font-size: 38px;
+    }
+}

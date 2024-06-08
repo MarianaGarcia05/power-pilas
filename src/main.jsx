@@ -4,7 +4,6 @@ import Home from './pages/Home';
 import ReactDOM from "react-dom/client";
 import Navbar from "./components/Navbar";
 import Footer from './components/Footer';
-import Banner from './components/Banner';
 import Marcas from './components/Marcas';
 import Sidebar from './components/Sidebar';
 import Contact from './components/Contact';
@@ -12,6 +11,9 @@ import Section from './components/Section';
 import Products from './components/Products';
 import ProductsView from './pages/ProductsView';
 import Categories from './components/Categories';
+import MainBanner from './components/MainBanner';
+import OfferBanner from './components/OfferBanner';
+import BannerCarousel from './components/BannerCarousel';
 import ProductDetails from './components/ProductDetails';
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 
@@ -41,8 +43,8 @@ const router = createBrowserRouter([
     element: <Categories />,
   },
   {
-    path: "/banner",
-    element: <Banner />,
+    path: "/offerBanner",
+    element: <OfferBanner />,
   },
   {
     path: "/footer",
@@ -63,6 +65,14 @@ const router = createBrowserRouter([
   {
     path: "/marcas",
     element: <Marcas />,
+  },
+  {
+    path: "/mainBanner",
+    element: <MainBanner />,
+  },
+  {
+    path: "/bannerCarousel",
+    element: <BannerCarousel />,
   },
 ]);
 

@@ -1,0 +1,28 @@
+.bannerCarousel {
+    overflow-x: hidden;
+    position: relative;
+  }
+  
+  .bannerCarousel .slick-dots {
+    display: block !important;
+    position: absolute;
+    bottom: 4rem;
+    left: 50%;
+    transform: translateX(-50%);
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-align: center;
+}   
+  
+.bannerCarousel .slick-dots li button:before {
+    font-size: 10px; 
+    color: #000;
+    opacity: 0.5;
+}
+  
+.bannerCarousel .slick-dots li.slick-active button:before {
+    opacity: 1; 
+    color: #3e8c7e; 
+}
+  

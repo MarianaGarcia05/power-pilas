@@ -25,9 +25,9 @@
     font-size: 60px;
     margin-left: 2rem;
     font-weight: bolder;
-    text-transform: uppercase;
+    /* text-transform: uppercase; */
     text-shadow: 2px 2px 4px #474747;
-    font-family: "Racing", sans-serif;
+    font-family: "Imprima", sans-serif;
 }
 .imgBanner{
     display: flex;
@@ -279,7 +279,11 @@
     }
     .banner{
         width: auto;
-        height: 23rem;
+        height: 20rem;
+        background-image: radial-gradient(circle at right, #308980 37%, transparent 20%);
+    }
+    .imgMegafono{
+        width: 6rem;
     }
     .tituloBanner{
         font-size: 27px;
@@ -287,7 +291,7 @@
         margin-top: -0.5rem;
     }
     .textBanner p{
-        width: 24rem;
+        width: 26rem;
         font-size: 17px;
         margin-left: 0rem;
     }
@@ -312,7 +316,11 @@
     }
     .banner{
         width: auto;
-        height: 23rem;
+        height: 20rem;
+        background-image: radial-gradient(circle at right, #308980 37%, transparent 20%);
+    }
+    .imgMegafono{
+        width: 6rem;
     }
     .tituloBanner{
         font-size: 27px;
@@ -320,12 +328,15 @@
         margin-top: -0.5rem;
     }
     .textBanner p{
-        width: 24rem;
+        width: 26rem;
         font-size: 17px;
         margin-left: 0rem;
     }
     .imgBanner {
-        margin-left: 6rem;
+        margin-left: 3rem;
+    }
+    .imgBanner img{
+        width: 85%;
     }
     .btnBanner{
         width: 10rem;
@@ -342,7 +353,10 @@
     }
     .banner{
         width: auto;
-        height: 23rem;
+        height: 20rem;
+    }
+    .imgMegafono{
+        width: 6rem;
     }
     .tituloBanner{
         font-size: 27px;
@@ -372,7 +386,10 @@
     }
     .banner{
         width: auto;
-        height: 23rem;
+        height: 20rem;
+    }
+    .imgMegafono{
+        width: 7rem;
     }
     .tituloBanner{
         font-size: 27px;
@@ -402,7 +419,11 @@
     }
     .banner{
         width: auto;
-        height: 23rem;
+        height: 20rem;
+        background-image: radial-gradient(circle at right, #308980 40%, transparent 20%);
+    }
+    .imgMegafono{
+        width: 6rem;
     }
     .tituloBanner{
         font-size: 36px;
@@ -410,8 +431,8 @@
         margin-top: -0.5rem;
     }
     .textBanner p{
-        width: 29rem;
-        font-size: 18px;
+        width: 30rem;
+        font-size: 17px;
         margin-left: 0rem;
     }
     .imgBanner {
@@ -421,7 +442,7 @@
         width: 10rem;
         height: 2.5rem;
         font-size: 17px;
-        margin-top: 1.5rem;
+        margin-top: 1rem;
     }
 }
 
@@ -432,7 +453,10 @@
     }
     .banner{
         width: auto;
-        height: 23rem;
+        height: 20rem;
+    }
+    .imgMegafono{
+        width: 6rem;
     }
     .tituloBanner{
         font-size: 36px;
@@ -440,8 +464,8 @@
         margin-top: -0.5rem;
     }
     .textBanner p{
-        width: 29rem;
-        font-size: 18px;
+        width: 30rem;
+        font-size: 17px;
         margin-left: 0rem;
     }
     .imgBanner {
@@ -455,7 +479,7 @@
         width: 10rem;
         height: 2.5rem;
         font-size: 17px;
-        margin-top: 1.5rem;
+        margin-top: 1rem;
     }
 }
 

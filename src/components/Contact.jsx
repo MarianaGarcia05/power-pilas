@@ -13,7 +13,7 @@ const Contact = () => {
                 <Navbar />
             </div>
 
-            <div className="content">
+            <div className="content-Contact">
                 
                 <div className="options">
                     <button className="card">
